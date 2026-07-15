@@ -1,0 +1,40 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model INA230AIRGTT
+#/261987/2042541/2.50/17/3/Integrated Circuit
+DEF INA230AIRGTT IC 0 30 Y Y 1 F N
+F0 "IC" 1050 600 50 H V L CNN
+F1 "INA230AIRGTT" 1050 500 50 H V L CNN
+F2 "QFN50P300X300X100-17N-D" 1050 400 50 H I L CNN
+F3 "http://www.ti.com/lit/gpn/INA230" 1050 300 50 H I L CNN
+F4 "28V, Bi-Directional, Low-/High-Side, I2C Out Current/Power Monitor w/Alert" 1050 200 50 H I L CNN "Description"
+F5 "1" 1050 100 50 H I L CNN "Height"
+F6 "Texas Instruments" 1050 0 50 H I L CNN "Manufacturer_Name"
+F7 "INA230AIRGTT" 1050 -100 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-INA230AIRGTT" 1050 -200 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/INA230AIRGTT?qs=CKajpF%2FgJL%2Fl7EAtRODykg%3D%3D" 1050 -300 50 H I L CNN "Mouser Price/Stock"
+F10 "INA230AIRGTT" 1050 -400 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/ina230airgtt/texas-instruments?utm_currency=USD&region=nac" 1050 -500 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X A1 1 0 0 200 R 50 50 0 0 P
+X A0 2 0 -100 200 R 50 50 0 0 P
+X ALERT 3 0 -200 200 R 50 50 0 0 P
+X SDA 4 0 -300 200 R 50 50 0 0 P
+X SCL 5 400 -900 200 U 50 50 0 0 P
+X NC_1 6 500 -900 200 U 50 50 0 0 P
+X NC_2 7 600 -900 200 U 50 50 0 0 P
+X NC_3 8 700 -900 200 U 50 50 0 0 P
+X IN- 12 1200 0 200 L 50 50 0 0 P
+X BUS 11 1200 -100 200 L 50 50 0 0 P
+X GND 10 1200 -200 200 L 50 50 0 0 P
+X V_S+ 9 1200 -300 200 L 50 50 0 0 P
+X EP 17 400 600 200 D 50 50 0 0 P
+X NC_6 16 500 600 200 D 50 50 0 0 P
+X NC_5 15 600 600 200 D 50 50 0 0 P
+X NC_4 14 700 600 200 D 50 50 0 0 P
+X IN+ 13 800 600 200 D 50 50 0 0 P
+P 5 0 1 6 200 400 1000 400 1000 -700 200 -700 200 400 N
+ENDDRAW
+ENDDEF
+#
+#End Library
