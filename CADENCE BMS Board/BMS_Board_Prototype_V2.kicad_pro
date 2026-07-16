@@ -513,7 +513,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "BMS_Board_Prototype.kicad_pro",
+    "filename": "BMS_Board_Prototype_V2.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -848,8 +848,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "BMS_Board_Prototype.kicad_sch",
-        "name": "BMS_Board_Prototype",
+        "filename": "BMS_Board_Prototype_V2.kicad_sch",
+        "name": "BMS_Board_Prototype_V2",
         "uuid": "4ee99911-836b-4752-8a2d-327c8b28dc47"
       }
     ],
@@ -859,7 +859,7 @@
   "sheets": [
     [
       "4ee99911-836b-4752-8a2d-327c8b28dc47",
-      "BMS_Board_Prototype"
+      "BMS_Board_Prototype_V2"
     ],
     [
       "f4fcff51-0cdb-4e70-aba0-d567fd3e6a03",
