@@ -3558,16 +3558,6 @@
 		)
 		(uuid "6cd6de3e-abf3-41f8-a81c-3f960c575db3")
 	)
-	(text "https://nepp.nasa.gov/radhome/papers/2020-Topper-NSREC-TID-SEE-Compendium-DW-Paper-20205007136.pdf"
-		(exclude_from_sim no)
-		(at 269.494 45.974 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "6d72746e-a99c-4875-8d53-5632e90b55c6")
-	)
 	(text "NC ->\n\n"
 		(exclude_from_sim no)
 		(at 99.06 200.66 0)
@@ -3707,16 +3697,6 @@
 		)
 		(uuid "afd2c1d7-bcc7-48d9-ba34-b1022e14bcb0")
 	)
-	(text "https://nepp.nasa.gov/radhome/papers/CP-2018-OBryan-NSREC-SEE-DW-Paper-20205001490.pdf"
-		(exclude_from_sim no)
-		(at -48.26 74.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b5c09c92-aa1e-40aa-a8f9-31540e6b8cd1")
-	)
 	(text "C"
 		(exclude_from_sim no)
 		(at 125.476 195.834 0)
@@ -3738,7 +3718,7 @@
 		)
 		(uuid "c5076059-ee0a-4d95-b85b-775243a30fb9")
 	)
-	(text "Activation inhibit:\n2 Feet switches on the top\n2 Feet siwtches on the bottom\n"
+	(text "Activation inhibit:\n3 Feet switches on the top\n3 Feet siwtches on the bottom\n"
 		(exclude_from_sim no)
 		(at 75.946 44.704 0)
 		(effects
@@ -3784,10 +3764,22 @@
 		(uuid "fe674a33-c173-4e2a-bfdd-0e5dd3cc70e7")
 	)
 	(junction
+		(at 353.06 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01c359e6-3b59-438e-a257-915f6371b61b")
+	)
+	(junction
 		(at 194.31 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0b30dc30-25e9-4c2c-968c-6aa4b83b4b5d")
+	)
+	(junction
+		(at 365.76 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c40fff9-c33e-4882-9504-7babfbb2773f")
 	)
 	(junction
 		(at 58.42 64.77)
@@ -3800,6 +3792,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "15d4a8df-9841-4aa0-aae7-9cbf34ba13dd")
+	)
+	(junction
+		(at 59.69 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24b5d895-b4ff-4cc6-8cea-e4a151fe4c7f")
 	)
 	(junction
 		(at 74.93 71.12)
@@ -3916,6 +3914,12 @@
 		(uuid "5c656276-0865-4705-81f2-a20c74e62100")
 	)
 	(junction
+		(at 353.06 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f1f31f6-0592-481e-8941-67045936cf24")
+	)
+	(junction
 		(at 129.54 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3956,6 +3960,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6f7aec81-642e-4e2c-8207-230363b74160")
+	)
+	(junction
+		(at 365.76 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a143efd-3890-4861-85c3-dc9bb5f3d29e")
 	)
 	(junction
 		(at 175.26 172.72)
@@ -4034,12 +4044,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9a359775-a17c-412a-b21d-ee0c8532b489")
-	)
-	(junction
-		(at 74.93 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9c5b0f48-704f-40eb-97b8-a0c8b1e9a7ff")
 	)
 	(junction
 		(at 90.17 58.42)
@@ -4192,6 +4196,12 @@
 		(uuid "df5eea0f-8014-4fa2-8b24-af308cfd543c")
 	)
 	(junction
+		(at 74.93 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2c39514-6013-41d9-8cae-18bec529134a")
+	)
+	(junction
 		(at 78.74 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4241,7 +4251,7 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 107.95) (xy 365.76 110.49)
+			(xy 365.76 107.95) (xy 365.76 109.22)
 		)
 		(stroke
 			(width 0)
@@ -4308,6 +4318,16 @@
 			(type default)
 		)
 		(uuid "09aaf74f-aca1-464a-a0da-1bb294c60e4f")
+	)
+	(wire
+		(pts
+			(xy 367.03 109.22) (xy 365.76 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b29c6b2-924a-4894-a1cc-7ce3bba2a1d9")
 	)
 	(wire
 		(pts
@@ -4581,6 +4601,16 @@
 	)
 	(wire
 		(pts
+			(xy 351.79 102.87) (xy 353.06 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ab75516-75a0-4f46-9953-293b8f6336ff")
+	)
+	(wire
+		(pts
 			(xy 74.93 129.54) (xy 78.74 129.54)
 		)
 		(stroke
@@ -4738,6 +4768,16 @@
 			(type default)
 		)
 		(uuid "3e55a64b-3d42-4f50-8547-1f4790dc6c4e")
+	)
+	(wire
+		(pts
+			(xy 353.06 109.22) (xy 353.06 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e814b98-5414-4875-90d6-849d8b1d475a")
 	)
 	(wire
 		(pts
@@ -4918,6 +4958,16 @@
 			(type default)
 		)
 		(uuid "568529ac-eed4-4372-ae15-d540c29214ec")
+	)
+	(wire
+		(pts
+			(xy 365.76 109.22) (xy 365.76 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56ae1017-a936-4574-9456-6f2c816170ed")
 	)
 	(wire
 		(pts
@@ -5211,7 +5261,7 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 101.6) (xy 353.06 104.14)
+			(xy 353.06 101.6) (xy 353.06 102.87)
 		)
 		(stroke
 			(width 0)
@@ -5321,7 +5371,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 90.17) (xy 74.93 90.17)
+			(xy 58.42 90.17) (xy 59.69 90.17)
 		)
 		(stroke
 			(width 0)
@@ -5348,6 +5398,36 @@
 			(type default)
 		)
 		(uuid "87b7b37f-1136-43fd-9355-556dde3e6d33")
+	)
+	(wire
+		(pts
+			(xy 353.06 102.87) (xy 353.06 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89c3b022-7da7-4d76-91a8-f9ec9b1c31d2")
+	)
+	(wire
+		(pts
+			(xy 59.69 90.17) (xy 74.93 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ce4963f-a685-4735-b26b-65bd893d1926")
+	)
+	(wire
+		(pts
+			(xy 351.79 109.22) (xy 353.06 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ce8af2b-311f-4463-9580-06d00c1ea7a1")
 	)
 	(wire
 		(pts
@@ -5441,7 +5521,7 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 107.95) (xy 353.06 110.49)
+			(xy 353.06 107.95) (xy 353.06 109.22)
 		)
 		(stroke
 			(width 0)
@@ -5688,6 +5768,26 @@
 			(type default)
 		)
 		(uuid "b479c4f1-7cd5-48fa-95c9-0c8c2abcb554")
+	)
+	(wire
+		(pts
+			(xy 59.69 90.17) (xy 59.69 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4e001ce-92b0-4ecc-a7dc-869d6f33bdac")
+	)
+	(wire
+		(pts
+			(xy 367.03 102.87) (xy 365.76 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5589d57-a2fd-4960-a02e-93f41d91a945")
 	)
 	(wire
 		(pts
@@ -6251,6 +6351,16 @@
 	)
 	(wire
 		(pts
+			(xy 365.76 102.87) (xy 365.76 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e586bfd3-25ec-4ba2-bb92-4b6c3853e73d")
+	)
+	(wire
+		(pts
 			(xy 193.04 74.93) (xy 193.04 77.47)
 		)
 		(stroke
@@ -6311,7 +6421,7 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 101.6) (xy 365.76 104.14)
+			(xy 365.76 101.6) (xy 365.76 102.87)
 		)
 		(stroke
 			(width 0)
@@ -6488,16 +6598,6 @@
 			(type default)
 		)
 		(uuid "f8d252aa-3b2a-4610-a435-7e4e0952ca8d")
-	)
-	(wire
-		(pts
-			(xy 59.69 90.17) (xy 59.69 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8ddc91d-5b0e-4a77-b31f-8268d8b8946d")
 	)
 	(wire
 		(pts
@@ -36571,7 +36671,7 @@
 	)
 	(global_label "HIGH_SIDE_PWR"
 		(shape input)
-		(at 365.76 109.22 0)
+		(at 367.03 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -36581,7 +36681,7 @@
 		)
 		(uuid "2987b79f-f343-4b41-b7be-e65ab59a6ab8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 383.4409 109.22 0)
+			(at 384.7109 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36691,7 +36791,7 @@
 	)
 	(global_label "LOW_SIDE_PWR"
 		(shape input)
-		(at 365.76 102.87 0)
+		(at 367.03 102.87 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -36701,7 +36801,7 @@
 		)
 		(uuid "4931d306-4e87-4481-9193-7748754de5a2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 382.7151 102.87 0)
+			(at 383.9851 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36787,7 +36887,7 @@
 	)
 	(global_label "Cell 1+"
 		(shape input)
-		(at 353.06 102.87 180)
+		(at 351.79 102.87 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -36797,7 +36897,7 @@
 		)
 		(uuid "681eb5b5-50fa-4dd7-90af-5dfb31c6b887")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 342.6363 102.87 0)
+			(at 341.3663 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36859,7 +36959,7 @@
 	)
 	(global_label "LOW_SIDE_PWR"
 		(shape input)
-		(at 59.69 90.17 180)
+		(at 58.42 90.17 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -36869,7 +36969,7 @@
 		)
 		(uuid "917ad650-bd40-4749-ad9d-021d58f301f6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 42.7349 90.17 0)
+			(at 41.4649 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37026,6 +37126,30 @@
 			)
 		)
 	)
+	(global_label "HIGH_SIDE_PWR"
+		(shape input)
+		(at 161.29 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e269691d-0877-44a2-9af9-84802a7207ba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 143.6091 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "EN"
 		(shape output)
 		(at 132.08 64.77 0)
@@ -37052,7 +37176,7 @@
 	)
 	(global_label "Cell 1+"
 		(shape input)
-		(at 353.06 109.22 180)
+		(at 351.79 109.22 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -37062,7 +37186,7 @@
 		)
 		(uuid "fa4f3909-ff82-41df-9cd7-dabd207cfc77")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 342.6363 109.22 0)
+			(at 341.3663 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37184,6 +37308,12 @@
 			(uuid "d3da0c18-a5af-4429-a300-515a1a675adf")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "J25")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "J25")
@@ -37319,6 +37449,12 @@
 			(uuid "2a593c6e-8db4-4991-bbec-6e19383d016e")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "D14")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "D14")
@@ -37546,6 +37682,12 @@
 			(uuid "ef0201c9-c336-4751-ba54-e0e042856cd3")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "IC3")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "IC3")
@@ -37664,6 +37806,12 @@
 			(uuid "e12c107e-713a-458a-bcb1-02de9d38d109")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "J24")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "J24")
@@ -37741,6 +37889,12 @@
 			(uuid "78c6c04a-4526-4bc4-a4df-dabcfb1bf5b2")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "#PWR068")
@@ -37854,6 +38008,12 @@
 			(uuid "d2a96bf4-e940-4252-8108-b8947b665f9e")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "R46")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "R46")
@@ -37968,6 +38128,12 @@
 			(uuid "53d41eea-69a9-4977-8a56-a710a4e0b64f")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "C45")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "C45")
@@ -38082,6 +38248,12 @@
 			(uuid "bce3b2df-6cd8-40ea-8701-851c5075dc82")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "C44")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "C44")
@@ -38196,6 +38368,12 @@
 			(uuid "4e2771c0-27e5-4826-99e2-bdbc41a6238f")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "D17")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "D17")
@@ -38309,6 +38487,12 @@
 			(uuid "a4992a96-f075-4ec2-ab86-5ed74d66123c")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "SW1")
@@ -38535,6 +38719,12 @@
 			(uuid "4b2405f1-dbe2-4cce-b7c4-728f79aa7709")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "IC2")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "IC2")
@@ -38652,6 +38842,12 @@
 			(uuid "6a6ee457-79df-4406-bf91-9a09c8a547e8")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "Q13")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "Q13")
@@ -38786,6 +38982,12 @@
 			(uuid "94c5e7f6-c2b0-4522-a32a-4534885abd11")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "D12")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "D12")
@@ -38901,6 +39103,12 @@
 			(uuid "b3933cfd-fbc3-4ec9-af93-e7472abb067a")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "R51")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "R51")
@@ -39014,6 +39222,12 @@
 			(uuid "45d328bd-06e7-4156-8c07-af638af34068")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "SW5")
@@ -39091,6 +39305,12 @@
 			(uuid "86ca1125-8cd1-4b17-a1a1-2775169f1717")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "#PWR065")
@@ -39209,6 +39429,12 @@
 			(uuid "176dd951-3b4a-4a01-882b-6b68ab352719")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "Q15")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "Q15")
@@ -39328,6 +39554,12 @@
 			(uuid "16f16a36-28e8-42a9-ac18-1f282beb2113")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "J18")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "J18")
@@ -39443,6 +39675,12 @@
 			(uuid "43068e52-3449-4f7e-aa10-5ceaa7a70f2c")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "R52")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "R52")
@@ -39520,6 +39758,12 @@
 			(uuid "3ccfc214-5d48-41d8-9cd4-a65c6bffc99e")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "#PWR071")
@@ -39652,6 +39896,12 @@
 			(uuid "179c94b0-5bc1-4f26-be13-17051ff15544")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "U8")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "U8")
@@ -39765,6 +40015,12 @@
 			(uuid "bb498bda-eed3-4f05-8fdf-d1c8b2e53e74")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "SW3")
@@ -39880,6 +40136,12 @@
 			(uuid "b9e4aa4a-4fca-4048-9033-0b0798a0957d")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "R56")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "R56")
@@ -39993,6 +40255,12 @@
 			(uuid "a590d5c1-a740-4f25-b49d-8cc33b71718a")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "SW7")
@@ -40111,6 +40379,12 @@
 			(uuid "3d227784-300d-48a9-95de-ef6bb901bebe")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "Q12")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "Q12")
@@ -40188,6 +40462,12 @@
 			(uuid "fa994c06-f30d-4b8f-af9f-c9684fc26c64")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "#PWR073")
@@ -40300,6 +40580,12 @@
 			(uuid "05b59b10-719d-4f2c-8bf8-98b954e1034c")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "TP21")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "TP21")
@@ -40526,6 +40812,12 @@
 			(uuid "8f29543a-b47c-42dc-bcbd-a80fbb7bcfb1")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "IC6")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "IC6")
@@ -40660,6 +40952,12 @@
 			(uuid "a9a7a1f2-7a63-4196-a44e-a7a40ff8f246")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "D11")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "D11")
@@ -40739,6 +41037,12 @@
 			(uuid "580c245b-8b72-4257-b1b2-d2549e0f2914")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "#PWR066")
@@ -40852,6 +41156,12 @@
 			(uuid "6e540bd5-34b5-43dd-b33c-0ee2b751859c")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "SW6")
@@ -40970,6 +41280,12 @@
 			(uuid "dac28cd4-efc8-4457-b6fd-e0208f6a41b9")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "J26")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "J26")
@@ -41085,6 +41401,12 @@
 			(uuid "892cebb8-d5e5-43cb-9174-d429b462adbe")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "R54")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "R54")
@@ -41164,6 +41486,12 @@
 			(uuid "20e44229-b2ea-4e0f-bf48-9772709ff2f5")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "#PWR067")
@@ -41241,6 +41569,12 @@
 			(uuid "f46eea2d-6a8c-4c45-ae26-2f52ab4b3aa3")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "#PWR063")
@@ -41468,6 +41802,12 @@
 			(uuid "70403709-7d3a-4469-9211-15ea0fbfd21b")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "IC4")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "IC4")
@@ -41583,6 +41923,12 @@
 			(uuid "c4be89c8-0c8c-4771-b9e1-a9fba240b51b")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "R55")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "R55")
@@ -41698,6 +42044,12 @@
 			(uuid "59bb8961-4e32-4a43-af52-1c4fc9da74a4")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "SW4")
@@ -41821,6 +42173,12 @@
 			(uuid "9a2498d8-e6ad-486e-9fdf-c4f0462e9163")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "C34")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "C34")
@@ -41937,6 +42295,12 @@
 			(uuid "21b9b8ac-2c92-4e1f-97e7-65482b1c26d9")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "Q17")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "Q17")
@@ -42056,6 +42420,12 @@
 			(uuid "89b732f6-32d9-4922-a2cb-06610d7e60dc")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "J23")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "J23")
@@ -42170,6 +42540,12 @@
 			(uuid "8ab83196-5397-43a4-9fd1-b88d7ea1b1ac")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "D16")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "D16")
@@ -42293,6 +42669,12 @@
 			(uuid "6b1057e9-62c9-4a17-a21e-a51aa23b1b54")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "C38")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "C38")
@@ -42372,6 +42754,12 @@
 			(uuid "11d23b6d-eafe-4334-8f23-821b86f3604d")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "#PWR064")
@@ -42449,6 +42837,12 @@
 			(uuid "b21c5004-2602-485d-9446-1199b7008bcc")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "#PWR081")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "#PWR081")
@@ -42562,6 +42956,12 @@
 			(uuid "73f84a88-d9b8-44d7-91eb-dceaef4b69d6")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "SW2")
@@ -42675,6 +43075,12 @@
 			(uuid "e3f80e30-308b-44e7-91ea-aa62e0642370")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "R60")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "R60")
@@ -42794,6 +43200,12 @@
 			(uuid "6f8fca84-80f6-4590-a6a2-860a4e3f4a04")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "J17")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "J17")
@@ -42908,6 +43320,12 @@
 			(uuid "eaccf40b-b9c3-4c53-b79a-b881c5ab288f")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "C46")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "C46")
@@ -43018,6 +43436,12 @@
 			(uuid "171c213b-441f-4e15-8807-2f0d3458e24c")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "TP22")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "TP22")
@@ -43153,6 +43577,12 @@
 			(uuid "3b4e5074-c767-495d-883f-4b883fec7f84")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "D13")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "D13")
@@ -43230,6 +43660,12 @@
 			(uuid "5d2b6217-909f-4249-b4e0-6b21a6fa7948")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "#PWR070")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "#PWR070")
@@ -43348,6 +43784,12 @@
 			(uuid "21abfca6-5227-441b-b203-24aa87f731f0")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "Q16")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "Q16")
@@ -43471,6 +43913,12 @@
 			(uuid "141f75ba-72a0-4224-b8ed-049784e29a5f")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "C36")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "C36")
@@ -43594,6 +44042,12 @@
 			(uuid "9845291e-f16e-4be2-95b2-b35c68613bf5")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "C33")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "C33")
@@ -43671,6 +44125,12 @@
 			(uuid "1e3c13d4-bf0e-45cf-b29b-817037280c43")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "#PWR072")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "#PWR072")
@@ -43785,6 +44245,12 @@
 			(uuid "000a1b40-060a-493b-a0f7-08adedd6b5eb")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "C47")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "C47")
@@ -43900,6 +44366,12 @@
 			(uuid "e4d98d52-50bc-47e9-ae64-8c79b8b8140a")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "R53")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "R53")
@@ -43977,6 +44449,12 @@
 			(uuid "e4fd29e0-9977-46d5-931a-d70f172a64f4")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "#PWR078")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "#PWR078")
@@ -44096,6 +44574,12 @@
 			(uuid "cf0fac06-125c-42cf-93f5-e09a6819e259")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "J19")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "J19")
@@ -44219,6 +44703,12 @@
 			(uuid "cbaaf3a9-7e6d-455a-b366-154074d7ae79")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "C37")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "C37")
@@ -44337,6 +44827,12 @@
 			(uuid "43b8d995-851c-4da7-b2e5-53863e77d04a")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "J22")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "J22")
@@ -44450,6 +44946,12 @@
 			(uuid "6f42cd13-d845-4956-a917-93e19db0e376")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "SW8")
@@ -44573,6 +45075,12 @@
 			(uuid "e5df9461-1fd4-4570-a054-2cabfee21b77")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "C35")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "C35")
@@ -44692,6 +45200,12 @@
 			(uuid "63e38873-23d5-4fce-b85c-767f2c6188bb")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "J16")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "J16")
@@ -44769,6 +45283,12 @@
 			(uuid "a500e386-89a4-43ad-90b0-ee8cef08377e")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "#PWR069")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "#PWR069")
@@ -44884,6 +45404,12 @@
 			(uuid "87a802d9-ad52-4f1f-91b1-4621fb3e7859")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "R48")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "R48")
@@ -44961,6 +45487,12 @@
 			(uuid "85b2f233-1247-4714-9464-ab90e76deaea")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "#PWR080")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "#PWR080")
@@ -45079,6 +45611,12 @@
 			(uuid "f1f4e174-503b-4fc1-83c2-2b663da879f3")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "Q11")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "Q11")
@@ -45306,6 +45844,12 @@
 			(uuid "4193ff64-ffa0-420e-9d2a-5266b1265126")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "IC5")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "IC5")
@@ -45424,6 +45968,12 @@
 			(uuid "52e46ae1-9c24-4e0c-90e7-8707cd20e3ee")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "Q14")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "Q14")
@@ -45539,6 +46089,12 @@
 			(uuid "9437f8e8-0119-4884-9abf-556426f772bb")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "R47")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "R47")
@@ -45616,6 +46172,12 @@
 			(uuid "c49fbf4a-1488-4954-8bc2-9b695df25060")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "#PWR062")
@@ -45728,6 +46290,12 @@
 			(uuid "a4ab073f-755a-4912-85a0-4e05b929295b")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "TP23")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "TP23")
@@ -45860,6 +46428,12 @@
 			(uuid "6434b13a-3c29-4df8-950c-80535e238358")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "U9")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "U9")
@@ -45973,6 +46547,12 @@
 			(uuid "9154719e-8d44-4301-b626-e574b5afa70b")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "SW9")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "SW9")
@@ -46086,6 +46666,12 @@
 			(uuid "e0d95adc-76fc-4421-b227-200ae5558c50")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "R61")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "R61")
@@ -46163,6 +46749,12 @@
 			(uuid "8af36d63-cbe5-4a8b-ba37-6cc7e1b791d0")
 		)
 		(instances
+			(project "Inhibit_System"
+				(path "/3bec5bdb-919d-4b6f-a07b-0d78392e3ac4"
+					(reference "#PWR079")
+					(unit 1)
+				)
+			)
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/2dd73af5-fef2-4c63-a174-1636b1b663bb"
 					(reference "#PWR079")
@@ -46171,4 +46763,10 @@
 			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
