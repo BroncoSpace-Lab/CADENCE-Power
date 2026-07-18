@@ -4247,7 +4247,7 @@
 		)
 		(uuid "ea675be6-0b62-4438-9b1e-cb042b915f45")
 	)
-	(text "A rectifying diode (D3) \nfrom Bat to boost. \nAlso a 1uF from boost to \nSW pin.(6)\n\nAdded series zener (6.1)"
+	(text "A rectifying diode (D4) \nfrom Bat to boost. \nAlso a 1uF from boost to \nSW pin.(6)\n\nAdded series zener (6.1)"
 		(exclude_from_sim no)
 		(at 237.744 40.132 0)
 		(effects
@@ -4482,6 +4482,12 @@
 		(uuid "91b6b8e2-1279-4fe8-a2ee-1c6d7b3e8892")
 	)
 	(junction
+		(at 303.53 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e50b5de-af43-4340-a4fb-a46d852ef9f0")
+	)
+	(junction
 		(at 144.78 336.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4546,6 +4552,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c9d28eb7-fc35-4558-816f-ed1043a8a3a5")
+	)
+	(junction
+		(at 311.15 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd29347f-b8f2-4364-94e9-5450c6e2a201")
 	)
 	(junction
 		(at 134.62 73.66)
@@ -4777,6 +4789,16 @@
 	)
 	(wire
 		(pts
+			(xy 327.66 82.55) (xy 323.85 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a29d521-4b31-4579-ae10-7e7de51cc1d6")
+	)
+	(wire
+		(pts
 			(xy 81.28 327.66) (xy 88.9 327.66)
 		)
 		(stroke
@@ -4977,6 +4999,16 @@
 	)
 	(wire
 		(pts
+			(xy 303.53 63.5) (xy 311.15 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31fb1d78-9c31-4058-8370-f5a2ecac4191")
+	)
+	(wire
+		(pts
 			(xy 71.12 312.42) (xy 78.74 312.42)
 		)
 		(stroke
@@ -4984,6 +5016,16 @@
 			(type default)
 		)
 		(uuid "321bc6fc-003e-4e4c-ae59-0b3bbeff2347")
+	)
+	(wire
+		(pts
+			(xy 311.15 82.55) (xy 311.15 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3292ad46-6718-4bfa-92e4-983aaa2d9373")
 	)
 	(wire
 		(pts
@@ -5277,6 +5319,16 @@
 	)
 	(wire
 		(pts
+			(xy 340.36 82.55) (xy 335.28 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5403cb7d-a681-4f4b-99b6-4a557d94385d")
+	)
+	(wire
+		(pts
 			(xy 285.75 63.5) (xy 289.56 63.5)
 		)
 		(stroke
@@ -5467,6 +5519,16 @@
 	)
 	(wire
 		(pts
+			(xy 311.15 60.96) (xy 311.15 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64a848cb-9f0e-469f-bb8b-3a6e29410ceb")
+	)
+	(wire
+		(pts
 			(xy 223.52 322.58) (xy 232.41 322.58)
 		)
 		(stroke
@@ -5654,6 +5716,16 @@
 			(type default)
 		)
 		(uuid "872e16a1-742a-4362-86f4-92a262379d3d")
+	)
+	(wire
+		(pts
+			(xy 313.69 63.5) (xy 311.15 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87b1aa99-7ba8-41f3-9bb8-b0d6fc22b645")
 	)
 	(wire
 		(pts
@@ -6054,6 +6126,16 @@
 			(type default)
 		)
 		(uuid "bf77f9f5-46b3-4ad7-8a2d-5f082359adf1")
+	)
+	(wire
+		(pts
+			(xy 311.15 82.55) (xy 316.23 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c00acb8e-88f9-4714-9ae3-e885bfa24531")
 	)
 	(wire
 		(pts
@@ -30832,6 +30914,30 @@
 			)
 		)
 	)
+	(global_label "Cell 1+"
+		(shape output)
+		(at 313.69 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9f66cc54-79a9-4bf5-a05f-45f54973e3cf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 324.1137 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "Solar Power"
 		(shape input)
 		(at 99.06 58.42 180)
@@ -31711,7 +31817,7 @@
 			)
 		)
 		(property "Value" "1N4730APF-M (3V9)"
-			(at 274.574 64.516 0)
+			(at 277.114 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33412,6 +33518,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 340.36 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "333e1b26-263e-4780-9faa-f1d6a622a04b")
+		(property "Reference" "#PWR018"
+			(at 340.36 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VSS"
+			(at 341.63 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 340.36 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 340.36 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 340.36 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7476bbe5-b828-408d-ab36-434298417037")
+		)
+		(instances
+			(project "BMS_Board_Prototype_V2"
+				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/f4fcff51-0cdb-4e70-aba0-d567fd3e6a03"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 256.54 116.84 0)
 		(unit 1)
 		(body_style 1)
@@ -33898,6 +34082,119 @@
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/f4fcff51-0cdb-4e70-aba0-d567fd3e6a03"
 					(reference "J20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 320.04 82.55 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4266f519-c748-4d74-949d-f298d5f7b870")
+		(property "Reference" "R15"
+			(at 320.04 76.2 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 320.04 78.74 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
+			(at 320.04 84.328 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 320.04 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "https://jlcpcb.com/partdetail/YAGEO-RC1210FR0710KL/C309586"
+			(at 320.04 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 320.04 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 320.04 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 320.04 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6738714b-1be0-4a5d-974c-4ceb53ae598a")
+		)
+		(pin "1"
+			(uuid "f9439373-aeb7-4231-8abf-26b914cb73a1")
+		)
+		(instances
+			(project "BMS_Board_Prototype_V2"
+				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/f4fcff51-0cdb-4e70-aba0-d567fd3e6a03"
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -35645,6 +35942,118 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 311.15 60.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a0bc096-8aaf-4384-b787-05457729a88c")
+		(property "Reference" "TP4"
+			(at 313.69 56.3879 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Charger-Out"
+			(at 313.69 58.9279 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+			(at 316.23 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 316.23 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 311.15 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 311.15 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 311.15 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 311.15 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d71fa83c-5946-4451-9b47-cfb9e9edd0a6")
+		)
+		(instances
+			(project "BMS_Board_Prototype_V2"
+				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/f4fcff51-0cdb-4e70-aba0-d567fd3e6a03"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 285.75 90.17 0)
 		(unit 1)
@@ -35717,6 +36126,129 @@
 			(project "BMS_Board_Prototype_V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/f4fcff51-0cdb-4e70-aba0-d567fd3e6a03"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 331.47 82.55 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ad8ea363-7a13-4b38-8674-b214a3386c8b")
+		(property "Reference" "D6"
+			(at 331.216 79.756 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CHG"
+			(at 331.216 85.344 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 331.47 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 331.47 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 331.47 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 331.47 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 331.47 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 331.47 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 331.47 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fc08e099-a1d0-4c8a-9a84-3f526a6316ea")
+		)
+		(pin "1"
+			(uuid "73f0c6b3-e1e8-4fa4-91f2-ada66263fe1d")
+		)
+		(instances
+			(project "BMS_Board_Prototype_V2"
+				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/f4fcff51-0cdb-4e70-aba0-d567fd3e6a03"
+					(reference "D6")
 					(unit 1)
 				)
 			)
