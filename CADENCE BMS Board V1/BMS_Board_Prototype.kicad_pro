@@ -82,6 +82,10 @@
           ""
         ],
         [
+          "lib_footprint_mismatch|43250000|51911100|b3e2bdad-38ac-4240-b51a-97bcd8d39bb1|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
           "lib_footprint_mismatch|45750000|28250000|7929f347-4599-49a7-9738-cc06889471e0|00000000-0000-0000-0000-000000000000",
           ""
         ]
@@ -513,7 +517,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "BMS_Board_Prototype_V2.kicad_pro",
+    "filename": "BMS_Board_Prototype.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -848,18 +852,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "BMS_Board_Prototype_V2.kicad_sch",
-        "name": "BMS_Board_Prototype_V2",
+        "filename": "BMS_Board_Prototype.kicad_sch",
+        "name": "BMS_Board_Prototype",
         "uuid": "4ee99911-836b-4752-8a2d-327c8b28dc47"
       }
     ],
-    "used_designators": "D6,#PWR18,R15,TP4",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
     [
       "4ee99911-836b-4752-8a2d-327c8b28dc47",
-      "BMS_Board_Prototype_V2"
+      "BMS_Board_Prototype"
     ],
     [
       "f4fcff51-0cdb-4e70-aba0-d567fd3e6a03",
