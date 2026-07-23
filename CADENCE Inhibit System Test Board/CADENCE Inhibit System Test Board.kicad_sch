@@ -3428,6 +3428,18 @@
 		)
 	)
 	(rectangle
+		(start 351.79 29.21)
+		(end 400.05 58.42)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "1cc252d6-a7a3-4263-ae00-16c19dec956e")
+	)
+	(rectangle
 		(start 133.35 181.61)
 		(end 275.59 222.25)
 		(stroke
@@ -3438,6 +3450,18 @@
 			(type none)
 		)
 		(uuid "5326271d-d5f1-443b-b35b-d06e11bcd8e1")
+	)
+	(rectangle
+		(start 290.83 29.21)
+		(end 339.09 58.42)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "5b15e5c7-052a-430e-8af4-00ec44bc9351")
 	)
 	(rectangle
 		(start 351.79 64.77)
@@ -3453,7 +3477,7 @@
 	)
 	(text "NO\n"
 		(exclude_from_sim no)
-		(at 106.68 194.056 0)
+		(at 378.46 45.466 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3530,7 +3554,7 @@
 	)
 	(text "4 Solar boards\noutputs tied together"
 		(exclude_from_sim no)
-		(at 260.35 29.718 0)
+		(at 179.07 26.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3560,19 +3584,9 @@
 		)
 		(uuid "5e5242de-f87c-4a2e-90b7-01a088d9164d")
 	)
-	(text "https://nepp.nasa.gov/radhome/papers/2020-Topper-NSREC-TID-SEE-Compendium-DW-Paper-20205007136.pdf"
+	(text "Example Referece, External RBF pin that \nwill need connectors"
 		(exclude_from_sim no)
-		(at 282.194 47.244 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "63a465dd-aba7-4388-8da3-e03c64446530")
-	)
-	(text "External RBF pin that \nwill need connectors"
-		(exclude_from_sim no)
-		(at 120.65 259.08 0)
+		(at 290.83 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3581,9 +3595,9 @@
 		)
 		(uuid "7eba4731-3b64-4857-9c52-aa9416bbea30")
 	)
-	(text "Place holder for BOM "
+	(text "Place holder for BOM (Feet Switches)"
 		(exclude_from_sim no)
-		(at 376.174 62.992 0)
+		(at 369.824 62.738 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3612,9 +3626,9 @@
 		)
 		(uuid "8d861f56-3e0b-4c31-9b81-e11195fddbbb")
 	)
-	(text "Max: 12.6V\nNom: 10.8V\n"
+	(text "Max: 12.435V\nNom: 10.8V\n"
 		(exclude_from_sim no)
-		(at 32.512 68.58 0)
+		(at 31.75 70.358 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3645,7 +3659,7 @@
 	)
 	(text "C->\n"
 		(exclude_from_sim no)
-		(at 92.456 198.12 0)
+		(at 364.236 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3675,9 +3689,19 @@
 		)
 		(uuid "9f415de8-e8e0-41fa-86bf-03b1b47e5890")
 	)
+	(text "Place holder for BOM (RBF)\n"
+		(exclude_from_sim no)
+		(at 365.252 27.432 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ad4bcf68-fa6e-413f-8b91-fd74eb53f7e9")
+	)
 	(text "NC ->\n\n"
 		(exclude_from_sim no)
-		(at 111.76 201.93 0)
+		(at 383.54 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3707,6 +3731,16 @@
 			(justify left)
 		)
 		(uuid "d42fdf95-00bf-42d0-b01a-812e96d15eaa")
+	)
+	(text "Enable Switches for FET Drivers"
+		(exclude_from_sim no)
+		(at 306.07 27.178 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d5c9b7b5-8927-4c68-8c25-2917636cf100")
 	)
 	(text "Pack+ = Cell1+\n"
 		(exclude_from_sim no)
@@ -3762,16 +3796,6 @@
 			(justify left)
 		)
 		(uuid "f8f84dad-4245-4530-b335-e1240551b9e0")
-	)
-	(text "https://nepp.nasa.gov/radhome/papers/CP-2018-OBryan-NSREC-SEE-DW-Paper-20205001490.pdf"
-		(exclude_from_sim no)
-		(at -35.56 76.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "fbe4469f-c7a4-46eb-aa02-f027da4ad955")
 	)
 	(junction
 		(at 187.96 172.72)
@@ -4881,7 +4905,7 @@
 	)
 	(wire
 		(pts
-			(xy 378.46 109.22) (xy 378.46 111.76)
+			(xy 318.77 44.45) (xy 318.77 46.99)
 		)
 		(stroke
 			(width 0)
@@ -4981,7 +5005,7 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 102.87) (xy 365.76 105.41)
+			(xy 306.07 38.1) (xy 306.07 40.64)
 		)
 		(stroke
 			(width 0)
@@ -5421,7 +5445,7 @@
 	)
 	(wire
 		(pts
-			(xy 378.46 102.87) (xy 378.46 105.41)
+			(xy 318.77 38.1) (xy 318.77 40.64)
 		)
 		(stroke
 			(width 0)
@@ -5531,7 +5555,7 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 109.22) (xy 365.76 111.76)
+			(xy 306.07 44.45) (xy 306.07 46.99)
 		)
 		(stroke
 			(width 0)
@@ -6877,7 +6901,7 @@
 		)
 	)
 	(image
-		(at 131.318 249.174)
+		(at 301.498 73.914)
 		(scale 0.362396)
 		(uuid "5a4099fc-a0ff-47fc-8eae-ef7a81b30119")
 		(data "iVBORw0KGgoAAAANSUhEUgAAAp0AAAHSCAYAAACuM3AaAAAABHNCSVQICAgIfAhkiAAAIABJREFU"
@@ -31858,7 +31882,7 @@
 		)
 	)
 	(image
-		(at 276.86 111.252)
+		(at 323.85 121.412)
 		(scale 0.642784)
 		(uuid "e5b87065-5234-401d-ac72-87ab2d91f997")
 		(data "iVBORw0KGgoAAAANSUhEUgAABMgAAALFCAYAAAA2gN/rAAAABHNCSVQICAgIfAhkiAAAIABJREFU"
@@ -36643,7 +36667,7 @@
 	)
 	(global_label "HIGH_SIDE_PWR"
 		(shape input)
-		(at 378.46 110.49 0)
+		(at 318.77 45.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -36653,7 +36677,7 @@
 		)
 		(uuid "5f011dfd-68e7-4e8b-b99c-021514aa2cbc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 396.1409 110.49 0)
+			(at 336.4509 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36907,7 +36931,7 @@
 	)
 	(global_label "Cell 1+"
 		(shape input)
-		(at 365.76 104.14 180)
+		(at 306.07 39.37 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -36917,7 +36941,7 @@
 		)
 		(uuid "d4851fd4-2c42-421c-823c-baec9357e081")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 355.3363 104.14 0)
+			(at 295.6463 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36931,7 +36955,7 @@
 	)
 	(global_label "LOW_SIDE_PWR"
 		(shape input)
-		(at 378.46 104.14 0)
+		(at 318.77 39.37 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -36941,7 +36965,7 @@
 		)
 		(uuid "db806f8c-aa7c-4721-b4d1-6f29b6f6e6e1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 395.4151 104.14 0)
+			(at 335.7251 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36979,7 +37003,7 @@
 	)
 	(global_label "Cell 1+"
 		(shape input)
-		(at 365.76 110.49 180)
+		(at 306.07 45.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -36989,7 +37013,7 @@
 		)
 		(uuid "eadc97bb-e51e-42a0-a377-2ed24214b327")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 355.3363 110.49 0)
+			(at 295.6463 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37110,7 +37134,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02a4b123-dfe6-4f68-9861-072313a0f602")
-		(property "Reference" "R51"
+		(property "Reference" "R10"
 			(at 218.44 157.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37207,7 +37231,7 @@
 		(instances
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
-					(reference "R51")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -37225,7 +37249,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "05616bab-c8e1-4db5-b8c0-edbe2eb7aa68")
-		(property "Reference" "Q14"
+		(property "Reference" "Q2"
 			(at 119.38 153.6701 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37325,7 +37349,7 @@
 		(instances
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
-					(reference "Q14")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -37343,7 +37367,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0649eab9-ff0d-4ce4-9c8d-dd836e6d11d6")
-		(property "Reference" "J17"
+		(property "Reference" "J5"
 			(at 109.22 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37444,7 +37468,7 @@
 		(instances
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
-					(reference "J17")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -37461,7 +37485,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "08a7d411-eca8-4422-bb59-00fbc1373fda")
-		(property "Reference" "C36"
+		(property "Reference" "C9"
 			(at 211.836 85.598 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37567,7 +37591,7 @@
 		(instances
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
-					(reference "C36")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -37575,7 +37599,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x02_Odd_Even")
-		(at 370.84 102.87 0)
+		(at 311.15 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -37585,8 +37609,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e65f951-ede1-4d9f-b386-6f21ec80bbb2")
-		(property "Reference" "J18"
-			(at 372.11 96.52 0)
+		(property "Reference" "J8"
+			(at 312.42 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37596,7 +37620,7 @@
 			)
 		)
 		(property "Value" "INHIBIT_P2"
-			(at 372.11 99.06 0)
+			(at 312.42 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37606,7 +37630,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Hirose:Hirose_DF11-4DP-2DSA_2x02_P2.00mm_Vertical"
-			(at 370.84 102.87 0)
+			(at 311.15 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37617,7 +37641,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 370.84 102.87 0)
+			(at 311.15 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37628,7 +37652,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 370.84 102.87 0)
+			(at 311.15 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37639,7 +37663,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 370.84 102.87 0)
+			(at 311.15 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37650,7 +37674,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 370.84 102.87 0)
+			(at 311.15 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37661,7 +37685,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 370.84 102.87 0)
+			(at 311.15 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37686,7 +37710,7 @@
 		(instances
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
-					(reference "J18")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -37704,7 +37728,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0eed075c-4d48-4c0b-be69-07ad92c1de0c")
-		(property "Reference" "J16"
+		(property "Reference" "J3"
 			(at 93.98 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37805,7 +37829,7 @@
 		(instances
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
-					(reference "J16")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -37822,7 +37846,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0faef3c4-60a8-4612-98d0-4dac1bc2cd01")
-		(property "Reference" "D17"
+		(property "Reference" "D6"
 			(at 67.056 147.066 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37919,7 +37943,7 @@
 		(instances
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
-					(reference "D17")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -37936,7 +37960,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "17f9605e-415e-4f69-b50a-356733008649")
-		(property "Reference" "U8"
+		(property "Reference" "U1"
 			(at 85.598 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38051,7 +38075,7 @@
 		(instances
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
-					(reference "U8")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -38068,7 +38092,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1bf0b891-9357-40ae-9499-651dae95a414")
-		(property "Reference" "C38"
+		(property "Reference" "C7"
 			(at 210.566 160.528 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38174,7 +38198,7 @@
 		(instances
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
-					(reference "C38")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -38191,7 +38215,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1d2dce73-1328-4ef7-bdb5-a7ba1b575211")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR02"
 			(at 74.93 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -38251,7 +38275,7 @@
 		(instances
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
-					(reference "#PWR078")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -38495,7 +38519,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1f726e46-d462-45a7-8c63-98b22940e6fc")
-		(property "Reference" "D11"
+		(property "Reference" "D1"
 			(at 45.974 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38612,7 +38636,7 @@
 		(instances
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
-					(reference "D11")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -38855,7 +38879,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "24715386-9e9e-4320-a921-bbe0a2ab6b6b")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR013"
 			(at 187.96 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -38915,7 +38939,7 @@
 		(instances
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
-					(reference "#PWR073")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -38933,7 +38957,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ba19a7c-97b0-4e76-9ce6-a727fcb04e6f")
-		(property "Reference" "IC2"
+		(property "Reference" "IC5"
 			(at 191.008 186.182 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39141,7 +39165,7 @@
 		(instances
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
-					(reference "IC2")
+					(reference "IC5")
 					(unit 1)
 				)
 			)
@@ -39149,7 +39173,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x02_Odd_Even")
-		(at 370.84 109.22 0)
+		(at 311.15 44.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -39158,8 +39182,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2cca6eb1-20c0-4c11-86b4-7e7682e878b7")
-		(property "Reference" "J22"
-			(at 372.364 114.808 0)
+		(property "Reference" "J9"
+			(at 312.674 50.038 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -39169,7 +39193,7 @@
 			)
 		)
 		(property "Value" "INHIBIT_P2"
-			(at 372.364 117.348 0)
+			(at 312.674 52.578 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -39179,7 +39203,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Hirose:Hirose_DF11-4DP-2DSA_2x02_P2.00mm_Vertical"
-			(at 370.84 109.22 0)
+			(at 311.15 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39190,7 +39214,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 370.84 109.22 0)
+			(at 311.15 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39201,7 +39225,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 370.84 109.22 0)
+			(at 311.15 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39212,7 +39236,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 370.84 109.22 0)
+			(at 311.15 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39223,7 +39247,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 370.84 109.22 0)
+			(at 311.15 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39234,7 +39258,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 370.84 109.22 0)
+			(at 311.15 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39259,7 +39283,7 @@
 		(instances
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
-					(reference "J22")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -39276,7 +39300,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2ee90a13-3bfa-4965-a78d-e38a9dc13f7e")
-		(property "Reference" "C45"
+		(property "Reference" "C3"
 			(at 103.124 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39373,7 +39397,7 @@
 		(instances
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
-					(reference "C45")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -39391,7 +39415,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32791fb3-ebe6-452f-9f97-fc0c270ffa2b")
-		(property "Reference" "SW2"
+		(property "Reference" "SW5"
 			(at 375.92 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39486,7 +39510,7 @@
 		(instances
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
-					(reference "SW2")
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -39503,7 +39527,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3358654c-65d3-4fa0-94ce-2cebb39a3163")
-		(property "Reference" "J24"
+		(property "Reference" "J2"
 			(at 78.232 76.962 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39604,7 +39628,7 @@
 		(instances
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
-					(reference "J24")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -39621,7 +39645,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3770a1fd-d546-4251-afff-08ce1b684553")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR08"
 			(at 101.6 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -39681,7 +39705,7 @@
 		(instances
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
-					(reference "#PWR081")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -39698,7 +39722,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "38a5d86b-323d-4aba-ae47-4290e189d013")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR04"
 			(at 87.63 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -39758,7 +39782,7 @@
 		(instances
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
-					(reference "#PWR063")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -39776,7 +39800,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39c1cdd3-ed62-4760-adaa-a6993c74279b")
-		(property "Reference" "TP23"
+		(property "Reference" "TP2"
 			(at 139.7 55.1179 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39870,7 +39894,7 @@
 		(instances
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
-					(reference "TP23")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -39889,7 +39913,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41f1b0f0-0955-4f5a-a65a-d56f5ef4f608")
-		(property "Reference" "IC5"
+		(property "Reference" "IC1"
 			(at 189.738 109.982 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40097,7 +40121,7 @@
 		(instances
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
-					(reference "IC5")
+					(reference "IC1")
 					(unit 1)
 				)
 			)
@@ -40115,7 +40139,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b835905-4acd-4df5-ad44-a0a7a4179928")
-		(property "Reference" "SW5"
+		(property "Reference" "SW2"
 			(at 360.68 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40210,7 +40234,7 @@
 		(instances
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
-					(reference "SW5")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -40227,7 +40251,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4bba00a8-1d29-4337-b06c-1cdf49242a91")
-		(property "Reference" "C35"
+		(property "Reference" "C8"
 			(at 211.836 51.308 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40333,7 +40357,7 @@
 		(instances
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
-					(reference "C35")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -40351,7 +40375,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4fef0917-7091-4263-8f47-36711430015d")
-		(property "Reference" "R56"
+		(property "Reference" "R4"
 			(at 109.22 144.7799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40448,7 +40472,7 @@
 		(instances
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
-					(reference "R56")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -40466,7 +40490,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5438f070-70bc-46d8-80fb-c339b595a3bd")
-		(property "Reference" "SW9"
+		(property "Reference" "SW7"
 			(at 381 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40561,7 +40585,7 @@
 		(instances
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
-					(reference "SW9")
+					(reference "SW7")
 					(unit 1)
 				)
 			)
@@ -40579,7 +40603,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54cda378-be2a-42a8-8412-e76f7ed2681a")
-		(property "Reference" "Q15"
+		(property "Reference" "Q4"
 			(at 228.6 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40679,7 +40703,7 @@
 		(instances
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
-					(reference "Q15")
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -40696,7 +40720,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5516b727-8ab4-43a9-a182-8175ca7654ba")
-		(property "Reference" "C34"
+		(property "Reference" "C10"
 			(at 211.836 202.438 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40802,7 +40826,7 @@
 		(instances
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
-					(reference "C34")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -40820,7 +40844,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5cf3c889-9919-4c79-9c79-d24bb35b07ab")
-		(property "Reference" "Q11"
+		(property "Reference" "Q6"
 			(at 228.6 149.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40920,7 +40944,7 @@
 		(instances
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
-					(reference "Q11")
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -40937,7 +40961,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5d809a45-c96f-438f-bec4-e33e4b51db7b")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR05"
 			(at 91.44 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -40997,7 +41021,7 @@
 		(instances
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
-					(reference "#PWR065")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -41014,7 +41038,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5dafc495-baa9-4189-a15b-2d2a7258b5e0")
-		(property "Reference" "J25"
+		(property "Reference" "J6"
 			(at 109.474 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41115,7 +41139,7 @@
 		(instances
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
-					(reference "J25")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -41133,7 +41157,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5dd415c1-eb90-44d7-b7c6-a5a6c64856b0")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR09"
 			(at 115.57 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -41194,7 +41218,7 @@
 		(instances
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
-					(reference "#PWR064")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -41211,7 +41235,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5f454137-399c-4fa5-a194-b092677b4174")
-		(property "Reference" "C33"
+		(property "Reference" "C5"
 			(at 147.066 69.088 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41317,7 +41341,7 @@
 		(instances
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
-					(reference "C33")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -41334,7 +41358,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "61013a69-cf87-415c-a556-af1b9b62d247")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR015"
 			(at 189.23 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -41394,7 +41418,7 @@
 		(instances
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
-					(reference "#PWR071")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -41411,7 +41435,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "612c2a80-db0e-4300-9786-ae789032b819")
-		(property "Reference" "Q13"
+		(property "Reference" "Q1"
 			(at 119.38 110.4899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41511,7 +41535,7 @@
 		(instances
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
-					(reference "Q13")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -41529,7 +41553,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68034764-e233-4fd5-92dc-73d522bd9ec9")
-		(property "Reference" "Q17"
+		(property "Reference" "Q3"
 			(at 215.9 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41627,7 +41651,7 @@
 		(instances
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
-					(reference "Q17")
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -41644,7 +41668,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "69a59658-2b04-4879-8ba6-f432a40fac7c")
-		(property "Reference" "U9"
+		(property "Reference" "U2"
 			(at 85.598 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41759,7 +41783,7 @@
 		(instances
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
-					(reference "U9")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -41776,7 +41800,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6fe7cef0-d6c5-4e1f-bcd9-cb979bcefec4")
-		(property "Reference" "C37"
+		(property "Reference" "C6"
 			(at 210.566 126.238 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41882,7 +41906,7 @@
 		(instances
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
-					(reference "C37")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -41899,7 +41923,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "72902de1-2feb-4a7e-82ea-4621b69edf41")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR01"
 			(at 74.93 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -41959,7 +41983,7 @@
 		(instances
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
-					(reference "#PWR068")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -41977,7 +42001,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78de645f-215d-4179-8cbc-9bbc96bba10a")
-		(property "Reference" "Q16"
+		(property "Reference" "Q5"
 			(at 228.6 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42077,7 +42101,7 @@
 		(instances
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
-					(reference "Q16")
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -42094,7 +42118,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "78df84ac-87dd-49cf-937f-9714e7e7b98a")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR012"
 			(at 187.96 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -42154,7 +42178,7 @@
 		(instances
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
-					(reference "#PWR072")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -42172,7 +42196,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "825d25e6-bd6d-462d-98fa-8a92807ec635")
-		(property "Reference" "R61"
+		(property "Reference" "R2"
 			(at 63.5 146.05 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42267,7 +42291,7 @@
 		(instances
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
-					(reference "R61")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -42284,7 +42308,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8aa767a8-f351-4c75-8a7c-0a83a9b86a38")
-		(property "Reference" "D16"
+		(property "Reference" "D5"
 			(at 67.056 104.902 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42381,7 +42405,7 @@
 		(instances
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
-					(reference "D16")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -42398,7 +42422,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8c01bd98-ff0c-4ba0-b737-b0788b688d6b")
-		(property "Reference" "D12"
+		(property "Reference" "D2"
 			(at 46.99 66.802 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42515,7 +42539,7 @@
 		(instances
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
-					(reference "D12")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -42533,7 +42557,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "904e9d64-48f8-4ac9-befc-c0670d9fecf3")
-		(property "Reference" "SW3"
+		(property "Reference" "SW8"
 			(at 391.16 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42628,7 +42652,7 @@
 		(instances
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
-					(reference "SW3")
+					(reference "SW8")
 					(unit 1)
 				)
 			)
@@ -42646,7 +42670,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9347c4f2-a73a-4f00-b466-dc843a4335c2")
-		(property "Reference" "R52"
+		(property "Reference" "R7"
 			(at 217.17 121.9199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42743,7 +42767,7 @@
 		(instances
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
-					(reference "R52")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -42761,7 +42785,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "937da59f-74f1-494b-8d0c-9266c92b5db4")
-		(property "Reference" "R53"
+		(property "Reference" "R8"
 			(at 218.44 46.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42858,7 +42882,7 @@
 		(instances
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
-					(reference "R53")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -42876,7 +42900,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "972c6437-6b01-4ffc-80bd-cf73cf01c6c8")
-		(property "Reference" "D13"
+		(property "Reference" "D3"
 			(at 59.69 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42993,7 +43017,7 @@
 		(instances
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
-					(reference "D13")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -43011,7 +43035,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a9ddac3-580e-4ef2-9d2c-ab7256438250")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR011"
 			(at 142.24 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -43072,7 +43096,7 @@
 		(instances
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
-					(reference "#PWR067")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -43089,7 +43113,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9b58d971-37d3-4d9b-a218-5c7597ffe34c")
-		(property "Reference" "C47"
+		(property "Reference" "C4"
 			(at 104.394 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43186,7 +43210,7 @@
 		(instances
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
-					(reference "C47")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -43204,7 +43228,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9cbff6f9-c622-456e-8308-a348b9400e33")
-		(property "Reference" "R46"
+		(property "Reference" "R5"
 			(at 124.46 57.15 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43299,7 +43323,7 @@
 		(instances
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
-					(reference "R46")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -43317,7 +43341,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e72d846-2173-4aa1-8ed7-e4198f1ea155")
-		(property "Reference" "R54"
+		(property "Reference" "R9"
 			(at 218.44 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43414,7 +43438,7 @@
 		(instances
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
-					(reference "R54")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -43432,7 +43456,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "adadb7df-fc8c-429c-b83b-a4de323fa7c5")
-		(property "Reference" "J23"
+		(property "Reference" "J1"
 			(at 78.74 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43533,7 +43557,7 @@
 		(instances
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
-					(reference "J23")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -43551,7 +43575,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b660a94c-0658-4cc2-8d1b-ff51aa7dfd3b")
-		(property "Reference" "R55"
+		(property "Reference" "R3"
 			(at 109.22 116.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43648,7 +43672,7 @@
 		(instances
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
-					(reference "R55")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -43666,7 +43690,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6bbd436-40b4-4ea1-b95c-8f333506464b")
-		(property "Reference" "TP22"
+		(property "Reference" "TP1"
 			(at 126.238 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43758,7 +43782,7 @@
 		(instances
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
-					(reference "TP22")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -43766,7 +43790,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPDT")
-		(at 99.06 198.12 0)
+		(at 370.84 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -43776,7 +43800,7 @@
 		(dnp no)
 		(uuid "ba1473bc-46dd-46bb-a641-c5276253e288")
 		(property "Reference" "SW4"
-			(at 95.758 192.024 0)
+			(at 367.538 43.434 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -43786,7 +43810,7 @@
 			)
 		)
 		(property "Value" "SW_SPDT"
-			(at 95.758 189.738 0)
+			(at 367.538 41.148 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -43796,7 +43820,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 198.12 0)
+			(at 370.84 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43807,7 +43831,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mcmaster.com/7658K208/"
-			(at 99.06 205.74 0)
+			(at 370.84 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43818,7 +43842,7 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
-			(at 99.06 198.12 0)
+			(at 370.84 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43829,7 +43853,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 99.06 198.12 0)
+			(at 370.84 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43840,7 +43864,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 99.06 198.12 0)
+			(at 370.84 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43851,7 +43875,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 99.06 198.12 0)
+			(at 370.84 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43890,7 +43914,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c423d0a6-2659-46e3-8e34-5db61db25885")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR016"
 			(at 189.23 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -43950,7 +43974,7 @@
 		(instances
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
-					(reference "#PWR069")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -43968,7 +43992,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4f01129-88f3-4c7a-abbb-739e519741ad")
-		(property "Reference" "Q12"
+		(property "Reference" "Q7"
 			(at 228.6 191.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44068,7 +44092,7 @@
 		(instances
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
-					(reference "Q12")
+					(reference "Q7")
 					(unit 1)
 				)
 			)
@@ -44086,7 +44110,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4f9c547-cea1-4c3d-b8e8-806633b24f6c")
-		(property "Reference" "R47"
+		(property "Reference" "R6"
 			(at 134.62 68.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44183,7 +44207,7 @@
 		(instances
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
-					(reference "R47")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -44200,7 +44224,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c6e45c9f-a3b3-4163-9051-e0e646acfa52")
-		(property "Reference" "C46"
+		(property "Reference" "C2"
 			(at 93.98 135.128 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44297,7 +44321,7 @@
 		(instances
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
-					(reference "C46")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -44315,7 +44339,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c79ebd61-30b7-4638-941d-b33323687847")
-		(property "Reference" "TP21"
+		(property "Reference" "TP3"
 			(at 232.41 174.4979 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44409,7 +44433,7 @@
 		(instances
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
-					(reference "TP21")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -44426,7 +44450,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c7a5e3b0-55bf-4bce-aaf2-6a2b76c99c81")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR07"
 			(at 100.33 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -44486,7 +44510,7 @@
 		(instances
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
-					(reference "#PWR079")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -44504,7 +44528,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d04cd420-afc4-4e70-9204-98aef94c4eb9")
-		(property "Reference" "R48"
+		(property "Reference" "R11"
 			(at 218.44 196.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44601,7 +44625,7 @@
 		(instances
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
-					(reference "R48")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -44619,7 +44643,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2376261-0658-430e-a858-7b1a5f71f1e4")
-		(property "Reference" "D14"
+		(property "Reference" "D4"
 			(at 59.69 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44736,7 +44760,7 @@
 		(instances
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
-					(reference "D14")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -44754,7 +44778,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3b78599-6b5b-4773-9a1b-86b490b35f70")
-		(property "Reference" "SW8"
+		(property "Reference" "SW3"
 			(at 367.03 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44849,7 +44873,7 @@
 		(instances
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
-					(reference "SW8")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -44867,7 +44891,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d526ee44-0391-4f90-906e-d9c6f949b2ac")
-		(property "Reference" "R60"
+		(property "Reference" "R1"
 			(at 63.5 105.41 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -44962,7 +44986,7 @@
 		(instances
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
-					(reference "R60")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -44979,7 +45003,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d59a8248-fcb9-48ff-8295-da0c9bb64b09")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR014"
 			(at 189.23 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -45039,7 +45063,7 @@
 		(instances
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
-					(reference "#PWR070")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -45057,7 +45081,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db2bc1b9-a769-484c-8cd6-8ad6976cedb5")
-		(property "Reference" "IC6"
+		(property "Reference" "IC2"
 			(at 189.738 144.272 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45265,7 +45289,7 @@
 		(instances
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
-					(reference "IC6")
+					(reference "IC2")
 					(unit 1)
 				)
 			)
@@ -45283,7 +45307,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db308188-88ae-4ac9-ba9d-8e5ce68f9e93")
-		(property "Reference" "SW7"
+		(property "Reference" "SW9"
 			(at 391.16 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45378,7 +45402,7 @@
 		(instances
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
-					(reference "SW7")
+					(reference "SW9")
 					(unit 1)
 				)
 			)
@@ -45623,7 +45647,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e199db84-026b-408e-8a5c-2e4f877b37fa")
-		(property "Reference" "J19"
+		(property "Reference" "J7"
 			(at 151.13 191.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45724,7 +45748,7 @@
 		(instances
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
-					(reference "J19")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -45741,7 +45765,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e22f0e94-3b88-4e5c-b238-6bee5fc0307f")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR06"
 			(at 91.44 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -45801,7 +45825,7 @@
 		(instances
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
-					(reference "#PWR080")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -45818,7 +45842,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ea312bf9-9c6e-4e1d-b7ee-c619817f9edf")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR03"
 			(at 87.63 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -45878,7 +45902,7 @@
 		(instances
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
-					(reference "#PWR062")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -45896,7 +45920,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eaf4cbef-cbbe-4c31-b054-58bc69df3687")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR010"
 			(at 132.08 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -45957,7 +45981,7 @@
 		(instances
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
-					(reference "#PWR066")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -45974,7 +45998,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eb168564-d756-4c42-89c2-5ba03bc921ae")
-		(property "Reference" "C44"
+		(property "Reference" "C1"
 			(at 94.234 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -46071,7 +46095,7 @@
 		(instances
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
-					(reference "C44")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -46088,7 +46112,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fe95490c-8c63-4b07-8aa3-69f2ab720330")
-		(property "Reference" "J26"
+		(property "Reference" "J4"
 			(at 93.98 76.708 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -46189,7 +46213,7 @@
 		(instances
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
-					(reference "J26")
+					(reference "J4")
 					(unit 1)
 				)
 			)
