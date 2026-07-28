@@ -802,7 +802,7 @@
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
-      "sort_asc": true,
+      "sort_asc": false,
       "sort_field": "${EXCLUDE_FROM_BOM}"
     },
     "bus_aliases": {},
@@ -862,7 +862,7 @@
         "uuid": "4ee99911-836b-4752-8a2d-327c8b28dc47"
       }
     ],
-    "used_designators": "J28,J31,#PWR33,#PWR83",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
