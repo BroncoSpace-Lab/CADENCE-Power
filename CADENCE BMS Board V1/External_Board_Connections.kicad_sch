@@ -4311,16 +4311,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 115.57) (xy 74.93 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49cf5984-748f-4d91-a269-c427be2e5187")
-	)
-	(wire
-		(pts
 			(xy 132.08 240.03) (xy 137.16 240.03)
 		)
 		(stroke
@@ -4841,6 +4831,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 132.08) (xy 76.2 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b93bd2f4-0616-4d1f-8726-95a925db1522")
+	)
+	(wire
+		(pts
 			(xy 298.45 53.34) (xy 287.02 53.34)
 		)
 		(stroke
@@ -5008,6 +5008,16 @@
 			(type default)
 		)
 		(uuid "cfad8a85-8fc7-4cd9-b66a-53f41399e535")
+	)
+	(wire
+		(pts
+			(xy 74.93 115.57) (xy 74.93 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1217e83-e7ae-43b7-a7e8-b5b85eaf9bb8")
 	)
 	(wire
 		(pts
@@ -11191,6 +11201,84 @@
 			(project "BMS_Board_Prototype"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "C58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 76.2 132.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "52b646bf-cb69-46c4-8837-aadc55c94065")
+		(property "Reference" "#PWR083"
+			(at 76.2 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VSS"
+			(at 74.93 136.906 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 76.2 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d7e9bebc-b1c1-44d4-856d-54bdd803e06f")
+		)
+		(instances
+			(project "BMS_Board_Prototype"
+				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
