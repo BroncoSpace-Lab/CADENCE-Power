@@ -10620,7 +10620,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_NV_B04P-NV_1x04_P5.00mm_Vertical"
+		(property "Footprint" "Connector_Samtec_HPM_THT:Samtec_HPM-04-05-x-S_Straight_1x04_Pitch5.08mm"
 			(at 309.88 97.79 0)
 			(hide yes)
 			(show_name no)
