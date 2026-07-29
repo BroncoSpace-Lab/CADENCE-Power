@@ -14850,7 +14850,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 74.93 82.8548 0)
 			(hide yes)
 			(show_name no)
