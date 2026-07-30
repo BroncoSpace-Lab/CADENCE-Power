@@ -398,6 +398,338 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_01x08"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x08"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x08_1_1"
+				(rectangle
+					(start -1.27 8.89)
+					(end 1.27 -11.43)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 7.747)
+					(end 0 7.493)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -10.033)
+					(end 0 -10.287)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 7.62 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 0)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -1973,10 +2305,10 @@
 		(uuid "d8d1ab32-9124-4c33-864c-7d7a8d62d47a")
 	)
 	(junction
-		(at 58.42 88.9)
+		(at 123.19 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0ac50def-b04c-4274-a842-6094685cf2a7")
+		(uuid "1a53b593-d905-4fd1-ac73-fc1688695418")
 	)
 	(junction
 		(at 59.69 77.47)
@@ -2015,12 +2347,6 @@
 		(uuid "51008fd2-79a1-4d08-9ac5-ad5de5932f70")
 	)
 	(junction
-		(at 29.21 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "51ca28cc-e09f-4c57-8400-9c8cf4bec58d")
-	)
-	(junction
 		(at 146.05 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2039,12 +2365,6 @@
 		(uuid "735551b8-ceab-45af-9b1f-c70ca5b7e560")
 	)
 	(junction
-		(at 106.68 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "78a87cd8-7c8a-40a2-b028-c8430ac57a5f")
-	)
-	(junction
 		(at 127 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2057,34 +2377,16 @@
 		(uuid "9072438d-40ee-4e0e-b545-9c39c8aaf55b")
 	)
 	(junction
-		(at 121.92 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9e5e3b4a-bea6-4cd9-8f60-a086973186db")
-	)
-	(junction
 		(at 127 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9e7ce369-ad01-4ee6-8ea3-e70f01de3e8e")
 	)
 	(junction
-		(at 59.69 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9f7d1830-27ca-4313-a393-af03c51afd57")
-	)
-	(junction
 		(at 83.82 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aead3f4c-5cf7-4d15-a4ba-ac392e8f6975")
-	)
-	(junction
-		(at 49.53 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b76eafc5-03a3-4f01-8cf7-fd7b3706426e")
 	)
 	(junction
 		(at 66.04 21.59)
@@ -2109,12 +2411,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dcb96bc4-dafc-4a8c-9c14-dad1d790bc09")
-	)
-	(junction
-		(at 26.67 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f1692d15-4804-40ab-b8ca-a5d4663cc0e1")
 	)
 	(junction
 		(at 29.21 77.47)
@@ -2158,16 +2454,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 86.36) (xy 29.21 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "021a3654-e3f0-45eb-a196-eb013a85609d")
-	)
-	(wire
-		(pts
 			(xy 80.01 30.48) (xy 80.01 63.5)
 		)
 		(stroke
@@ -2178,7 +2464,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 57.15) (xy 59.69 59.69)
+			(xy 59.69 57.15) (xy 59.69 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2228,16 +2514,6 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 40.64) (xy 26.67 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "196cb428-4648-45a5-bf9f-b5e9eec23b1d")
-	)
-	(wire
-		(pts
 			(xy 58.42 30.48) (xy 80.01 30.48)
 		)
 		(stroke
@@ -2268,17 +2544,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 110.49) (xy 146.05 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23b479db-c7ee-42bf-9b9d-88550c4d78aa")
-	)
-	(wire
-		(pts
-			(xy 97.79 110.49) (xy 106.68 110.49)
+			(xy 97.79 110.49) (xy 146.05 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2328,6 +2594,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 40.64) (xy 123.19 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30988248-8652-4b82-88e0-0333386ec594")
+	)
+	(wire
+		(pts
 			(xy 146.05 96.52) (xy 146.05 101.6)
 		)
 		(stroke
@@ -2348,7 +2624,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 21.59) (xy 49.53 25.4)
+			(xy 49.53 21.59) (xy 49.53 34.29)
 		)
 		(stroke
 			(width 0)
@@ -2365,16 +2641,6 @@
 			(type default)
 		)
 		(uuid "3be8fbce-9da1-443c-bc19-2b8e0fd64b52")
-	)
-	(wire
-		(pts
-			(xy 120.65 50.8) (xy 121.92 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e7f56ad-d73c-4c4e-b061-f696b689cf3e")
 	)
 	(wire
 		(pts
@@ -2458,16 +2724,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 59.69) (xy 59.69 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4bd7b53d-3a61-46d1-a0ff-c41eebaeba81")
-	)
-	(wire
-		(pts
 			(xy 127 69.85) (xy 127 74.93)
 		)
 		(stroke
@@ -2518,6 +2774,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 40.64) (xy 129.54 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f888b2b-1b88-4345-9c45-92043d592eb4")
+	)
+	(wire
+		(pts
 			(xy 95.25 96.52) (xy 95.25 82.55)
 		)
 		(stroke
@@ -2538,27 +2804,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 88.9) (xy 87.63 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64d02f63-84ad-4d21-9701-04cc67fd9163")
-	)
-	(wire
-		(pts
-			(xy 43.18 25.4) (xy 49.53 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66a4886f-a819-4c27-a3f8-76b0926c1225")
-	)
-	(wire
-		(pts
-			(xy 113.03 50.8) (xy 109.22 50.8)
+			(xy 114.3 50.8) (xy 110.49 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2588,16 +2834,6 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 54.61) (xy 26.67 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6cdf8d89-2579-436f-b891-2da748578f94")
-	)
-	(wire
-		(pts
 			(xy 87.63 88.9) (xy 87.63 96.52)
 		)
 		(stroke
@@ -2618,13 +2854,13 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 59.69) (xy 59.69 63.5)
+			(xy 123.19 50.8) (xy 121.92 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "744ac517-16a6-4f00-aea7-148b84f17407")
+		(uuid "74ba4ea5-916e-4daf-a240-42f7d6a34ef4")
 	)
 	(wire
 		(pts
@@ -2738,23 +2974,13 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 88.9) (xy 58.42 88.9)
+			(xy 53.34 88.9) (xy 87.63 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8ab1dacd-1d88-476d-ac8d-1b98a82c88dd")
-	)
-	(wire
-		(pts
-			(xy 49.53 25.4) (xy 49.53 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8bdf6506-f429-49de-9711-09deec3dfb32")
 	)
 	(wire
 		(pts
@@ -2828,7 +3054,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 40.64) (xy 26.67 30.48)
+			(xy 26.67 30.48) (xy 26.67 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2918,13 +3144,13 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 67.31) (xy 63.5 59.69)
+			(xy 44.45 124.46) (xy 48.26 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ae6ce28e-907d-4ed0-9554-ac786c159cbe")
+		(uuid "ad379461-b595-4012-a563-a27b2426ecf6")
 	)
 	(wire
 		(pts
@@ -2945,16 +3171,6 @@
 			(type default)
 		)
 		(uuid "b0e51e20-d2e8-4d13-9fff-3c8341572047")
-	)
-	(wire
-		(pts
-			(xy 121.92 40.64) (xy 129.54 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6d135ae-2b75-4ed7-a04a-a817ed2464e0")
 	)
 	(wire
 		(pts
@@ -2988,7 +3204,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 50.8) (xy 109.22 52.07)
+			(xy 110.49 50.8) (xy 110.49 52.07)
 		)
 		(stroke
 			(width 0)
@@ -3098,17 +3314,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 88.9) (xy 58.42 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8e937bd-e382-4305-9569-d42c53f94587")
-	)
-	(wire
-		(pts
-			(xy 121.92 40.64) (xy 121.92 50.8)
+			(xy 123.19 38.1) (xy 123.19 40.64)
 		)
 		(stroke
 			(width 0)
@@ -3125,26 +3331,6 @@
 			(type default)
 		)
 		(uuid "efa58df2-4430-4d25-bb7b-d5d27cf4d16e")
-	)
-	(wire
-		(pts
-			(xy 121.92 40.64) (xy 121.92 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f809ed89-d263-4b88-87b8-862fec1104b5")
-	)
-	(wire
-		(pts
-			(xy 106.68 110.49) (xy 106.68 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd7a47a6-9967-41d6-a2a5-fa36f5a71895")
 	)
 	(label "SDA"
 		(at 76.2 86.36 0)
@@ -3247,7 +3433,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 116.84 50.8 90)
+		(at 118.11 50.8 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3257,7 +3443,7 @@
 		(dnp no)
 		(uuid "03346b20-b8b2-4398-9b17-09b10690f8ad")
 		(property "Reference" "C1"
-			(at 116.84 44.3992 90)
+			(at 118.11 44.3992 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3267,7 +3453,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 116.84 46.7106 90)
+			(at 118.11 46.7106 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3277,7 +3463,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 120.65 49.8348 0)
+			(at 121.92 49.8348 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3288,7 +3474,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 50.8 0)
+			(at 118.11 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3299,7 +3485,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 116.84 50.8 0)
+			(at 118.11 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3610,83 +3796,6 @@
 			(project "Solar Board"
 				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
 					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 22.86 40.64 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3547517e-2a9f-4d0c-83a5-b76e1105ddb8")
-		(property "Reference" "TP6"
-			(at 19.558 35.56 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Alert"
-			(at 19.558 38.1 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 22.86 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 22.86 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 22.86 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "afd10385-c1eb-4b75-8062-e63c044c4290")
-		)
-		(instances
-			(project "Solar Board"
-				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
-					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -4006,85 +4115,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 63.5 67.31 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "45d8ff92-1d40-4f02-9e6d-d9db236a9347")
-		(property "Reference" "TP2"
-			(at 68.58 66.0399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Rail Voltage"
-			(at 68.58 68.5799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 63.5 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "58a77b39-91fe-4b22-b53c-1b29dd47ab38")
-		)
-		(instances
-			(project "Solar Board"
-				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
-					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 29.21 72.39 180)
 		(unit 1)
@@ -4235,6 +4265,83 @@
 			(project "Solar Board"
 				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
 					(reference "#PWR0107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "solar-panel-side-Z-rescue:+3.3V-power")
+		(at 44.45 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5f09fec8-b1ce-4f04-a140-136d769f3fb0")
+		(property "Reference" "#PWR0109"
+			(at 44.45 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 44.831 120.0658 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 44.45 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6ac40574-1d25-46f5-8271-e6f4c4483632")
+		)
+		(instances
+			(project "Solar Board"
+				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -4477,7 +4584,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 109.22 52.07 0)
+		(at 110.49 52.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4487,7 +4594,7 @@
 		(dnp no)
 		(uuid "7eda691a-a433-4b3f-b7f3-ce78e395f6b6")
 		(property "Reference" "#PWR0112"
-			(at 109.22 58.42 0)
+			(at 110.49 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4498,7 +4605,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 109.347 56.4642 0)
+			(at 110.617 56.4642 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4508,7 +4615,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 52.07 0)
+			(at 110.49 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4519,7 +4626,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 52.07 0)
+			(at 110.49 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4530,7 +4637,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 109.22 52.07 0)
+			(at 110.49 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4547,83 +4654,6 @@
 			(project "Solar Board"
 				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
 					(reference "#PWR0112")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 43.18 25.4 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8064dd46-40c8-4ba8-9e46-ce43cef62a52")
-		(property "Reference" "TP3"
-			(at 39.878 20.32 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Shunt Voltage"
-			(at 39.878 22.86 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 43.18 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cbf7bc4b-11fd-420d-af39-3c34d81bd45a")
-		)
-		(instances
-			(project "Solar Board"
-				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
-					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -4651,7 +4681,7 @@
 				)
 			)
 		)
-		(property "Value" "+VIN"
+		(property "Value" "+3.3V"
 			(at 66.421 17.1958 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4940,85 +4970,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 106.68 113.03 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9b1504c9-e847-4e08-9be3-c6ce27b92a59")
-		(property "Reference" "TP7"
-			(at 109.22 115.0619 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Alert"
-			(at 109.22 117.6019 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 106.68 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6e961605-e484-4e35-b21e-fab3b74264a9")
-		)
-		(instances
-			(project "Solar Board"
-				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
-					(reference "TP7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "New_Library_0:OPT3001IDNPRQ1")
 		(at 129.54 40.64 0)
 		(unit 1)
@@ -5177,7 +5128,7 @@
 	)
 	(symbol
 		(lib_id "solar-panel-side-Z-rescue:+3.3V-power")
-		(at 121.92 38.1 0)
+		(at 123.19 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5187,7 +5138,7 @@
 		(dnp no)
 		(uuid "9eb17361-abc8-44ba-bdc5-dd452c69476c")
 		(property "Reference" "#PWR0102"
-			(at 121.92 41.91 0)
+			(at 123.19 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5198,7 +5149,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 122.428 33.782 0)
+			(at 123.698 33.782 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5208,7 +5159,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 38.1 0)
+			(at 123.19 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5219,7 +5170,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 38.1 0)
+			(at 123.19 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5230,7 +5181,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 121.92 38.1 0)
+			(at 123.19 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5326,85 +5277,6 @@
 			(project "Solar Board"
 				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 58.42 91.44 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b1a67cfc-f590-4ef5-88c1-6b377f0b6956")
-		(property "Reference" "TP5"
-			(at 60.96 93.4719 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SCL"
-			(at 60.96 96.0119 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 58.42 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e9fdd14d-125f-4045-ac84-7f2a952deaaa")
-		)
-		(instances
-			(project "Solar Board"
-				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
-					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -6059,8 +5931,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 29.21 88.9 180)
+		(lib_id "Connector_Generic:Conn_01x08")
+		(at 53.34 132.08 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6069,31 +5941,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "df47295d-2439-4589-b395-16684c2ae6bb")
-		(property "Reference" "TP4"
-			(at 31.75 90.9319 0)
+		(uuid "e0b72a60-313e-44df-90d4-03423c00fc90")
+		(property "Reference" "J1"
+			(at 55.88 132.0799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "SDA"
-			(at 31.75 93.4719 0)
+		(property "Value" "Conn_01x08"
+			(at 55.88 134.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 88.9 0)
+			(at 53.34 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6104,7 +5976,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 88.9 0)
+			(at 53.34 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6114,8 +5986,8 @@
 				)
 			)
 		)
-		(property "Description" "test point"
-			(at 29.21 88.9 0)
+		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 53.34 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6124,14 +5996,35 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "2"
+			(uuid "0b14b78f-85c7-4a46-8685-24b829defbdb")
 		)
 		(pin "1"
-			(uuid "59a62f82-34cb-419c-874e-d6f0e53b1407")
+			(uuid "e0163459-b782-412b-8a37-32305d83e249")
+		)
+		(pin "3"
+			(uuid "a2ecd6fb-689d-4225-a312-6c15f28b98ac")
+		)
+		(pin "6"
+			(uuid "058d58ce-8b8f-4643-9626-2ef3bd5e9c2c")
+		)
+		(pin "4"
+			(uuid "22c15143-178b-49d2-8e9a-e5a304ef0f33")
+		)
+		(pin "5"
+			(uuid "32cff5fc-f595-4195-b2dd-d874b8559b26")
+		)
+		(pin "7"
+			(uuid "9a127c41-37da-4d21-a5d2-b02021ac351e")
+		)
+		(pin "8"
+			(uuid "e5c00552-5fc7-4458-81af-f96766eb959c")
 		)
 		(instances
 			(project "Solar Board"
 				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
-					(reference "TP4")
+					(reference "J1")
 					(unit 1)
 				)
 			)
