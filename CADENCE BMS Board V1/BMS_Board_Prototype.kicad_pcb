@@ -2713,7 +2713,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C488667"
+		(property "LCSC" "C364199"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23415,6 +23415,7 @@
 		(property "Reference" "TP3"
 			(at -2.232314 -0.116068 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "79ff8d99-b839-4fe3-bdb6-097a8e312363")
 			(effects
 				(font
@@ -28477,7 +28478,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2759152"
+		(property "LCSC" "C310348"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32967,7 +32968,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4033889"
+		(property "LCSC" "C877956"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33244,7 +33245,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C194712"
+		(property "LCSC" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33292,7 +33293,7 @@
 				(pins "1" "2" "3" "4" "5" "6" "13" "12" "11" "10" "9" "8" "7")
 			)
 		)
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1.6764 -2.1971)
@@ -83479,7 +83480,7 @@
 		)
 	)
 	(gr_text "3V3"
-		(at 65 102.75 0)
+		(at 54 101.5 0)
 		(layer "F.SilkS")
 		(uuid "9800edfa-0fea-4594-8f58-da849e497661")
 		(effects
