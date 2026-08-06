@@ -1,0 +1,6 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "LTC7004IMSE#WTRPBF Gate Driver") (type "KiCad") (uri "${KIPRJMOD}/Imported_footprints/LTC7004IMSE#WTRPBF Gate Driver/LTC7004IMSE#WTRPBF_Gate_Driver.pretty") (options "") (descr ""))
+	(lib (name "MIC4427YM-TR Gate Driver") (type "KiCad") (uri "${KIPRJMOD}/Imported_footprints/MIC4427YM-TR Gate Driver/MIC4427YM-TR Gate Driver.pretty") (options "") (descr ""))
+	(lib (name "MMBD914LT1G_Diode") (type "KiCad") (uri "${KIPRJMOD}/Imported_footprints/MMBD914LT1G Diode/MMBD914LT1G_Diode.pretty") (options "") (descr ""))
+)
