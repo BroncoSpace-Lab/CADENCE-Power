@@ -1,1 +1,13 @@
 (version 1)
+
+(rule "No Blind Buried Vias"
+  (severity error)
+  (constraint disallow via)
+  (condition "A.Via_Type == 'Blind/buried' || A.Via_Type == 'Micro'"))
+
+(version 1)
+
+(rule "No Blind Buried Vias"
+  (severity error)
+  (constraint disallow via)
+  (condition "!A.existsOnLayer('F.Cu') || !A.existsOnLayer('B.Cu')"))
