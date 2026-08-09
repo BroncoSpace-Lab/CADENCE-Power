@@ -1,0 +1,118 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "LC-04T"
+   (description "Wire-To-Board Connector, Shrouded, Top Entry, LC Series, Crimp, Header, 4, 5.08 mm RoHS Compliant: Yes")
+   (family "CON")
+   (package "LC04T")
+   (attribute "Datasheet Link" "https://componentsearchengine.com/Datasheets/2/LC-04T.pdf")
+   (attribute "Geometry.Height" "11.5mm")
+   (attribute "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)")
+   (attribute "Manufacturer_Part_Number" "LC-04T")
+   (attribute "Mouser Part Number" "")
+   (attribute "Mouser Price/Stock" "")
+   (attribute "Arrow Part Number" "LC-04T")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/lc-04t/jst-manufacturing")
+   (gate
+    (symbol "LC-04T")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+    (pin "3" 3 PS)
+    (pin "4" 4 PS)
+   )
+  )
+  (symbol "LC-04T"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -400) (pt 200 -400) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "LC04T"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -20.42 -4)
+      (pt 5.18 -4)
+      (pt 5.18 4)
+      (pt -20.42 4)
+      (pt -20.42 -4))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -20.42 -4)
+      (pt 5.18 -4)
+      (pt 5.18 4)
+      (pt -20.42 4)
+      (pt -20.42 -4))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -21.42 5)
+      (pt 6.18 5)
+      (pt 6.18 -5)
+      (pt -21.42 -5)
+      (pt -21.42 5))))
+   (leg 1 (pt 0.000 0.000) (padstack 1))
+   (leg 2 (pt -5.080 0.000) (padstack 0))
+   (leg 3 (pt -10.160 0.000) (padstack 0))
+   (leg 4 (pt -15.240 0.000) (padstack 0))
+   (padstack 0
+    (hole 1.6)
+    (plated true)
+    (pad (layer TCOP) (round 2.400))
+    (pad (layer INNER) (round 2.400))
+    (pad (layer BCOP) (round 2.400))
+   )
+   (padstack 1
+    (hole 1.6)
+    (plated true)
+    (pad (layer TCOP) (square 2.400))
+    (pad (layer INNER) (round 2.400))
+    (pad (layer BCOP) (square 2.400))
+   )
+   (model "LC-04T.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

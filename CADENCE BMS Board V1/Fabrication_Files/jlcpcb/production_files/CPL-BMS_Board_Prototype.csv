@@ -45,7 +45,7 @@ D19,D_Schottky 40v,D_SMA,84,-45,0,top
 D2,3V3,LED_0402_1005Metric,66.049814,-100.866068,180,top
 D20,D_Schottky 40v,D_SMA,84,-41,0,top
 D21,D_Schottky 40v,D_SMA,84,-49,0,top
-D3,1N4730APF-M (3V9),D_DO-41_SOD81_P12.70mm_Horizontal,37.3371,-33.5,90,top
+,,,,,,
 D4,STPS1045B-TR,DPAK_STM,45.75,-28.25,90,top
 D5,STPS1045B-TR,DPAK_STM,33.5,-47,-90,top
 D6,CHG,LED_0402_1005Metric,53.75,-21.5,0,top
@@ -57,7 +57,7 @@ J10,Conn_01x08,JST_XH_B8B-XH-A_1x08_P2.50mm_Vertical,106.15,-66.025,0,top
 J11,Conn_01x06,JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical,79.982314,-77.616068,180,top
 J12,Conn_01x02,JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical,45.75,-113.25,180,top
 J13,Conn_01x08,JST_XH_B8B-XH-A_1x08_P2.50mm_Vertical,82.45,-58.8,0,top
-J14,Conn_01x04,Samtec_HPM-04-05-x-S_Straight_1x04_Pitch5.08mm,29,-98.5,180,top
+J14,Conn_01x04,Samtec_HPM-04-05-x-S_Straight_1x04_Pitch5.08mm,29,-98.5,0,top
 J15,Conn_01x08,JST_XH_B8B-XH-A_1x08_P2.50mm_Vertical,106.25,-58.775,0,top
 J2,Conn_01x02,JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical,57.75,-113.25,180,top
 J20,Conn_01x02,JST_GH_SM02B-GHS-TB_1x02-1MP_P1.25mm_Horizontal,118,-50.5,90,top

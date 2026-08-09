@@ -1,0 +1,18 @@
+.LC-04T :1 ;Wire-To-Board Connector, Shrouded, Top Entry, LC Series, Crimp, Header, 4, 5.08 mm RoHS Compliant: Yes
+LC04T
+*STM J
+*NGS
+*PLB 1="1" 2="2" 3="3" 4="4"
+*MXP 4
+*DFN LC-04T
+~!Manufacturer_Name (JST (JAPAN SOLDERLESS TERMINALS))
+~!Manufacturer_Part_Number (LC-04T)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (LC-04T)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/lc-04t/jst-manufacturing)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/2/LC-04T.pdf)
+~!Height (11.5mm)
+~!3D_Model (LC-04T)
+LC-04T
+1.1!U 2.1!U 3.1!U 4.1!U 

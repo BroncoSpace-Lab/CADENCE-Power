@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "B02P-XL-HDS___LF__SN_"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-09-10-11:29:15)
+    (mountForm default
+        (footprintRef "SHDR2W120P580X500_2X1_790X1380X1460P")
+        (spec "System")
+    )
+)

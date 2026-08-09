@@ -1,0 +1,106 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "B02P-XL-HDS___LF__SN_"
+   (description "JST, XL, 2 Way, 2 Row, Top Entry PCB Header")
+   (family "CON")
+   (package "SHDR2W120P580X500_2X1_790X1380X1460P")
+   (attribute "Datasheet Link" "http://uk.rs-online.com/web/p/products/1856766")
+   (attribute "Geometry.Height" "14.6mm")
+   (attribute "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)")
+   (attribute "Manufacturer_Part_Number" "B02P-XL-HDS  (LF)(SN)")
+   (attribute "Mouser Part Number" "")
+   (attribute "Mouser Price/Stock" "")
+   (attribute "Arrow Part Number" "")
+   (attribute "Arrow Price/Stock" "")
+   (gate
+    (symbol "B02P-XL-HDS___LF__SN_")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "B02P-XL-HDS___LF__SN_"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "SHDR2W120P580X500_2X1_790X1380X1460P"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -4.2 4.25)
+      (pt 4.2 4.25)
+      (pt 4.2 -10.05)
+      (pt -4.2 -10.05)
+      (pt -4.2 4.25))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.95 4)
+      (pt 3.95 4)
+      (pt 3.95 -9.8)
+      (pt -3.95 -9.8)
+      (pt -3.95 4))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 0 4)
+      (pt 3.95 4)
+      (pt 3.95 -9.8)
+      (pt -3.95 -9.8)
+      (pt -3.95 0))))
+   (leg 1 (pt 0 0) (padstack 1))
+   (leg 2 (pt 0 -5.8) (padstack 0))
+   (padstack 0
+    (hole 1.9)
+    (plated true)
+    (pad (layer TCOP) (round 2.85))
+    (pad (layer INNER) (round 2.85))
+    (pad (layer BCOP) (round 2.85))
+   )
+   (padstack 1
+    (hole 1.9)
+    (plated true)
+    (pad (layer TCOP) (square 2.85))
+    (pad (layer INNER) (round 2.85))
+    (pad (layer BCOP) (square 2.85))
+   )
+   (model "B02P-XL-HDS___LF__SN_.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

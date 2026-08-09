@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "LC04T"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "LC04T")
+        (spec "default")
+    )
+)
