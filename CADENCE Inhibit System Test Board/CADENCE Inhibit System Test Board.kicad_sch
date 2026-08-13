@@ -4332,6 +4332,12 @@
 		(uuid "315b4012-a107-4b54-bb74-b0cd3edaf2ec")
 	)
 	(junction
+		(at 227.33 208.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "31efc4dc-6b76-4849-b703-d9c810ad8676")
+	)
+	(junction
 		(at 224.79 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4380,16 +4386,16 @@
 		(uuid "53df72b2-8b23-4d8e-9837-fc3d1a81ff18")
 	)
 	(junction
-		(at 115.57 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "58048682-e59c-4055-9e93-bec3367aea0c")
-	)
-	(junction
 		(at 205.74 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5b065f91-7853-4666-8ad2-6370b39e0cfe")
+	)
+	(junction
+		(at 68.58 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5eb4605b-a238-4674-a824-d4d084e0018d")
 	)
 	(junction
 		(at 187.96 173.99)
@@ -4494,6 +4500,12 @@
 		(uuid "a940b5da-6bcb-4cfb-99f2-458b466378e0")
 	)
 	(junction
+		(at 224.79 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "abaca938-52dd-4c89-acf2-7221ed06391f")
+	)
+	(junction
 		(at 215.9 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4518,6 +4530,12 @@
 		(uuid "c1081567-4f0b-42d8-8675-dfbea8b449f9")
 	)
 	(junction
+		(at 115.57 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c119a918-7878-4229-8686-d4bf1b1749a4")
+	)
+	(junction
 		(at 87.63 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4534,12 +4552,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c6168700-0b5b-4226-8c60-f0f7d2c98852")
-	)
-	(junction
-		(at 68.58 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c665e5b6-0c73-46ab-a27a-4a786902485d")
 	)
 	(junction
 		(at 189.23 99.06)
@@ -4626,6 +4638,12 @@
 		(uuid "e80bbb85-578e-49f6-81ce-9837bd9e93f5")
 	)
 	(junction
+		(at 224.79 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb37ff29-dbf5-4336-907a-d6ca112d399e")
+	)
+	(junction
 		(at 72.39 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4686,6 +4704,16 @@
 			(type default)
 		)
 		(uuid "03246c63-66f1-4a6d-bfb5-1d21017016ab")
+	)
+	(wire
+		(pts
+			(xy 227.33 208.28) (xy 224.79 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05751159-475c-4cf6-89ac-c4ab107f6b98")
 	)
 	(wire
 		(pts
@@ -4796,16 +4824,6 @@
 			(type default)
 		)
 		(uuid "0da03c01-2ce4-4562-9d77-03789ab1a027")
-	)
-	(wire
-		(pts
-			(xy 115.57 99.06) (xy 115.57 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e7f391a-b222-476c-8326-6818e395b4b4")
 	)
 	(wire
 		(pts
@@ -5046,6 +5064,16 @@
 			(type default)
 		)
 		(uuid "23415a6f-11e5-4acb-a497-b9847bf079b0")
+	)
+	(wire
+		(pts
+			(xy 227.33 207.01) (xy 227.33 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2539e227-acdd-47d7-b642-835d61d9f77c")
 	)
 	(wire
 		(pts
@@ -5309,7 +5337,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 208.28) (xy 224.79 208.28)
+			(xy 231.14 208.28) (xy 227.33 208.28)
 		)
 		(stroke
 			(width 0)
@@ -5326,16 +5354,6 @@
 			(type default)
 		)
 		(uuid "40dbd6eb-0485-4cb4-993d-b5f242a0adec")
-	)
-	(wire
-		(pts
-			(xy 115.57 102.87) (xy 115.57 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40eb9568-e2a3-442e-9d33-c18e67a50000")
 	)
 	(wire
 		(pts
@@ -5406,6 +5424,16 @@
 			(type default)
 		)
 		(uuid "4a2e87b0-0dbf-4ca8-91fd-072dc3edd17e")
+	)
+	(wire
+		(pts
+			(xy 115.57 99.06) (xy 115.57 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4adc03d8-a7a7-43dd-b682-3ec004641112")
 	)
 	(wire
 		(pts
@@ -5989,6 +6017,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 46.99) (xy 68.58 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88234397-7fd2-45e9-aef2-6b5a1ec935d3")
+	)
+	(wire
+		(pts
 			(xy 40.64 57.15) (xy 43.18 57.15)
 		)
 		(stroke
@@ -6056,6 +6094,16 @@
 			(type default)
 		)
 		(uuid "8f3c5b36-4a2c-4623-8a66-f32757aadd59")
+	)
+	(wire
+		(pts
+			(xy 224.79 93.98) (xy 224.79 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fc4e248-e538-4dbd-8df4-cee7eabb7b2f")
 	)
 	(wire
 		(pts
@@ -6346,6 +6394,16 @@
 			(type default)
 		)
 		(uuid "abe22e00-7c9b-4477-a021-7ca7664f2dc7")
+	)
+	(wire
+		(pts
+			(xy 115.57 104.14) (xy 115.57 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad819753-0fb8-4380-be53-530130327d85")
 	)
 	(wire
 		(pts
@@ -39503,6 +39561,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 224.79 29.21 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2397937b-90fe-4efd-8584-6d4cae6fbf1b")
+		(property "Reference" "TP9"
+			(at 229.87 27.9399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "V_mppt_i"
+			(at 229.87 30.4799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 224.79 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0ba478db-88ef-4276-ae9f-db77237434d7")
+		)
+		(instances
+			(project "CADENCE Inhibit System Test Board"
+				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
+					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 187.96 175.26 0)
 		(unit 1)
@@ -40999,7 +41136,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 68.58 66.04 0)
+		(at 68.58 46.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -41007,10 +41144,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4fdae73f-1413-4333-89d7-a37e2a4d70f1")
 		(property "Reference" "TP4"
-			(at 71.12 61.4679 0)
+			(at 71.12 42.4179 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -41020,8 +41156,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 71.12 64.0079 0)
+		(property "Value" "Voltage Level"
+			(at 71.12 44.958 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -41032,7 +41168,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 66.04 0)
+			(at 73.66 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41043,7 +41179,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 66.04 0)
+			(at 73.66 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41054,7 +41190,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 68.58 66.04 0)
+			(at 68.58 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41193,7 +41329,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 115.57 102.87 270)
+		(at 115.57 104.14 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -41204,7 +41340,7 @@
 		(fields_autoplaced yes)
 		(uuid "52667f6d-a273-444c-ae3a-786f85d12fb3")
 		(property "Reference" "TP6"
-			(at 120.65 101.5999 90)
+			(at 120.65 102.8699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -41214,8 +41350,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 120.65 104.1399 90)
+		(property "Value" "Cell 3-"
+			(at 120.65 105.4099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -41226,7 +41362,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 107.95 0)
+			(at 115.57 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41237,7 +41373,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 107.95 0)
+			(at 115.57 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41248,7 +41384,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 115.57 102.87 0)
+			(at 115.57 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43895,6 +44031,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 227.33 207.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b27d2ee-48db-4941-8527-4fd3ea6d1da0")
+		(property "Reference" "TP5"
+			(at 229.87 202.4379 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "UNREG"
+			(at 229.87 204.9779 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 227.33 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "58260578-f5b9-40f0-9810-031c7491b05a")
+		)
+		(instances
+			(project "CADENCE Inhibit System Test Board"
+				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 101.6 134.62 0)
 		(unit 1)
@@ -44690,6 +44905,85 @@
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
 					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 224.79 100.33 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc8e8fe9-f653-4e5c-bf06-d9da880c1512")
+		(property "Reference" "TP8"
+			(at 229.87 99.0599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "V_mppt_o"
+			(at 229.87 101.5999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 224.79 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "65d45f7e-62a7-4c1a-b05d-d86a8c7f4965")
+		)
+		(instances
+			(project "CADENCE Inhibit System Test Board"
+				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -47164,7 +47458,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "VSS"
 			(at 120.65 166.3699 90)
 			(show_name no)
 			(do_not_autoplace no)
