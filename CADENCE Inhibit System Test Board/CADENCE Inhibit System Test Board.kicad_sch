@@ -4380,6 +4380,12 @@
 		(uuid "53df72b2-8b23-4d8e-9837-fc3d1a81ff18")
 	)
 	(junction
+		(at 115.57 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "58048682-e59c-4055-9e93-bec3367aea0c")
+	)
+	(junction
 		(at 205.74 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4450,6 +4456,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "904a191c-aa70-4152-bf58-cec847e214df")
+	)
+	(junction
+		(at 115.57 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "914bea4e-71a6-485c-acc6-dd4a186c9ef9")
 	)
 	(junction
 		(at 215.9 193.04)
@@ -4787,7 +4799,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 99.06) (xy 115.57 106.68)
+			(xy 115.57 99.06) (xy 115.57 102.87)
 		)
 		(stroke
 			(width 0)
@@ -5317,6 +5329,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 102.87) (xy 115.57 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40eb9568-e2a3-442e-9d33-c18e67a50000")
+	)
+	(wire
+		(pts
 			(xy 205.74 74.93) (xy 205.74 76.2)
 		)
 		(stroke
@@ -5667,7 +5689,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 157.48) (xy 115.57 167.64)
+			(xy 115.57 157.48) (xy 115.57 165.1)
 		)
 		(stroke
 			(width 0)
@@ -6374,6 +6396,16 @@
 			(type default)
 		)
 		(uuid "b3f6c750-63a5-486a-81ff-9f14ee1dba11")
+	)
+	(wire
+		(pts
+			(xy 115.57 165.1) (xy 115.57 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b444e392-752c-4dee-b01a-5a1138ce0346")
 	)
 	(wire
 		(pts
@@ -41160,6 +41192,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 115.57 102.87 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52667f6d-a273-444c-ae3a-786f85d12fb3")
+		(property "Reference" "TP6"
+			(at 120.65 101.5999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 120.65 104.1399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 115.57 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ace314aa-a131-4978-b17e-8162653809c6")
+		)
+		(instances
+			(project "CADENCE Inhibit System Test Board"
+				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_SPST")
 		(at 381 90.17 0)
 		(unit 1)
@@ -47025,6 +47136,85 @@
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
 					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 115.57 165.1 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8660f0c-8458-47ec-9afc-c24aeee1d56a")
+		(property "Reference" "TP7"
+			(at 120.65 163.8299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 120.65 166.3699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 115.57 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9a4986cf-b176-4bd6-9d57-8b243ffaec03")
+		)
+		(instances
+			(project "CADENCE Inhibit System Test Board"
+				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
+					(reference "TP7")
 					(unit 1)
 				)
 			)
