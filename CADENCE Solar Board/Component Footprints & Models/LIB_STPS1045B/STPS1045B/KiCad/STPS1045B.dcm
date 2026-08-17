@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP STPS1045B
+D Schottky barrier diode,STPS1045B 10A 45V STMicroelectronics STPS1045B Schottky Diode, 10A, 45V, 3-Pin D-PAK
+K
+F https://www.st.com/resource/en/datasheet/stps1045b.pdf
+$ENDCMP
+#
+#End Doc Library

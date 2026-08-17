@@ -1,0 +1,18 @@
+.STPS1045B :1 ;Schottky barrier diode,STPS1045B 10A 45V STMicroelectronics STPS1045B Schottky Diode, 10A, 45V, 3-Pin D-PAK
+T405600BTR
+*STM IC
+*NGS
+*PLB 1="A" 2="NOPAD" 3="A_1" 4="K"
+*MXP 4
+*DFN STPS1045B
+~!Manufacturer_Name (STMicroelectronics)
+~!Manufacturer_Part_Number (STPS1045B)
+~!Mouser Part Number (511-STPS1045B)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STPS1045B?qs=Aez0sHNrW%2FWlppnqb0KZhw%3D%3D)
+~!Arrow Part Number (STPS1045B)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/stps1045b/stmicroelectronics?utm_currency=USD&region=europe)
+~!Link Datasheet (https://www.st.com/resource/en/datasheet/stps1045b.pdf)
+~!Height (2.4mm)
+~!3D_Model (STPS1045B)
+STPS1045B
+1.1!U 2.1!U 3.1!U 4.1!U 

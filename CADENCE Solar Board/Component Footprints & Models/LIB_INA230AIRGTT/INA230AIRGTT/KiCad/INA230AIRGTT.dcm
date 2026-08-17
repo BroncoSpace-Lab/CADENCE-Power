@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP INA230AIRGTT
+D 28V, Bi-Directional, Low-/High-Side, I2C Out Current/Power Monitor w/Alert
+K
+F http://www.ti.com/lit/gpn/INA230
+$ENDCMP
+#
+#End Doc Library

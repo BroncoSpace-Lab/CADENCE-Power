@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'STPS1045B'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "STMicroelectronics", "STPS1045B" (!) = "", "T405600BTR", "Other", "511-STPS1045B", "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STPS1045B?qs=Aez0sHNrW%2FWlppnqb0KZhw%3D%3D", "STPS1045B", "https://www.arrow.com/en/products/stps1045b/stmicroelectronics?utm_currency=USD&region=europe", "Schottky barrier diode,STPS1045B 10A 45V STMicroelectronics STPS1045B Schottky Diode, 10A, 45V, 3-Pin D-PAK", "https://www.st.com/resource/en/datasheet/stps1045b.pdf", "2.4 mm"
+END_PART
+
+END.

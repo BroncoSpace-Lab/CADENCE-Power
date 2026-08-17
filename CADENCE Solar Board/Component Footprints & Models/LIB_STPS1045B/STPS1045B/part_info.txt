@@ -1,0 +1,9 @@
+Manufacturer=STMicroelectronics
+PartNumber=STPS1045B
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=4
+Version=2.2
+Released=2015-07-14 08:30:56
+Downloaded=2026-08-17 23:10:14
+3D=Y

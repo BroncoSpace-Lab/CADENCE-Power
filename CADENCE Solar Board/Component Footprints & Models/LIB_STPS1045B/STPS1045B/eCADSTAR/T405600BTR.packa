@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "STPS1045B"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2022-09-22-15:58:37)
+    (mountForm default
+        (footprintRef "T405600BTR")
+        (spec "System")
+    )
+)

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'INA230AIRGTT'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "INA230AIRGTT" (!) = "", "QFN50P300X300X100-17N-D", "Quad Flat No-Lead", "595-INA230AIRGTT", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/INA230AIRGTT?qs=CKajpF%2FgJL%2Fl7EAtRODykg%3D%3D", "INA230AIRGTT", "https://www.arrow.com/en/products/ina230airgtt/texas-instruments?utm_currency=USD&region=nac", "28V, Bi-Directional, Low-/High-Side, I2C Out Current/Power Monitor w/Alert", "http://www.ti.com/lit/gpn/INA230", "1 mm"
+END_PART
+
+END.

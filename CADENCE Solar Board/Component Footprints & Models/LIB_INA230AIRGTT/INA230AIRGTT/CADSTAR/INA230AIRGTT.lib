@@ -1,0 +1,18 @@
+.INA230AIRGTT :1 ;28V, Bi-Directional, Low-/High-Side, I2C Out Current/Power Monitor w/Alert
+QFN50P300X300X100-17N-D
+*STM IC
+*NGS
+*PLB 1="A1" 2="A0" 3="ALERT" 4="SDA" 5="SCL" 6="NC_1" 7="NC_2" 8="NC_3" 9="V S+" 10="GND" 11="BUS" 12="IN-" 13="IN+" 14="NC_4" 15="NC_5" 16="NC_6" 17="EP"
+*MXP 17
+*DFN INA230AIRGTT
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (INA230AIRGTT)
+~!Mouser Part Number (595-INA230AIRGTT)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/INA230AIRGTT?qs=CKajpF%2FgJL%2Fl7EAtRODykg%3D%3D)
+~!Arrow Part Number (INA230AIRGTT)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/ina230airgtt/texas-instruments?utm_currency=USD&region=nac)
+~!Link Datasheet (http://www.ti.com/lit/gpn/INA230)
+~!Height (1mm)
+~!3D_Model (INA230AIRGTT)
+INA230AIRGTT
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 12.1!U 11.1!U 10.1!U 9.1!U 17.1!U 16.1!U 15.1!U 14.1!U 13.1!U 
