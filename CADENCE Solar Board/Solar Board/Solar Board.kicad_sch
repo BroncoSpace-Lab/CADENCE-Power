@@ -2951,6 +2951,12 @@
 		(uuid "08474f00-4497-4750-ac6a-094b73de586e")
 	)
 	(junction
+		(at 243.84 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c532f4f-9174-42a3-a20f-ca8394822c1b")
+	)
+	(junction
 		(at 214.63 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2993,12 +2999,6 @@
 		(uuid "29ac5e7c-0f95-452a-b69a-b9f2d33cba4e")
 	)
 	(junction
-		(at 214.63 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "344137e3-4f97-4105-8a00-980efe6e7144")
-	)
-	(junction
 		(at 198.12 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3009,12 +3009,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3f885563-a7ce-451b-b296-2c8dc96a6a82")
-	)
-	(junction
-		(at 214.63 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "46a43ef1-ac6d-4533-b23c-e02992a073b3")
 	)
 	(junction
 		(at 162.56 87.63)
@@ -3053,10 +3047,10 @@
 		(uuid "5e7fa4e6-e6f7-43d4-9740-4197387eb4a3")
 	)
 	(junction
-		(at 243.84 35.56)
+		(at 214.63 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "63a3d5e2-adbd-42cb-a13a-da5dc2cd8ac1")
+		(uuid "629f00e1-5126-4931-a6dd-90448706a57b")
 	)
 	(junction
 		(at 97.79 116.84)
@@ -3069,12 +3063,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6af697c4-130e-4922-9d54-c7bb8c7350ab")
-	)
-	(junction
-		(at 214.63 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6c522993-4fb7-4301-b25b-d7fccb27fd8a")
 	)
 	(junction
 		(at 227.33 35.56)
@@ -3143,6 +3131,12 @@
 		(uuid "a302f835-59ee-433d-b9d1-6ccbf3f1ea13")
 	)
 	(junction
+		(at 214.63 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8cc6334-25c6-4295-80ba-92c31022e778")
+	)
+	(junction
 		(at 78.74 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3165,6 +3159,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c6650a08-f6b3-4d65-a819-31ae0b1362a5")
+	)
+	(junction
+		(at 214.63 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c69b9a6f-416b-43c3-ae46-871345a16e8c")
 	)
 	(junction
 		(at 243.84 55.88)
@@ -3235,16 +3235,6 @@
 	(no_connect
 		(at 48.26 38.1)
 		(uuid "ba01ea21-9406-44c8-8f78-581ef0c1cbb7")
-	)
-	(wire
-		(pts
-			(xy 214.63 35.56) (xy 214.63 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00f51626-ad01-4115-8acf-6e8c156b1b7b")
 	)
 	(wire
 		(pts
@@ -3398,16 +3388,6 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 35.56) (xy 243.84 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18b6a734-78d8-4e83-913e-a4578c7f5369")
-	)
-	(wire
-		(pts
 			(xy 214.63 66.04) (xy 214.63 67.31)
 		)
 		(stroke
@@ -3505,6 +3485,16 @@
 			(type default)
 		)
 		(uuid "2394403a-682e-4343-9e46-38776d87785d")
+	)
+	(wire
+		(pts
+			(xy 243.84 25.4) (xy 243.84 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "248a4044-6042-4ac1-928b-e8876f13a53b")
 	)
 	(wire
 		(pts
@@ -3808,6 +3798,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 36.83) (xy 214.63 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bbad109-6366-4401-b198-3c87e35dae06")
+	)
+	(wire
+		(pts
 			(xy 198.12 86.36) (xy 214.63 86.36)
 		)
 		(stroke
@@ -3845,26 +3845,6 @@
 			(type default)
 		)
 		(uuid "51edb876-80c5-4537-bcde-75c63b03d176")
-	)
-	(wire
-		(pts
-			(xy 214.63 35.56) (xy 214.63 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52ca9445-b6e0-4816-8270-24132f7eeaf9")
-	)
-	(wire
-		(pts
-			(xy 243.84 25.4) (xy 243.84 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55973583-6419-45ab-8ab5-79ddd55c1f8d")
 	)
 	(wire
 		(pts
@@ -3948,16 +3928,6 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 45.72) (xy 214.63 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "628b8814-ed42-4007-a8e1-0712e63f9d6f")
-	)
-	(wire
-		(pts
 			(xy 162.56 80.01) (xy 162.56 76.2)
 		)
 		(stroke
@@ -4018,23 +3988,13 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 25.4) (xy 214.63 26.67)
+			(xy 214.63 25.4) (xy 214.63 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6e58a892-0873-413c-9e3d-9418ab6ecc3d")
-	)
-	(wire
-		(pts
-			(xy 243.84 45.72) (xy 243.84 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72eb8f0a-5ee9-43ca-b6d8-5bb88a750c5b")
+		(uuid "6f0c5df2-82d3-4066-b0b4-841243de159c")
 	)
 	(wire
 		(pts
@@ -4218,6 +4178,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 44.45) (xy 243.84 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f99cf95-04a6-4d6b-bc6f-9d8621665d1e")
+	)
+	(wire
+		(pts
 			(xy 120.65 36.83) (xy 123.19 36.83)
 		)
 		(stroke
@@ -4328,6 +4298,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 35.56) (xy 243.84 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d334303-52ad-41f0-8d21-e3e78572365d")
+	)
+	(wire
+		(pts
 			(xy 153.67 26.67) (xy 153.67 31.75)
 		)
 		(stroke
@@ -4395,6 +4375,16 @@
 			(type default)
 		)
 		(uuid "a9ebf3dc-2268-45c2-8571-f29537d3d63e")
+	)
+	(wire
+		(pts
+			(xy 214.63 44.45) (xy 214.63 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab0f1d97-9ed1-4d48-942d-9b1a8c0da44b")
 	)
 	(wire
 		(pts
@@ -5149,7 +5139,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
 			(at 90.424 115.824 90)
 			(hide yes)
 			(show_name no)
@@ -5360,7 +5350,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 214.63 30.48 270)
+		(at 243.84 71.12 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5369,9 +5359,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "11e41062-8535-4a72-80bb-4e48aeb87693")
-		(property "Reference" "D9"
-			(at 217.17 29.2099 90)
+		(uuid "16b7548d-7198-4f2a-967e-3d11fa9af37e")
+		(property "Reference" "D7"
+			(at 246.38 69.8499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5382,7 +5372,8 @@
 			)
 		)
 		(property "Value" "D"
-			(at 217.17 31.7499 90)
+			(at 246.38 72.3899 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5392,8 +5383,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 214.63 30.48 0)
+		(property "Footprint" "Diode_SMD:D_01005_0402Metric"
+			(at 243.84 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5404,7 +5395,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 30.48 0)
+			(at 243.84 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5415,7 +5406,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 214.63 30.48 0)
+			(at 243.84 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5426,7 +5417,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 214.63 30.48 0)
+			(at 243.84 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5437,7 +5428,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 214.63 30.48 0)
+			(at 243.84 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5448,15 +5439,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "fa3ffae4-3f66-4e08-b5ff-f95dfad4761f")
+			(uuid "ad256d27-8ce4-49fa-9595-d76e5e650289")
 		)
 		(pin "1"
-			(uuid "f6647dd9-760f-4fea-83ca-291e27892133")
+			(uuid "249fa20a-205c-4a49-9739-efe76cbe4b67")
 		)
 		(instances
 			(project "Solar Board"
 				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
-					(reference "D9")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -5494,7 +5485,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Pin:Pin_D1.3mm_L11.0mm_LooseFit"
 			(at 148.59 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -5571,7 +5562,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
 			(at 60.706 24.384 90)
 			(hide yes)
 			(show_name no)
@@ -5620,110 +5611,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 243.84 50.8 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2a0c4651-06f3-45fd-907f-eedc4147c704")
-		(property "Reference" "D7"
-			(at 246.38 49.5299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D"
-			(at 246.38 52.0699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 243.84 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 243.84 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode"
-			(at 243.84 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 243.84 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 243.84 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "946ab57d-25f9-4085-b64b-7899d57f7879")
-		)
-		(pin "1"
-			(uuid "8342c5e9-ca55-41b6-8d23-57d1fed644f3")
-		)
-		(instances
-			(project "Solar Board"
-				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
-					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "INA230AIRGTT:INA230AIRGTT")
 		(at 35.56 53.34 0)
 		(unit 1)
@@ -5755,7 +5642,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QFN50P300X300X100-17N-D"
+		(property "Footprint" "INA230AIRGTT:QFN50P300X300X100-17N-D"
 			(at 62.23 140.64 0)
 			(hide yes)
 			(show_name no)
@@ -5966,7 +5853,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Pin:Pin_D1.3mm_L11.0mm_LooseFit"
 			(at 148.59 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -6246,422 +6133,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 214.63 40.64 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3a048add-3f80-418e-9498-753ab22b61d1")
-		(property "Reference" "D10"
-			(at 217.17 39.3699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D"
-			(at 217.17 41.9099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 214.63 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 214.63 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode"
-			(at 214.63 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 214.63 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 214.63 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "227cb5c9-f9b0-4740-8eb3-4d4c3d88b47e")
-		)
-		(pin "1"
-			(uuid "b0cf8ebe-3613-4ab7-b711-ec8cc43df8c5")
-		)
-		(instances
-			(project "Solar Board"
-				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
-					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 214.63 50.8 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3daa5472-a1c2-4787-be26-eaf9d91e2d6e")
-		(property "Reference" "D11"
-			(at 217.17 49.5299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D"
-			(at 217.17 52.0699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 214.63 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 214.63 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode"
-			(at 214.63 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 214.63 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 214.63 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "1338a7a8-e294-4260-8c8e-3b9acfc61ac6")
-		)
-		(pin "1"
-			(uuid "65e157f0-322e-4245-a9b9-3b81215d1fe0")
-		)
-		(instances
-			(project "Solar Board"
-				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
-					(reference "D11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 214.63 71.12 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3fb0036d-9191-431d-9169-cbb842155f09")
-		(property "Reference" "D13"
-			(at 217.17 69.8499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D"
-			(at 217.17 72.3899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 214.63 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 214.63 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode"
-			(at 214.63 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 214.63 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 214.63 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "5f9dba2e-3243-4160-b070-b82d5ee24213")
-		)
-		(pin "1"
-			(uuid "97c985fa-3f8c-4b1e-ba64-83ec1a8d41a6")
-		)
-		(instances
-			(project "Solar Board"
-				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
-					(reference "D13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 243.84 101.6 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "412f8631-d2cd-456d-8a18-7e40dd1fb8d8")
-		(property "Reference" "D1"
-			(at 246.38 100.3299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D"
-			(at 246.38 102.8699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 243.84 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 243.84 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode"
-			(at 243.84 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 243.84 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 243.84 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "1ea41b31-4292-4d05-b49e-36d690f6a709")
-		)
-		(pin "1"
-			(uuid "51f39249-04a1-412f-b747-1151dff7b634")
-		)
-		(instances
-			(project "Solar Board"
-				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 163.83 34.29 90)
 		(unit 1)
@@ -6692,7 +6163,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
 			(at 164.084 33.274 90)
 			(hide yes)
 			(show_name no)
@@ -6735,110 +6206,6 @@
 			(project "Solar Board"
 				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
 					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 214.63 91.44 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "45bf0c57-34ac-47b9-aeb2-fa587ce88405")
-		(property "Reference" "D15"
-			(at 217.17 90.1699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D"
-			(at 217.17 92.7099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 214.63 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 214.63 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode"
-			(at 214.63 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 214.63 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 214.63 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "64943754-2b27-4934-ba50-6ed6efbc0571")
-		)
-		(pin "1"
-			(uuid "c2c1f61c-485f-4964-a493-59e407efa80d")
-		)
-		(instances
-			(project "Solar Board"
-				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
-					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -6927,110 +6294,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 214.63 101.6 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "47f80137-cf27-49cc-a057-f1a9b17e0c30")
-		(property "Reference" "D16"
-			(at 217.17 100.3299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D"
-			(at 217.17 102.8699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 214.63 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 214.63 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode"
-			(at 214.63 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 214.63 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 214.63 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "1f50143e-780a-412f-a0c4-ed465d375b51")
-		)
-		(pin "1"
-			(uuid "47812f23-e88c-49d0-b62e-ac1ff983d5e2")
-		)
-		(instances
-			(project "Solar Board"
-				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
-					(reference "D16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Solar_Cell")
 		(at 198.12 83.82 0)
 		(unit 1)
@@ -7107,110 +6370,6 @@
 			(project "Solar Board"
 				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
 					(reference "SC14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 243.84 91.44 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4e36c818-b1b6-4667-99d6-bf3ba652e257")
-		(property "Reference" "D2"
-			(at 246.38 90.1699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D"
-			(at 246.38 92.7099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 243.84 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 243.84 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode"
-			(at 243.84 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 243.84 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 243.84 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "7a6ebfb1-d395-4bf8-b1f9-6191b9b0f462")
-		)
-		(pin "1"
-			(uuid "3dca9b02-7410-4fa3-9281-db6504189fc8")
-		)
-		(instances
-			(project "Solar Board"
-				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
-					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -7299,110 +6458,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 243.84 30.48 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "51c72ac5-9ff9-4c16-a573-687572399a52")
-		(property "Reference" "D5"
-			(at 246.38 29.2099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D"
-			(at 246.38 31.7499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 243.84 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 243.84 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode"
-			(at 243.84 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 243.84 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 243.84 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "245981da-8464-493d-b9ca-2186d855d7c3")
-		)
-		(pin "1"
-			(uuid "d97ad3a4-3f07-4bfa-a9bb-078576cdff71")
-		)
-		(instances
-			(project "Solar Board"
-				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 35.56 68.58 180)
 		(unit 1)
@@ -7433,7 +6488,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
 			(at 34.544 68.326 90)
 			(hide yes)
 			(show_name no)
@@ -7558,6 +6613,321 @@
 			(project "Solar Board"
 				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
 					(reference "SC15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 214.63 91.44 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "587b41ce-6af2-4a35-8d60-66abc3f6cbe8")
+		(property "Reference" "D3"
+			(at 217.17 90.1699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 217.17 92.7099 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_01005_0402Metric"
+			(at 214.63 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 214.63 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 214.63 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 214.63 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3b43dfc5-3911-4741-96a2-3d7f71f46771")
+		)
+		(pin "1"
+			(uuid "3e62f03a-1758-44b1-949f-b874aa3d6b5b")
+		)
+		(instances
+			(project "Solar Board"
+				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 214.63 31.75 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59a09edb-37cd-4b72-8a0d-776ed91651ce")
+		(property "Reference" "D13"
+			(at 217.17 30.4799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 217.17 33.0199 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_01005_0402Metric"
+			(at 214.63 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 214.63 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 214.63 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 214.63 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e2165a73-e703-4332-8933-f10164b63e86")
+		)
+		(pin "1"
+			(uuid "bc2945b4-ed0c-4a7c-8f77-404765bedc29")
+		)
+		(instances
+			(project "Solar Board"
+				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 243.84 91.44 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59f73dd7-d015-4817-8800-5bd76e0dc92f")
+		(property "Reference" "D4"
+			(at 246.38 90.1699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 246.38 92.7099 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_01005_0402Metric"
+			(at 243.84 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 243.84 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 243.84 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 243.84 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d2121c05-dbb6-400c-8e0c-0c3a2ab4841e")
+		)
+		(pin "1"
+			(uuid "1689d778-2a02-48f0-aeb0-1934060d5cc2")
+		)
+		(instances
+			(project "Solar Board"
+				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -8068,7 +7438,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
 			(at 87.884 101.854 90)
 			(hide yes)
 			(show_name no)
@@ -8193,6 +7563,111 @@
 			(project "Solar Board"
 				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
 					(reference "SC6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 243.84 101.6 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "77fbb645-8f8d-4339-b80d-4f0aa643e2af")
+		(property "Reference" "D1"
+			(at 246.38 100.3299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 246.38 102.8699 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_01005_0402Metric"
+			(at 243.84 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 243.84 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 243.84 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 243.84 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "bf56e767-c01f-4c56-92ae-3eb0faa83517")
+		)
+		(pin "1"
+			(uuid "f5a08d9f-b10b-4ec6-bc61-ae157f1d3f0f")
+		)
+		(instances
+			(project "Solar Board"
+				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -8358,110 +7833,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 214.63 60.96 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "802b2691-af78-4611-8537-37985c33965a")
-		(property "Reference" "D12"
-			(at 217.17 59.6899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D"
-			(at 217.17 62.2299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 214.63 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 214.63 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode"
-			(at 214.63 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 214.63 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 214.63 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "65381097-b260-4681-812c-3d71af13a527")
-		)
-		(pin "1"
-			(uuid "cc46c44a-a240-404f-9078-646505445ed4")
-		)
-		(instances
-			(project "Solar Board"
-				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
-					(reference "D12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "solar-panel-side-Z-rescue:+3.3V-power")
 		(at 72.39 22.86 0)
 		(unit 1)
@@ -8610,6 +7981,111 @@
 			(project "Solar Board"
 				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
 					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 243.84 60.96 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81d1071c-dbee-4615-95f3-9de19b1831e4")
+		(property "Reference" "D12"
+			(at 246.38 59.6899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 246.38 62.2299 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_01005_0402Metric"
+			(at 243.84 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 243.84 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 243.84 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 243.84 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f8daf41d-dbe6-4e90-9879-621d17d1cf72")
+		)
+		(pin "1"
+			(uuid "ff58e6e8-2568-4893-900f-4a457cbb1d05")
+		)
+		(instances
+			(project "Solar Board"
+				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -8934,110 +8410,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 243.84 60.96 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "980b51cd-c43f-4d91-8c46-ba1e73267e2c")
-		(property "Reference" "D8"
-			(at 246.38 59.6899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D"
-			(at 246.38 62.2299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 243.84 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 243.84 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode"
-			(at 243.84 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 243.84 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 243.84 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "10929759-5138-4fdc-8346-653f79ecdb19")
-		)
-		(pin "1"
-			(uuid "83f19b3a-8c4d-4df3-a8b3-a8999a7165b6")
-		)
-		(instances
-			(project "Solar Board"
-				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
-					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 71.12 67.31 90)
 		(unit 1)
@@ -9068,7 +8440,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
 			(at 71.374 66.294 90)
 			(hide yes)
 			(show_name no)
@@ -9117,6 +8489,111 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D")
+		(at 214.63 71.12 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9afb3c4b-8ed5-4efd-a862-de1571262267")
+		(property "Reference" "D5"
+			(at 217.17 69.8499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 217.17 72.3899 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_01005_0402Metric"
+			(at 214.63 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 214.63 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 214.63 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 214.63 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "91d30af5-c559-4b16-8458-d783d4f54f51")
+		)
+		(pin "1"
+			(uuid "bbe26494-dab2-4b78-ad8a-510cfccc76f0")
+		)
+		(instances
+			(project "Solar Board"
+				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "New_Library_0:OPT3001IDNPRQ1")
 		(at 123.19 31.75 0)
 		(unit 1)
@@ -9148,7 +8625,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SON65P200X200X65-7N-D"
+		(property "Footprint" "OPT3001IDNPRQ1:SON65P200X200X65-7N-D"
 			(at 149.86 126.67 0)
 			(hide yes)
 			(show_name no)
@@ -9381,7 +8858,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
 			(at 46.736 80.264 90)
 			(hide yes)
 			(show_name no)
@@ -9431,7 +8908,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 243.84 81.28 270)
+		(at 214.63 101.6 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9440,9 +8917,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a7c50a33-51fb-4480-9044-c82ce536d107")
-		(property "Reference" "D3"
-			(at 246.38 80.0099 90)
+		(uuid "a2b6d1c2-a0a2-4e2d-ad7d-3d1d4427c57b")
+		(property "Reference" "D2"
+			(at 217.17 100.3299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9453,7 +8930,8 @@
 			)
 		)
 		(property "Value" "D"
-			(at 246.38 82.5499 90)
+			(at 217.17 102.8699 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9463,8 +8941,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 243.84 81.28 0)
+		(property "Footprint" "Diode_SMD:D_01005_0402Metric"
+			(at 214.63 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9475,7 +8953,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 243.84 81.28 0)
+			(at 214.63 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9486,7 +8964,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 243.84 81.28 0)
+			(at 214.63 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9497,7 +8975,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 243.84 81.28 0)
+			(at 214.63 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9508,7 +8986,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 243.84 81.28 0)
+			(at 214.63 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9519,15 +8997,120 @@
 			)
 		)
 		(pin "2"
-			(uuid "b5689ca5-ab7e-460f-8d58-196bb26bbbb5")
+			(uuid "76afbab0-fcb5-4914-abf3-6c55dc8f6d5b")
 		)
 		(pin "1"
-			(uuid "c199dcca-07ad-4fdc-8696-c7d7f5824175")
+			(uuid "228724c1-e7df-4582-aec4-4edcc0069a2b")
 		)
 		(instances
 			(project "Solar Board"
 				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
-					(reference "D3")
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 214.63 50.8 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7d30393-1a86-4644-9e56-9e25da311424")
+		(property "Reference" "D9"
+			(at 217.17 49.5299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 217.17 52.0699 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_01005_0402Metric"
+			(at 214.63 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 214.63 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 214.63 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 214.63 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "08703201-46fa-4dba-9bb3-b3ce74df86fa")
+		)
+		(pin "1"
+			(uuid "3a89f3a6-7229-47c3-a262-c95b2a4693a7")
+		)
+		(instances
+			(project "Solar Board"
+				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -9693,6 +9276,216 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D")
+		(at 214.63 60.96 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1223f11-356b-4984-b46a-ddf5d5a562b3")
+		(property "Reference" "D10"
+			(at 217.17 59.6899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 217.17 62.2299 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_01005_0402Metric"
+			(at 214.63 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 214.63 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 214.63 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 214.63 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "263e455f-e637-45d4-87af-fd37c8046567")
+		)
+		(pin "1"
+			(uuid "ca3fd5db-2ec3-487d-9315-ffa3e1eafebf")
+		)
+		(instances
+			(project "Solar Board"
+				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 243.84 50.8 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2fb8774-22f9-4814-a78a-41dce4322da2")
+		(property "Reference" "D11"
+			(at 246.38 49.5299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 246.38 52.0699 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_01005_0402Metric"
+			(at 243.84 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 243.84 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 243.84 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 243.84 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d0cd7941-950c-422b-848d-f4f0b633969e")
+		)
+		(pin "1"
+			(uuid "47afe378-194b-4a0b-af37-288c98022806")
+		)
+		(instances
+			(project "Solar Board"
+				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "solar-panel-side-Z-rescue:+3.3V-power")
 		(at 170.18 34.29 0)
 		(unit 1)
@@ -9800,7 +9593,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
 			(at 61.214 33.274 90)
 			(hide yes)
 			(show_name no)
@@ -9843,6 +9636,111 @@
 			(project "Solar Board"
 				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 243.84 31.75 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c11df602-8726-4df3-8037-4f71ac2293f8")
+		(property "Reference" "D15"
+			(at 246.38 30.4799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 246.38 33.0199 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_01005_0402Metric"
+			(at 243.84 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 243.84 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 243.84 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 243.84 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b96f4dcc-27cc-4b86-9884-2a85d71bb46f")
+		)
+		(pin "1"
+			(uuid "a05fba3e-9afa-4997-9172-4588033fd729")
+		)
+		(instances
+			(project "Solar Board"
+				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -10043,7 +9941,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
 			(at 42.164 109.474 90)
 			(hide yes)
 			(show_name no)
@@ -10174,6 +10072,111 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D")
+		(at 243.84 40.64 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf48f4ab-31f0-4cb2-911a-6b2426333996")
+		(property "Reference" "D16"
+			(at 246.38 39.3699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 246.38 41.9099 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_01005_0402Metric"
+			(at 243.84 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 243.84 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 243.84 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 243.84 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "70a09d3b-1254-4287-bef9-824955cd264d")
+		)
+		(pin "1"
+			(uuid "2056e728-6190-445c-9caa-1602020fd66b")
+		)
+		(instances
+			(project "Solar Board"
+				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 41.91 118.11 90)
 		(unit 1)
@@ -10204,7 +10207,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
 			(at 42.164 117.094 90)
 			(hide yes)
 			(show_name no)
@@ -10284,7 +10287,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT95P280X145-6N"
+		(property "Footprint" "AD7414ARTZ-1REEL7:SOT95P280X145-6N"
 			(at 54.61 21.92 0)
 			(hide yes)
 			(show_name no)
@@ -10464,7 +10467,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Pin:Pin_D1.3mm_L11.0mm_LooseFit"
 			(at 77.47 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -10625,7 +10628,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x08_P1.00mm_Horizontal"
 			(at 173.99 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -10702,8 +10705,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e16445e5-5c16-49f5-a19b-94ed4fcc4c5a")
-		(property "Reference" "D14"
+		(uuid "e92f9f79-6118-468a-8a49-3808ae24c1e7")
+		(property "Reference" "D6"
 			(at 217.17 80.0099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10716,6 +10719,7 @@
 		)
 		(property "Value" "D"
 			(at 217.17 82.5499 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10725,7 +10729,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_01005_0402Metric"
 			(at 214.63 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -10781,10 +10785,220 @@
 			)
 		)
 		(pin "2"
-			(uuid "cc6ada47-59da-4b2f-a145-07e0651fddd7")
+			(uuid "710b346f-92f0-44a5-80fb-50cd59cf9bf6")
 		)
 		(pin "1"
-			(uuid "471d3107-cb2e-49b2-9dcc-0ad8114193b9")
+			(uuid "c72642fd-e21b-4914-baa1-faa55fdb24cd")
+		)
+		(instances
+			(project "Solar Board"
+				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 243.84 81.28 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee8576f3-c879-4d56-82bb-45e640c4139d")
+		(property "Reference" "D8"
+			(at 246.38 80.0099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 246.38 82.5499 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_01005_0402Metric"
+			(at 243.84 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 243.84 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 243.84 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 243.84 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2e88fb31-ee9d-4705-8933-5d87664076e1")
+		)
+		(pin "1"
+			(uuid "b87c769c-bbe1-4e56-8084-2c707827edf6")
+		)
+		(instances
+			(project "Solar Board"
+				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 214.63 40.64 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eefe9bf2-a2f1-4776-a428-2b10f1e5f7e6")
+		(property "Reference" "D14"
+			(at 217.17 39.3699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 217.17 41.9099 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_01005_0402Metric"
+			(at 214.63 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 214.63 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 214.63 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 214.63 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b5e9c886-0962-4844-9d0b-d08c4da148cc")
+		)
+		(pin "1"
+			(uuid "7b49acd0-3267-4511-858b-d8df131900ad")
 		)
 		(instances
 			(project "Solar Board"
@@ -10869,214 +11083,6 @@
 			(project "Solar Board"
 				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 243.84 71.12 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f868f74c-64c6-472e-adbd-69089e365813")
-		(property "Reference" "D4"
-			(at 246.38 69.8499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D"
-			(at 246.38 72.3899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 243.84 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 243.84 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode"
-			(at 243.84 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 243.84 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 243.84 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6291b3fa-1e04-4f7e-90a0-117933a8e32c")
-		)
-		(pin "1"
-			(uuid "5f8c9016-0b6d-44f4-be1d-10e7bc257c8f")
-		)
-		(instances
-			(project "Solar Board"
-				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 243.84 40.64 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fe4ec643-9f53-4c78-aedd-1f048c597f56")
-		(property "Reference" "D6"
-			(at 246.38 39.3699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D"
-			(at 246.38 41.9099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 243.84 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 243.84 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode"
-			(at 243.84 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 243.84 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 243.84 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e6f94629-f882-442b-a80f-1205bbbcb9f7")
-		)
-		(pin "1"
-			(uuid "240683e4-1afe-417c-a99c-776a9ee006b3")
-		)
-		(instances
-			(project "Solar Board"
-				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
-					(reference "D6")
 					(unit 1)
 				)
 			)

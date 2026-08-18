@@ -484,7 +484,12 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "AD7414ARTZ-1REEL7",
+      "INA230AIRGTT",
+      "OPT3001IDNPRQ1",
+      "STPS1045B"
+    ],
     "pinned_symbol_libs": []
   },
   "meta": {
@@ -649,7 +654,7 @@
         "uuid": "d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
       }
     ],
-    "used_designators": "D1-16,SC1-16,#PWR3-4,#PWR111,TP2-3,R10",
+    "used_designators": "#PWR3-4,#PWR111,SC1-16,D1-16,TP2-3,IC1,R10",
     "variants": []
   },
   "sheets": [
