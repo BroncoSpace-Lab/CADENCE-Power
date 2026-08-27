@@ -4255,6 +4255,18 @@
 		)
 		(uuid "e8d0e8c3-93a7-48e2-9d02-fedcc69e1f18")
 	)
+	(text "Possible mistake with power good this need a pull up resistor connected to 3.3V\n in order to send a high signal to MCU be sure to add in next revision\n"
+		(exclude_from_sim no)
+		(at 201.93 397.764 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "e8db4847-3855-4795-af2e-3872e0bd7353")
+	)
 	(text "active high"
 		(exclude_from_sim no)
 		(at 137.922 319.024 0)

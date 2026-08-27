@@ -3549,7 +3549,7 @@
 	)
 	(text "Antenna Board"
 		(exclude_from_sim no)
-		(at 375.158 101.346 0)
+		(at 379.984 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4055,7 +4055,7 @@
 	)
 	(wire
 		(pts
-			(xy 368.3 88.9) (xy 372.11 88.9)
+			(xy 368.3 91.44) (xy 372.11 91.44)
 		)
 		(stroke
 			(width 0)
@@ -4235,7 +4235,7 @@
 	)
 	(wire
 		(pts
-			(xy 368.3 91.44) (xy 372.11 91.44)
+			(xy 368.3 93.98) (xy 372.11 93.98)
 		)
 		(stroke
 			(width 0)
@@ -10593,7 +10593,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 377.19 88.9 0)
+		(at 377.19 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10604,17 +10604,6 @@
 		(fields_autoplaced yes)
 		(uuid "300ae1a4-3886-40dc-8a6f-dfe2f1d49c32")
 		(property "Reference" "J29"
-			(at 379.73 88.8999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02"
 			(at 379.73 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10625,8 +10614,19 @@
 				(justify left)
 			)
 		)
+		(property "Value" "Conn_01x02"
+			(at 379.73 93.9799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" "JST_CON:SHDR2W120P580X500_2X1_790X1380X1460P"
-			(at 377.19 88.9 0)
+			(at 377.19 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10637,7 +10637,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 377.19 88.9 0)
+			(at 377.19 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10648,7 +10648,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 377.19 88.9 0)
+			(at 377.19 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10659,7 +10659,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 377.19 88.9 0)
+			(at 377.19 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10670,7 +10670,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 377.19 88.9 0)
+			(at 377.19 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10681,7 +10681,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 377.19 88.9 0)
+			(at 377.19 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14194,7 +14194,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 368.3 91.44 0)
+		(at 368.3 93.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14204,7 +14204,7 @@
 		(dnp no)
 		(uuid "acd41661-eb22-4759-8dc4-b1a5bf935891")
 		(property "Reference" "#PWR082"
-			(at 368.3 97.79 0)
+			(at 368.3 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14215,7 +14215,7 @@
 			)
 		)
 		(property "Value" "VSS"
-			(at 367.03 96.266 0)
+			(at 367.03 98.806 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14226,7 +14226,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 368.3 91.44 0)
+			(at 368.3 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14237,7 +14237,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 368.3 91.44 0)
+			(at 368.3 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14248,7 +14248,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 368.3 91.44 0)
+			(at 368.3 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15114,7 +15114,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 368.3 88.9 0)
+		(at 368.3 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15124,7 +15124,7 @@
 		(dnp no)
 		(uuid "cf793985-5572-4f2b-b7a6-d91fe5a95a00")
 		(property "Reference" "#PWR074"
-			(at 368.3 92.71 0)
+			(at 368.3 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15135,7 +15135,7 @@
 			)
 		)
 		(property "Value" "USB PWR"
-			(at 368.554 85.344 0)
+			(at 368.554 87.884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15146,7 +15146,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 368.3 88.9 0)
+			(at 368.3 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15157,7 +15157,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 368.3 88.9 0)
+			(at 368.3 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15168,7 +15168,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 368.3 88.9 0)
+			(at 368.3 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
