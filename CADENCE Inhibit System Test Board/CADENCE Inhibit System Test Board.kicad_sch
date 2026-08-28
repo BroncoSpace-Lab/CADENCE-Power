@@ -36853,7 +36853,8 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:Q_NMOS_SGD")
-		(at 215.9 110.49 90)
+		(at 215.9 110.49 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -36861,7 +36862,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "68034764-e233-4fd5-92dc-73d522bd9ec9")
 		(property "Reference" "Q3"
 			(at 215.9 101.6 90)
@@ -36884,7 +36884,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
-			(at 213.36 105.41 0)
+			(at 218.44 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -40561,7 +40561,7 @@
 			)
 		)
 		(property "Value" "VSS"
-			(at 191.77 66.548 0)
+			(at 192.278 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

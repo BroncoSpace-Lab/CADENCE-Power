@@ -15,8 +15,8 @@
       "pads": 1.0,
       "shapes": 1.0,
       "tracks": 1.0,
-      "vias": 1.0,
-      "zones": 0.6
+      "vias": 0.8999999761581421,
+      "zones": 0.0
     },
     "prototype_zone_fills": false,
     "selection_filter": {
@@ -97,12 +97,12 @@
     "col_widths": [
       99,
       91,
-      75,
-      61,
-      65,
-      77,
-      67,
-      65,
+      113,
+      92,
+      98,
+      115,
+      100,
+      98,
       60,
       60
     ],
