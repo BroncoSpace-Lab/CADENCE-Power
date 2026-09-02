@@ -3128,52 +3128,16 @@
 		(uuid "d8d1ab32-9124-4c33-864c-7d7a8d62d47a")
 	)
 	(junction
-		(at 34.29 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "01acacad-8b8d-4fac-a68d-98f2c4ab1e60")
-	)
-	(junction
-		(at 229.87 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "04fb2918-5cce-48d7-a1cb-621ec84c39a3")
-	)
-	(junction
-		(at 40.64 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "08008c1c-8434-4652-bd09-d691442c7ce3")
-	)
-	(junction
-		(at 229.87 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "081c0cab-6932-4677-b6ee-3d8100165832")
-	)
-	(junction
-		(at 200.66 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0826a7e3-906c-4810-94b7-7d5102519f5f")
-	)
-	(junction
 		(at 91.44 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0b8cf560-b244-44c0-8808-a795d2510a33")
 	)
 	(junction
-		(at 246.38 35.56)
+		(at 246.38 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0c532f4f-9174-42a3-a20f-ca8394822c1b")
-	)
-	(junction
-		(at 217.17 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0fceb478-6501-46e3-a594-c6cc4fe3e137")
+		(uuid "12a7b405-7afd-4084-94b1-4ba56e5929f5")
 	)
 	(junction
 		(at 129.54 36.83)
@@ -3182,16 +3146,10 @@
 		(uuid "17e7a485-4f2c-4b7e-bc41-6985802d1c1b")
 	)
 	(junction
-		(at 40.64 58.42)
+		(at 217.17 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "181c4f8e-493a-4249-934a-315c06f83240")
-	)
-	(junction
-		(at 217.17 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "18c1b32b-6494-4f21-b01e-d0c2be593363")
+		(uuid "198f313f-5faa-47de-9952-3b6442c3c174")
 	)
 	(junction
 		(at 125.73 31.75)
@@ -3200,28 +3158,28 @@
 		(uuid "1a53b593-d905-4fd1-ac73-fc1688695418")
 	)
 	(junction
-		(at 200.66 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1a6c5315-b8f4-49c6-8b15-8d58eb121f85")
-	)
-	(junction
 		(at 81.28 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1cceee18-5feb-49e4-9ff3-dd92b983b6dc")
 	)
 	(junction
-		(at 246.38 66.04)
+		(at 229.87 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "240233a3-b940-4735-bf91-082471fbd504")
+		(uuid "1f55013d-3f66-494b-a7a8-7b05d7d1e44e")
 	)
 	(junction
-		(at 200.66 96.52)
+		(at 229.87 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "37caa0c6-3ec8-4b64-ba60-367dbd22f21a")
+		(uuid "2cff154e-4798-4f55-b902-844e4eca4d65")
+	)
+	(junction
+		(at 217.17 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a15acc7-9950-42f6-b787-5553b13c13c8")
 	)
 	(junction
 		(at 78.74 25.4)
@@ -3242,46 +3200,22 @@
 		(uuid "4c8da965-6524-4498-ab37-56e7c448af7a")
 	)
 	(junction
-		(at 229.87 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4fdddac6-6c62-43be-91a2-3379afb1f864")
-	)
-	(junction
-		(at 246.38 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "589fb5be-0643-4de3-98af-3fb234dc9944")
-	)
-	(junction
-		(at 229.87 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5b8267d4-17c0-41ae-91e0-4ccf974d5e67")
-	)
-	(junction
 		(at 147.32 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5c71ba38-feba-4bab-bec2-5bd22efa0d6a")
 	)
 	(junction
-		(at 217.17 45.72)
+		(at 217.17 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "629f00e1-5126-4931-a6dd-90448706a57b")
+		(uuid "5c9f1f5c-930d-460c-ba71-e868c7503a6e")
 	)
 	(junction
-		(at 217.17 96.52)
+		(at 246.38 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6af697c4-130e-4922-9d54-c7bb8c7350ab")
-	)
-	(junction
-		(at 229.87 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6e31656b-1e70-4694-9e90-d39949df4bec")
+		(uuid "6e6b156e-c22a-477c-a611-20f684708331")
 	)
 	(junction
 		(at 64.77 25.4)
@@ -3296,10 +3230,28 @@
 		(uuid "7147d11b-dfe6-4889-b96a-660bf8531cd2")
 	)
 	(junction
+		(at 40.64 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7179e043-41fa-4d57-9d89-d55e6468231d")
+	)
+	(junction
+		(at 200.66 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71e033c3-e06d-4c12-be16-7f2e18e7ab49")
+	)
+	(junction
 		(at 78.74 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "735551b8-ceab-45af-9b1f-c70ca5b7e560")
+	)
+	(junction
+		(at 229.87 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "797ae8ba-104e-41e7-bb0d-8e3dbce84214")
 	)
 	(junction
 		(at 36.83 55.88)
@@ -3308,52 +3260,10 @@
 		(uuid "7f4a55a5-243b-4033-8d4c-a3fe702de137")
 	)
 	(junction
-		(at 217.17 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "801303d7-ee1d-4b92-8604-093f792ea90e")
-	)
-	(junction
-		(at 200.66 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "90fbac52-e30b-4895-bc75-8f0a13aefe9d")
-	)
-	(junction
-		(at 200.66 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "91849faa-58b4-4b35-932f-c27830568e9d")
-	)
-	(junction
-		(at 200.66 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "937c826e-4e56-41da-b42c-9e543df282d1")
-	)
-	(junction
-		(at 217.17 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9a25eebc-044d-49f2-a1a1-ee2bc41cf6ab")
-	)
-	(junction
-		(at 246.38 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a2379217-facb-41ab-a2b9-3e8dec089ed8")
-	)
-	(junction
 		(at 229.87 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a302f835-59ee-433d-b9d1-6ccbf3f1ea13")
-	)
-	(junction
-		(at 217.17 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a8cc6334-25c6-4295-80ba-92c31022e778")
 	)
 	(junction
 		(at 229.87 106.68)
@@ -3362,52 +3272,28 @@
 		(uuid "baa942a3-8c82-4143-9100-7c310ddcb71a")
 	)
 	(junction
-		(at 200.66 66.04)
+		(at 34.29 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bb5f0a72-d37a-4846-9fa3-a6bfb1e8cae4")
+		(uuid "e0edb25e-4bb9-4b39-97fa-52d8c62b87ff")
 	)
 	(junction
-		(at 229.87 86.36)
+		(at 217.17 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c6650a08-f6b3-4d65-a819-31ae0b1362a5")
+		(uuid "e6d46c8d-ecb7-4d1a-bb3c-4c65fa27e475")
 	)
 	(junction
-		(at 217.17 35.56)
+		(at 200.66 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c69b9a6f-416b-43c3-ae46-871345a16e8c")
+		(uuid "ee1c293c-cfe1-45c1-b19c-b606a349904f")
 	)
 	(junction
-		(at 246.38 55.88)
+		(at 246.38 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d5333050-74b6-4af5-97a7-4ddfa3f2d59c")
-	)
-	(junction
-		(at 246.38 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e1e899aa-2ddb-459f-ad80-f5632a18b9ad")
-	)
-	(junction
-		(at 246.38 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ebac5dce-3c6b-422b-a56f-8f1f0cc16bd0")
-	)
-	(junction
-		(at 19.05 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ef139b26-8d8b-41e6-96b6-82d27c14b37c")
-	)
-	(junction
-		(at 217.17 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ef162263-86d3-4b80-a2ea-adc5a656662d")
+		(uuid "eec9db27-efba-4329-9bd7-03804f336603")
 	)
 	(junction
 		(at 82.55 92.71)
@@ -3416,10 +3302,16 @@
 		(uuid "f043e9ff-837a-447e-a0fd-7c48dd2be485")
 	)
 	(junction
-		(at 229.87 55.88)
+		(at 200.66 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f69af342-0ae4-4870-bec3-46568bfe6e63")
+		(uuid "f7848837-2eb9-4f6b-ae35-bba6c01b55d8")
+	)
+	(junction
+		(at 217.17 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa039917-732a-4dbb-b577-7ff10aba55ba")
 	)
 	(junction
 		(at 147.32 81.28)
@@ -3454,26 +3346,6 @@
 	(no_connect
 		(at 57.15 38.1)
 		(uuid "ba01ea21-9406-44c8-8f78-581ef0c1cbb7")
-	)
-	(wire
-		(pts
-			(xy 246.38 96.52) (xy 246.38 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01c619be-70f3-4ffa-84c5-378169b52632")
-	)
-	(wire
-		(pts
-			(xy 229.87 45.72) (xy 229.87 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02288de8-df9b-4048-831a-a281863d4b32")
 	)
 	(wire
 		(pts
@@ -3537,7 +3409,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 66.04) (xy 229.87 68.58)
+			(xy 229.87 66.04) (xy 229.87 67.31)
 		)
 		(stroke
 			(width 0)
@@ -3547,23 +3419,13 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 86.36) (xy 246.38 85.09)
+			(xy 217.17 87.63) (xy 217.17 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1276fd96-df51-48f6-a2f6-698358a70c37")
-	)
-	(wire
-		(pts
-			(xy 217.17 86.36) (xy 217.17 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13987156-a560-457c-86f0-4c0fd5024fd3")
+		(uuid "1275ef13-9380-4813-a29b-765c9ec59f81")
 	)
 	(wire
 		(pts
@@ -3587,16 +3449,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 66.04) (xy 217.17 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18f8a8ab-044e-41de-a36d-100af9deed0d")
-	)
-	(wire
-		(pts
 			(xy 200.66 25.4) (xy 200.66 27.94)
 		)
 		(stroke
@@ -3604,16 +3456,6 @@
 			(type default)
 		)
 		(uuid "19829919-e2d7-4bcf-a682-006be8452e89")
-	)
-	(wire
-		(pts
-			(xy 200.66 35.56) (xy 217.17 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a5f83e2-9c49-4768-87d0-ff5b43bba4b8")
 	)
 	(wire
 		(pts
@@ -3637,6 +3479,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 46.99) (xy 217.17 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ddc44dc-9831-4b5d-85b2-46a16e1a8676")
+	)
+	(wire
+		(pts
 			(xy 26.67 119.38) (xy 34.29 119.38)
 		)
 		(stroke
@@ -3657,43 +3509,23 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 96.52) (xy 217.17 96.52)
+			(xy 217.17 67.31) (xy 217.17 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "22f702d5-035f-4da8-ba36-dcaceb1e8321")
+		(uuid "21f1f3b5-c216-48c3-9f1b-7ba7c9f32d0c")
 	)
 	(wire
 		(pts
-			(xy 200.66 106.68) (xy 217.17 106.68)
+			(xy 200.66 46.99) (xy 200.66 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2394403a-682e-4343-9e46-38776d87785d")
-	)
-	(wire
-		(pts
-			(xy 246.38 25.4) (xy 246.38 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "248a4044-6042-4ac1-928b-e8876f13a53b")
-	)
-	(wire
-		(pts
-			(xy 34.29 119.38) (xy 34.29 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2507ecde-aaef-457c-8418-2b62810ba861")
+		(uuid "2343bc6d-72da-44eb-b3de-936a4cbca787")
 	)
 	(wire
 		(pts
@@ -3737,23 +3569,13 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 66.04) (xy 217.17 66.04)
+			(xy 229.87 46.99) (xy 246.38 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2c45cb9a-ccf5-402d-8e14-1babdc32faeb")
-	)
-	(wire
-		(pts
-			(xy 40.64 38.1) (xy 40.64 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c542202-4810-4099-977a-66ff665106a3")
+		(uuid "2c299009-f2c6-4abe-a33a-07dd0c460b4e")
 	)
 	(wire
 		(pts
@@ -3767,26 +3589,6 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 76.2) (xy 246.38 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f02bb32-70b5-42c5-8969-be2cf0acddf9")
-	)
-	(wire
-		(pts
-			(xy 200.66 76.2) (xy 217.17 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "308f8685-3b76-4513-8345-34f5593fb657")
-	)
-	(wire
-		(pts
 			(xy 125.73 31.75) (xy 125.73 41.91)
 		)
 		(stroke
@@ -3794,6 +3596,16 @@
 			(type default)
 		)
 		(uuid "30988248-8652-4b82-88e0-0333386ec594")
+	)
+	(wire
+		(pts
+			(xy 200.66 67.31) (xy 217.17 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35b75ac7-4ed1-4df7-a6e4-146d644b6fb6")
 	)
 	(wire
 		(pts
@@ -3827,16 +3639,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 76.2) (xy 217.17 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a411e52-9b51-4950-87e4-53eb652b09b4")
-	)
-	(wire
-		(pts
 			(xy 143.51 88.9) (xy 147.32 88.9)
 		)
 		(stroke
@@ -3857,7 +3659,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 25.4) (xy 229.87 25.4)
+			(xy 200.66 25.4) (xy 217.17 25.4)
 		)
 		(stroke
 			(width 0)
@@ -3937,23 +3739,13 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 55.88) (xy 246.38 57.15)
+			(xy 229.87 67.31) (xy 246.38 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "468890b9-8800-48bd-b12c-aba45eea768e")
-	)
-	(wire
-		(pts
-			(xy 246.38 66.04) (xy 246.38 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47dfdae2-cde6-4d4b-8033-149ff9843f8e")
+		(uuid "49596ba7-0692-4e02-afb3-89cdf0ae2b05")
 	)
 	(wire
 		(pts
@@ -3967,36 +3759,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 36.83) (xy 217.17 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4bbad109-6366-4401-b198-3c87e35dae06")
-	)
-	(wire
-		(pts
-			(xy 200.66 86.36) (xy 217.17 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c5a323a-00fd-4501-b8dd-bc8e90bb1c3c")
-	)
-	(wire
-		(pts
-			(xy 229.87 76.2) (xy 246.38 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4dc72fbc-4967-439a-976a-4596c06a6c1f")
-	)
-	(wire
-		(pts
 			(xy 59.69 25.4) (xy 64.77 25.4)
 		)
 		(stroke
@@ -4007,13 +3769,33 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 45.72) (xy 217.17 46.99)
+			(xy 246.38 25.4) (xy 246.38 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "573a4e0c-2821-4722-a01e-d71bb91ac74f")
+		(uuid "5459ff70-8a01-49f1-a704-1a0acb32b6f0")
+	)
+	(wire
+		(pts
+			(xy 200.66 67.31) (xy 200.66 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56e73a94-9a28-41bc-a59b-fccae953f337")
+	)
+	(wire
+		(pts
+			(xy 217.17 25.4) (xy 229.87 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b09aa08-87f3-4dd2-84c4-a2db880dc789")
 	)
 	(wire
 		(pts
@@ -4027,33 +3809,13 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 86.36) (xy 246.38 86.36)
+			(xy 217.17 106.68) (xy 217.17 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5d151c96-2651-4d8f-b61b-e2eebd52dd8e")
-	)
-	(wire
-		(pts
-			(xy 40.64 49.53) (xy 40.64 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d5ce5cb-dff2-4015-951d-1bd104be1d77")
-	)
-	(wire
-		(pts
-			(xy 217.17 55.88) (xy 217.17 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e1f8339-2f04-481a-b076-3988f9dc7411")
+		(uuid "5c82098e-8df1-41c8-85ed-edb81560617c")
 	)
 	(wire
 		(pts
@@ -4087,13 +3849,13 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 86.36) (xy 217.17 87.63)
+			(xy 217.17 87.63) (xy 217.17 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "63feb967-1e84-467a-a5cf-487b1081f544")
+		(uuid "64141bbd-779b-4423-8f73-1f9105d527da")
 	)
 	(wire
 		(pts
@@ -4104,16 +3866,6 @@
 			(type default)
 		)
 		(uuid "67531c5d-6c35-4965-9677-56e709ee2289")
-	)
-	(wire
-		(pts
-			(xy 19.05 119.38) (xy 19.05 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "692fc038-36f3-4bc9-9a69-834316a95bb5")
 	)
 	(wire
 		(pts
@@ -4137,33 +3889,13 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 35.56) (xy 246.38 35.56)
+			(xy 217.17 106.68) (xy 229.87 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6d561cfc-ea5c-469a-afae-4246b0105020")
-	)
-	(wire
-		(pts
-			(xy 229.87 55.88) (xy 246.38 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d9483ff-b930-486c-acf6-205e76e07c0c")
-	)
-	(wire
-		(pts
-			(xy 217.17 25.4) (xy 217.17 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f0c5df2-82d3-4066-b0b4-841243de159c")
+		(uuid "70c2c538-3440-4ea3-b09d-fa749b95469c")
 	)
 	(wire
 		(pts
@@ -4237,17 +3969,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 96.52) (xy 217.17 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7de1e7d1-450c-4c92-8e04-19877c00a2dc")
-	)
-	(wire
-		(pts
-			(xy 200.66 66.04) (xy 200.66 68.58)
+			(xy 200.66 66.04) (xy 200.66 67.31)
 		)
 		(stroke
 			(width 0)
@@ -4297,6 +4019,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 67.31) (xy 246.38 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8290ea43-14a5-43d2-837d-c647aef762e9")
+	)
+	(wire
+		(pts
 			(xy 143.51 88.9) (xy 143.51 91.44)
 		)
 		(stroke
@@ -4317,16 +4049,6 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 76.2) (xy 246.38 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c437a1c-f322-40a7-8b60-dd83276e0776")
-	)
-	(wire
-		(pts
 			(xy 66.04 113.03) (xy 66.04 107.95)
 		)
 		(stroke
@@ -4334,26 +4056,6 @@
 			(type default)
 		)
 		(uuid "8ce68116-e500-4747-abcb-844ce3c74ba9")
-	)
-	(wire
-		(pts
-			(xy 246.38 66.04) (xy 246.38 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e7252e8-f4de-4409-b8d1-a288bd0cfa32")
-	)
-	(wire
-		(pts
-			(xy 246.38 44.45) (xy 246.38 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f99cf95-04a6-4d6b-bc6f-9d8621665d1e")
 	)
 	(wire
 		(pts
@@ -4367,16 +4069,6 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 96.52) (xy 246.38 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "911e0423-dff8-4028-bbc5-b3b30b9fee8f")
-	)
-	(wire
-		(pts
 			(xy 132.08 34.29) (xy 129.54 34.29)
 		)
 		(stroke
@@ -4387,33 +4079,13 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 86.36) (xy 246.38 87.63)
+			(xy 246.38 87.63) (xy 246.38 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9377deb5-28c0-46f0-9aff-c83fcd8c8882")
-	)
-	(wire
-		(pts
-			(xy 229.87 96.52) (xy 246.38 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9396d263-f79d-4733-8610-95491444db61")
-	)
-	(wire
-		(pts
-			(xy 246.38 35.56) (xy 246.38 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99d345b8-e4c3-4776-8260-e9de1848ad01")
+		(uuid "97f5b138-ef77-4885-8ee5-2274dbe5ebfd")
 	)
 	(wire
 		(pts
@@ -4427,23 +4099,23 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 55.88) (xy 217.17 55.88)
+			(xy 217.17 40.64) (xy 217.17 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9b34c40f-8153-47c9-92c6-24a431428448")
+		(uuid "9d03c200-8080-42f4-aaf4-1244a06e9bf4")
 	)
 	(wire
 		(pts
-			(xy 246.38 35.56) (xy 246.38 36.83)
+			(xy 246.38 46.99) (xy 246.38 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9d334303-52ad-41f0-8d21-e3e78572365d")
+		(uuid "9d1c6dff-1c93-446e-b7a4-5161646e3a1a")
 	)
 	(wire
 		(pts
@@ -4454,6 +4126,16 @@
 			(type default)
 		)
 		(uuid "9e1ce88d-9c59-4266-9b6f-901272a62a7a")
+	)
+	(wire
+		(pts
+			(xy 200.66 87.63) (xy 217.17 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fbc8de0-19f1-4f3e-bbc3-581355d1bae5")
 	)
 	(wire
 		(pts
@@ -4497,6 +4179,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 67.31) (xy 217.17 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6655e88-296d-4c94-85c9-067f52aee288")
+	)
+	(wire
+		(pts
 			(xy 91.44 92.71) (xy 91.44 110.49)
 		)
 		(stroke
@@ -4517,33 +4209,33 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 96.52) (xy 217.17 97.79)
+			(xy 217.17 25.4) (xy 217.17 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a9ebf3dc-2268-45c2-8571-f29537d3d63e")
+		(uuid "ab0ad1b4-a59e-4571-a9c2-9d4c93422ab9")
 	)
 	(wire
 		(pts
-			(xy 217.17 44.45) (xy 217.17 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab0f1d97-9ed1-4d48-942d-9b1a8c0da44b")
-	)
-	(wire
-		(pts
-			(xy 200.66 45.72) (xy 200.66 48.26)
+			(xy 200.66 45.72) (xy 200.66 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ab72cfe0-b33e-405e-980d-51650848225a")
+	)
+	(wire
+		(pts
+			(xy 34.29 119.38) (xy 39.37 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac0ce40f-ae8a-43fa-b3ac-91d6ad7623fd")
 	)
 	(wire
 		(pts
@@ -4554,16 +4246,6 @@
 			(type default)
 		)
 		(uuid "ad379461-b595-4012-a563-a27b2426ecf6")
-	)
-	(wire
-		(pts
-			(xy 25.4 58.42) (xy 25.4 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae2df472-ffaa-42a3-a1bd-47256038dda8")
 	)
 	(wire
 		(pts
@@ -4597,33 +4279,13 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 55.88) (xy 246.38 54.61)
+			(xy 40.64 50.8) (xy 40.64 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b42e90f1-32da-4913-b62d-dfc0abde5434")
-	)
-	(wire
-		(pts
-			(xy 229.87 66.04) (xy 246.38 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b46deb74-5c76-4cfc-a3d1-91a0bf95a74d")
-	)
-	(wire
-		(pts
-			(xy 229.87 45.72) (xy 246.38 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6cd02f8-66fe-42fa-ab8e-d7ccc6f4e388")
+		(uuid "b5858ec6-1715-417c-9200-b12434681583")
 	)
 	(wire
 		(pts
@@ -4637,26 +4299,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 45.72) (xy 217.17 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbfaf9dc-8ef0-417d-a10f-bad668ab59c7")
-	)
-	(wire
-		(pts
-			(xy 217.17 106.68) (xy 217.17 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf148017-0502-4870-9fcb-86acf6afffde")
-	)
-	(wire
-		(pts
 			(xy 147.32 91.44) (xy 147.32 88.9)
 		)
 		(stroke
@@ -4664,16 +4306,6 @@
 			(type default)
 		)
 		(uuid "c0308d20-f600-462f-bfa6-806d14281015")
-	)
-	(wire
-		(pts
-			(xy 40.64 40.64) (xy 40.64 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0ce2912-a722-41fc-97b0-7fe1ce273926")
 	)
 	(wire
 		(pts
@@ -4687,23 +4319,43 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 45.72) (xy 246.38 46.99)
+			(xy 19.05 50.8) (xy 24.13 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c51c802f-0d6d-466d-b79c-72703af4cb30")
+		(uuid "c5288d2f-4081-4b9e-960d-03c7198b742a")
 	)
 	(wire
 		(pts
-			(xy 217.17 76.2) (xy 217.17 74.93)
+			(xy 246.38 87.63) (xy 246.38 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cf63f992-5c54-43a0-9d08-0f3ca0305740")
+		(uuid "c9c02abc-0ad4-453c-aa04-a64c02b8be7b")
+	)
+	(wire
+		(pts
+			(xy 229.87 46.99) (xy 229.87 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf42e4f7-1e32-4cea-8420-a2d9f3f18301")
+	)
+	(wire
+		(pts
+			(xy 200.66 46.99) (xy 217.17 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cffab4db-1c73-4f86-ad96-9471b4024f09")
 	)
 	(wire
 		(pts
@@ -4727,7 +4379,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 86.36) (xy 200.66 88.9)
+			(xy 200.66 86.36) (xy 200.66 87.63)
 		)
 		(stroke
 			(width 0)
@@ -4757,26 +4409,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 25.4) (xy 217.17 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d60439d0-249c-4613-a985-4e0ef057e764")
-	)
-	(wire
-		(pts
-			(xy 25.4 40.64) (xy 40.64 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d675927f-b62d-4bcc-bfc5-984fc77569a4")
-	)
-	(wire
-		(pts
 			(xy 144.78 86.36) (xy 149.86 86.36)
 		)
 		(stroke
@@ -4787,13 +4419,33 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 86.36) (xy 229.87 88.9)
+			(xy 200.66 87.63) (xy 200.66 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da243bc8-efa6-4ce0-843e-8945f7607d62")
+	)
+	(wire
+		(pts
+			(xy 229.87 86.36) (xy 229.87 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "dac16d76-332f-4ffc-b74b-988b4d5a2d45")
+	)
+	(wire
+		(pts
+			(xy 246.38 67.31) (xy 246.38 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db9ab95f-ee9f-44b0-aeac-e9393eccc3c2")
 	)
 	(wire
 		(pts
@@ -4804,6 +4456,16 @@
 			(type default)
 		)
 		(uuid "dce4a019-6323-4fe4-90ca-33c65a51d07a")
+	)
+	(wire
+		(pts
+			(xy 229.87 45.72) (xy 229.87 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df8f2816-a218-4068-a24e-a5b5f34808dc")
 	)
 	(wire
 		(pts
@@ -4837,13 +4499,23 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 58.42) (xy 40.64 58.42)
+			(xy 229.87 87.63) (xy 246.38 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e50bee5e-1d6b-4039-bd6a-c3909cc8e4a7")
+		(uuid "e3417fe5-a21a-4def-b702-2c52d08e89af")
+	)
+	(wire
+		(pts
+			(xy 229.87 67.31) (xy 229.87 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e935e429-b88d-4da8-bb76-06da6d54789d")
 	)
 	(wire
 		(pts
@@ -4887,7 +4559,17 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 40.64) (xy 25.4 41.91)
+			(xy 229.87 87.63) (xy 229.87 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f34179a6-c81e-4870-8478-d6b434885abb")
+	)
+	(wire
+		(pts
+			(xy 40.64 50.8) (xy 39.37 50.8)
 		)
 		(stroke
 			(width 0)
@@ -4897,17 +4579,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 66.04) (xy 217.17 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa1b0636-57f5-411d-9c53-35ed0409377d")
-	)
-	(wire
-		(pts
-			(xy 246.38 106.68) (xy 246.38 105.41)
+			(xy 246.38 106.68) (xy 246.38 101.6)
 		)
 		(stroke
 			(width 0)
@@ -4917,23 +4589,33 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 55.88) (xy 217.17 54.61)
+			(xy 246.38 40.64) (xy 246.38 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fcefa200-ee2c-43d5-899c-163a6b29d60b")
+		(uuid "fb4f7299-9b9f-4d71-8811-f53636e59192")
 	)
 	(wire
 		(pts
-			(xy 217.17 106.68) (xy 229.87 106.68)
+			(xy 200.66 106.68) (xy 217.17 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ff8d99fa-1b4d-4d93-8771-1b434c18f5de")
+	)
+	(wire
+		(pts
+			(xy 40.64 50.8) (xy 40.64 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffe2b290-459d-40c3-b752-fe053ea46383")
 	)
 	(global_label "HS_I2C1_LDA"
 		(shape input)
@@ -5522,111 +5204,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 246.38 71.12 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "16b7548d-7198-4f2a-967e-3d11fa9af37e")
-		(property "Reference" "D7"
-			(at 248.92 69.8499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D"
-			(at 248.92 72.3899 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_01005_0402Metric"
-			(at 246.38 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 246.38 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode"
-			(at 246.38 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 246.38 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 246.38 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ad256d27-8ce4-49fa-9595-d76e5e650289")
-		)
-		(pin "1"
-			(uuid "249fa20a-205c-4a49-9739-efe76cbe4b67")
-		)
-		(instances
-			(project "Solar Board"
-				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
-					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 129.54 77.47 90)
 		(unit 1)
@@ -5995,6 +5572,190 @@
 		)
 	)
 	(symbol
+		(lib_name "GND_2")
+		(lib_id "power:GND")
+		(at 19.05 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2fc0ee3e-9c69-4ae5-b93b-2ec702180a51")
+		(property "Reference" "#PWR04"
+			(at 19.05 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 17.272 54.356 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 19.05 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 19.05 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 19.05 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9b8879e6-e473-465c-8ae0-010f51dba32a")
+		)
+		(instances
+			(project "Solar Board"
+				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 217.17 97.79 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "305eb527-98ce-4fb3-a852-6f2f7ec6f3c9")
+		(property "Reference" "D8"
+			(at 219.71 96.5199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 219.71 99.0599 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SK44BL-TP:DIOM4336X265N"
+			(at 217.17 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 217.17 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 217.17 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 217.17 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8ee0e167-7120-4448-81be-ef8f36827ea4")
+		)
+		(pin "1"
+			(uuid "9880b14d-d35f-4c08-88cf-d69200eb3060")
+		)
+		(instances
+			(project "Solar Board"
+				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 129.54 91.44 90)
 		(unit 1)
@@ -6152,6 +5913,111 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D")
+		(at 246.38 36.83 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "36e01447-a587-4a0f-b1bb-5af57fa63f8b")
+		(property "Reference" "D4"
+			(at 248.92 36.8299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 248.92 38.0999 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SK44BL-TP:DIOM4336X265N"
+			(at 246.38 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 246.38 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 246.38 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 246.38 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e864db67-f03d-40fa-a0bf-2c76e92b0f0c")
+		)
+		(pin "1"
+			(uuid "47f3803b-418a-4f76-b155-ece9ae3ed3cc")
+		)
+		(instances
+			(project "Solar Board"
+				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 69.85 100.33 0)
 		(unit 1)
@@ -6230,7 +6096,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 25.4 45.72 180)
+		(at 35.56 50.8 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6240,7 +6106,7 @@
 		(dnp no)
 		(uuid "37982336-d988-4865-ba31-cadb7df9ab28")
 		(property "Reference" "R3"
-			(at 20.32 45.72 90)
+			(at 35.56 45.72 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6250,7 +6116,7 @@
 			)
 		)
 		(property "Value" "500"
-			(at 22.86 45.72 90)
+			(at 35.56 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6260,7 +6126,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
-			(at 24.384 45.466 90)
+			(at 35.814 49.784 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6271,7 +6137,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 25.4 45.72 0)
+			(at 35.56 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6282,7 +6148,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 25.4 45.72 0)
+			(at 35.56 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6458,6 +6324,111 @@
 			(project "Solar Board"
 				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 246.38 57.15 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4529d51c-e297-46fa-b376-ca349c3435e4")
+		(property "Reference" "D3"
+			(at 248.92 57.1499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 248.92 58.4199 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SK44BL-TP:DIOM4336X265N"
+			(at 246.38 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 246.38 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 246.38 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 246.38 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a68fa67d-898d-4d51-b705-4d9a5b044b3c")
+		)
+		(pin "1"
+			(uuid "86c5a0fe-955e-4c55-9e91-eeaa3c11d112")
+		)
+		(instances
+			(project "Solar Board"
+				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -6793,7 +6764,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 217.17 91.44 270)
+		(at 217.17 77.47 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6802,9 +6773,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "587b41ce-6af2-4a35-8d60-66abc3f6cbe8")
-		(property "Reference" "D3"
-			(at 219.71 90.1699 90)
+		(uuid "57e75506-4182-425c-8ddc-27d61a3bac8a")
+		(property "Reference" "D7"
+			(at 219.71 76.1999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6815,7 +6786,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 219.71 92.7099 90)
+			(at 219.71 78.7399 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6826,8 +6797,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_01005_0402Metric"
-			(at 217.17 91.44 0)
+		(property "Footprint" "SK44BL-TP:DIOM4336X265N"
+			(at 217.17 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6838,7 +6809,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 91.44 0)
+			(at 217.17 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6849,7 +6820,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 217.17 91.44 0)
+			(at 217.17 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6860,7 +6831,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 217.17 91.44 0)
+			(at 217.17 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6871,7 +6842,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 217.17 91.44 0)
+			(at 217.17 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6882,225 +6853,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "3b43dfc5-3911-4741-96a2-3d7f71f46771")
+			(uuid "ffcc2d04-6628-45fb-ba0c-7952a22fa606")
 		)
 		(pin "1"
-			(uuid "3e62f03a-1758-44b1-949f-b874aa3d6b5b")
+			(uuid "a1382457-0dd1-4328-af75-bd44c6b700be")
 		)
 		(instances
 			(project "Solar Board"
 				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 217.17 31.75 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "59a09edb-37cd-4b72-8a0d-776ed91651ce")
-		(property "Reference" "D13"
-			(at 219.71 30.4799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D"
-			(at 219.71 33.0199 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_01005_0402Metric"
-			(at 217.17 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 217.17 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode"
-			(at 217.17 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 217.17 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 217.17 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e2165a73-e703-4332-8933-f10164b63e86")
-		)
-		(pin "1"
-			(uuid "bc2945b4-ed0c-4a7c-8f77-404765bedc29")
-		)
-		(instances
-			(project "Solar Board"
-				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
-					(reference "D13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 246.38 91.44 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "59f73dd7-d015-4817-8800-5bd76e0dc92f")
-		(property "Reference" "D4"
-			(at 248.92 90.1699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D"
-			(at 248.92 92.7099 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_01005_0402Metric"
-			(at 246.38 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 246.38 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode"
-			(at 246.38 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 246.38 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 246.38 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "d2121c05-dbb6-400c-8e0c-0c3a2ab4841e")
-		)
-		(pin "1"
-			(uuid "1689d778-2a02-48f0-aeb0-1934060d5cc2")
-		)
-		(instances
-			(project "Solar Board"
-				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
-					(reference "D4")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -7108,7 +6869,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 22.86 128.27 270)
+		(at 43.18 119.38 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7118,7 +6879,7 @@
 		(dnp no)
 		(uuid "5c2e60fc-df96-4ff8-94e0-14f3bd3aa8f4")
 		(property "Reference" "R6"
-			(at 22.86 125.73 90)
+			(at 43.18 116.84 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7128,7 +6889,7 @@
 			)
 		)
 		(property "Value" "500"
-			(at 22.86 123.19 90)
+			(at 43.18 114.3 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7138,7 +6899,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
-			(at 22.606 129.286 90)
+			(at 42.926 120.396 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7149,7 +6910,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 128.27 0)
+			(at 43.18 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7160,7 +6921,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 22.86 128.27 0)
+			(at 43.18 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7743,7 +7504,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 246.38 101.6 270)
+		(at 246.38 97.79 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7754,7 +7515,7 @@
 		(fields_autoplaced yes)
 		(uuid "77fbb645-8f8d-4339-b80d-4f0aa643e2af")
 		(property "Reference" "D1"
-			(at 248.92 100.3299 90)
+			(at 248.92 96.5199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7765,7 +7526,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 248.92 102.8699 90)
+			(at 248.92 99.0599 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7776,8 +7537,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_01005_0402Metric"
-			(at 246.38 101.6 0)
+		(property "Footprint" "SK44BL-TP:DIOM4336X265N"
+			(at 246.38 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7788,7 +7549,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 246.38 101.6 0)
+			(at 246.38 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7799,7 +7560,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 246.38 101.6 0)
+			(at 246.38 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7810,7 +7571,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 246.38 101.6 0)
+			(at 246.38 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7821,7 +7582,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 246.38 101.6 0)
+			(at 246.38 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7929,6 +7690,111 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D")
+		(at 217.17 57.15 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b42452c-4244-400d-8f83-804561696a71")
+		(property "Reference" "D6"
+			(at 219.71 57.1499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 219.71 58.4199 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SK44BL-TP:DIOM4336X265N"
+			(at 217.17 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 217.17 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 217.17 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 217.17 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e7ae0a51-5580-4e18-bc8d-8ffa5c8d0e94")
+		)
+		(pin "1"
+			(uuid "7683b5fa-a08b-49b8-9da2-571f9d552338")
+		)
+		(instances
+			(project "Solar Board"
+				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 113.03 43.18 0)
 		(unit 1)
@@ -8007,7 +7873,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 30.48 128.27 180)
+		(at 50.8 119.38 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8017,7 +7883,7 @@
 		(dnp no)
 		(uuid "7f1e3fbd-ba0e-47e0-91e9-d40f06e0fc7a")
 		(property "Reference" "D20"
-			(at 29.972 121.412 0)
+			(at 49.276 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8028,7 +7894,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 29.972 123.952 0)
+			(at 49.276 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8039,7 +7905,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 128.27 0)
+			(at 50.8 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8050,7 +7916,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 128.27 0)
+			(at 50.8 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8061,7 +7927,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 30.48 128.27 0)
+			(at 50.8 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8072,7 +7938,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 30.48 128.27 0)
+			(at 50.8 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8252,111 +8118,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 246.38 60.96 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "81d1071c-dbee-4615-95f3-9de19b1831e4")
-		(property "Reference" "D12"
-			(at 248.92 59.6899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D"
-			(at 248.92 62.2299 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_01005_0402Metric"
-			(at 246.38 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 246.38 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode"
-			(at 246.38 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 246.38 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 246.38 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f8daf41d-dbe6-4e90-9879-621d17d1cf72")
-		)
-		(pin "1"
-			(uuid "ff58e6e8-2568-4893-900f-4a457cbb1d05")
-		)
-		(instances
-			(project "Solar Board"
-				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
-					(reference "D12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Solar_Cell")
 		(at 229.87 33.02 0)
 		(unit 1)
@@ -8510,6 +8271,111 @@
 			(project "Solar Board"
 				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
 					(reference "#PWR0113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 246.38 77.47 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90366a5a-0047-4694-974b-b2495d05bd5c")
+		(property "Reference" "D2"
+			(at 248.92 76.1999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 248.92 78.7399 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SK44BL-TP:DIOM4336X265N"
+			(at 246.38 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 246.38 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 246.38 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 246.38 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f68646a8-589a-4604-8e4d-254947047cdd")
+		)
+		(pin "1"
+			(uuid "92cf673d-b516-4ff7-8aed-9d749b59a964")
+		)
+		(instances
+			(project "Solar Board"
+				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -8754,8 +8620,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 25.4 53.34 90)
+		(lib_id "power:GND")
+		(at 54.61 119.38 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8763,31 +8629,30 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "9aca9306-e929-41e5-89fe-0658ab935205")
-		(property "Reference" "D19"
-			(at 32.258 52.832 0)
+		(uuid "99022c01-561d-4216-bb69-a529104094cd")
+		(property "Reference" "#PWR0117"
+			(at 54.61 125.73 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "LED"
-			(at 29.718 52.832 0)
+		(property "Value" "GND"
+			(at 54.737 123.7742 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 25.4 53.34 0)
+			(at 54.61 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8798,7 +8663,85 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 25.4 53.34 0)
+			(at 54.61 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 54.61 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "32f5010c-e2ee-4e7c-8c44-4c178325e4d6")
+		)
+		(instances
+			(project "Solar Board"
+				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
+					(reference "#PWR0117")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 27.94 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9aca9306-e929-41e5-89fe-0658ab935205")
+		(property "Reference" "D19"
+			(at 28.448 57.658 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 28.448 55.118 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8809,7 +8752,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 25.4 53.34 0)
+			(at 27.94 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8820,7 +8763,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 25.4 53.34 0)
+			(at 27.94 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8840,111 +8783,6 @@
 			(project "Solar Board"
 				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
 					(reference "D19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 217.17 71.12 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9afb3c4b-8ed5-4efd-a862-de1571262267")
-		(property "Reference" "D5"
-			(at 219.71 69.8499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D"
-			(at 219.71 72.3899 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_01005_0402Metric"
-			(at 217.17 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 217.17 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode"
-			(at 217.17 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 217.17 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 217.17 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "91d30af5-c559-4b16-8458-d783d4f54f51")
-		)
-		(pin "1"
-			(uuid "bbe26494-dab2-4b78-ad8a-510cfccc76f0")
-		)
-		(instances
-			(project "Solar Board"
-				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
-					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -9185,6 +9023,111 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D")
+		(at 217.17 36.83 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f7a3491-2c22-4624-ac49-d1f63b7ac9c8")
+		(property "Reference" "D5"
+			(at 219.71 36.8299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 219.71 38.0999 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SK44BL-TP:DIOM4336X265N"
+			(at 217.17 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 217.17 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 217.17 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 217.17 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "07e01944-b216-4dc9-9b47-005663d84789")
+		)
+		(pin "1"
+			(uuid "bbed12e9-9f14-41f1-8def-cbb28c71926b")
+		)
+		(instances
+			(project "Solar Board"
+				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "solar-panel-side-Z-rescue:+3.3V-power")
 		(at 16.51 119.38 0)
 		(unit 1)
@@ -9256,216 +9199,6 @@
 			(project "Solar Board"
 				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
 					(reference "#PWR0115")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 217.17 101.6 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a2b6d1c2-a0a2-4e2d-ad7d-3d1d4427c57b")
-		(property "Reference" "D2"
-			(at 219.71 100.3299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D"
-			(at 219.71 102.8699 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_01005_0402Metric"
-			(at 217.17 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 217.17 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode"
-			(at 217.17 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 217.17 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 217.17 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "76afbab0-fcb5-4914-abf3-6c55dc8f6d5b")
-		)
-		(pin "1"
-			(uuid "228724c1-e7df-4582-aec4-4edcc0069a2b")
-		)
-		(instances
-			(project "Solar Board"
-				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 217.17 50.8 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a7d30393-1a86-4644-9e56-9e25da311424")
-		(property "Reference" "D9"
-			(at 219.71 49.5299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D"
-			(at 219.71 52.0699 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_01005_0402Metric"
-			(at 217.17 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 217.17 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode"
-			(at 217.17 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 217.17 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 217.17 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "08703201-46fa-4dba-9bb3-b3ce74df86fa")
-		)
-		(pin "1"
-			(uuid "3a89f3a6-7229-47c3-a262-c95b2a4693a7")
-		)
-		(instances
-			(project "Solar Board"
-				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
-					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -9631,216 +9364,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 217.17 60.96 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b1223f11-356b-4984-b46a-ddf5d5a562b3")
-		(property "Reference" "D10"
-			(at 219.71 59.6899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D"
-			(at 219.71 62.2299 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_01005_0402Metric"
-			(at 217.17 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 217.17 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode"
-			(at 217.17 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 217.17 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 217.17 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "263e455f-e637-45d4-87af-fd37c8046567")
-		)
-		(pin "1"
-			(uuid "ca3fd5db-2ec3-487d-9315-ffa3e1eafebf")
-		)
-		(instances
-			(project "Solar Board"
-				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
-					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 246.38 50.8 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b2fb8774-22f9-4814-a78a-41dce4322da2")
-		(property "Reference" "D11"
-			(at 248.92 49.5299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D"
-			(at 248.92 52.0699 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_01005_0402Metric"
-			(at 246.38 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 246.38 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode"
-			(at 246.38 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 246.38 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 246.38 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "d0cd7941-950c-422b-848d-f4f0b633969e")
-		)
-		(pin "1"
-			(uuid "47afe378-194b-4a0b-af37-288c98022806")
-		)
-		(instances
-			(project "Solar Board"
-				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
-					(reference "D11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "solar-panel-side-Z-rescue:+3.3V-power")
 		(at 172.72 34.29 0)
 		(unit 1)
@@ -9919,7 +9442,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 40.64 45.72 180)
+		(at 40.64 41.91 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9929,7 +9452,7 @@
 		(dnp no)
 		(uuid "bafd031a-a0c1-477d-95fa-c51a74502f30")
 		(property "Reference" "R2"
-			(at 35.56 45.72 90)
+			(at 35.56 41.91 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9939,7 +9462,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 38.1 45.72 90)
+			(at 38.1 41.91 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9949,7 +9472,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
-			(at 39.624 45.466 90)
+			(at 39.624 41.656 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9960,7 +9483,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 45.72 0)
+			(at 40.64 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9971,7 +9494,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 40.64 45.72 0)
+			(at 40.64 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10068,111 +9591,6 @@
 			(project "Solar Board"
 				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
 					(reference "#PWR0116")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 246.38 31.75 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c11df602-8726-4df3-8037-4f71ac2293f8")
-		(property "Reference" "D15"
-			(at 248.92 30.4799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D"
-			(at 248.92 33.0199 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_01005_0402Metric"
-			(at 246.38 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 246.38 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode"
-			(at 246.38 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 246.38 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 246.38 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b96f4dcc-27cc-4b86-9884-2a85d71bb46f")
-		)
-		(pin "1"
-			(uuid "a05fba3e-9afa-4997-9172-4588033fd729")
-		)
-		(instances
-			(project "Solar Board"
-				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
-					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -10498,111 +9916,6 @@
 			(project "Solar Board"
 				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
 					(reference "SC3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 246.38 40.64 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cf48f4ab-31f0-4cb2-911a-6b2426333996")
-		(property "Reference" "D16"
-			(at 248.92 39.3699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D"
-			(at 248.92 41.9099 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_01005_0402Metric"
-			(at 246.38 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 246.38 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode"
-			(at 246.38 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 246.38 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 246.38 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "70a09d3b-1254-4287-bef9-824955cd264d")
-		)
-		(pin "1"
-			(uuid "2056e728-6190-445c-9caa-1602020fd66b")
-		)
-		(instances
-			(project "Solar Board"
-				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
-					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -10981,7 +10294,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x08_P1.00mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_XH_B8B-XH-A_1x08_P2.50mm_Vertical"
 			(at 154.94 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -11042,321 +10355,6 @@
 			(project "Solar Board"
 				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 217.17 81.28 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e92f9f79-6118-468a-8a49-3808ae24c1e7")
-		(property "Reference" "D6"
-			(at 219.71 80.0099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D"
-			(at 219.71 82.5499 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_01005_0402Metric"
-			(at 217.17 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 217.17 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode"
-			(at 217.17 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 217.17 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 217.17 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "710b346f-92f0-44a5-80fb-50cd59cf9bf6")
-		)
-		(pin "1"
-			(uuid "c72642fd-e21b-4914-baa1-faa55fdb24cd")
-		)
-		(instances
-			(project "Solar Board"
-				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 246.38 81.28 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ee8576f3-c879-4d56-82bb-45e640c4139d")
-		(property "Reference" "D8"
-			(at 248.92 80.0099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D"
-			(at 248.92 82.5499 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_01005_0402Metric"
-			(at 246.38 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 246.38 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode"
-			(at 246.38 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 246.38 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 246.38 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2e88fb31-ee9d-4705-8933-5d87664076e1")
-		)
-		(pin "1"
-			(uuid "b87c769c-bbe1-4e56-8084-2c707827edf6")
-		)
-		(instances
-			(project "Solar Board"
-				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
-					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 217.17 40.64 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eefe9bf2-a2f1-4776-a428-2b10f1e5f7e6")
-		(property "Reference" "D14"
-			(at 219.71 39.3699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D"
-			(at 219.71 41.9099 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_01005_0402Metric"
-			(at 217.17 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 217.17 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode"
-			(at 217.17 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 217.17 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 217.17 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b5e9c886-0962-4844-9d0b-d08c4da148cc")
-		)
-		(pin "1"
-			(uuid "7b49acd0-3267-4511-858b-d8df131900ad")
-		)
-		(instances
-			(project "Solar Board"
-				(path "/d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
-					(reference "D14")
 					(unit 1)
 				)
 			)
