@@ -4081,6 +4081,16 @@
 		)
 		(uuid "a01b5de4-dee6-45ab-8e59-82c23ced39a9")
 	)
+	(text "These pins need to be activated in order for the IC to output correctly"
+		(exclude_from_sim no)
+		(at 200.152 32.004 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a60a24d5-e0a7-4f93-9e5f-27e4afc78a4f")
+	)
 	(text "Sat Current Rating: >= 1.175A\nCurrent RMS Rating: > Ichg(max): 1A\nVolt Second Rating: > 5.32V*us"
 		(exclude_from_sim no)
 		(at 129.54 185.42 0)

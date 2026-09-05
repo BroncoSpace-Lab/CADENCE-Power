@@ -3702,6 +3702,16 @@
 		)
 		(uuid "d64a41fb-8936-4d90-8f5f-b40f4c7fc9f1")
 	)
+	(text "Should be a 1k ohm reistor -->"
+		(exclude_from_sim no)
+		(at 85.09 193.548 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d6d21f5b-99cd-45f9-bc55-ccebde00df8d")
+	)
 	(text "USB-C Power Delivery"
 		(exclude_from_sim no)
 		(at 116.332 156.21 0)
@@ -17155,7 +17165,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "49.9K"
+		(property "Value" "1K"
 			(at 106.68 195.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
