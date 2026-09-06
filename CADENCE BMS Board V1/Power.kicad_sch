@@ -3798,6 +3798,16 @@
 		)
 		(uuid "0cb28af5-5a8d-4c65-8e65-f2decd608e0e")
 	)
+	(text "Possibly connect SHDN into the Vin line \nfor next revison if it works on testing"
+		(exclude_from_sim no)
+		(at 175.26 42.418 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "14b5170a-0ee4-4dd6-b73e-463377cf9f77")
+	)
 	(text "Idiode(max) > 0.6A,\nprefer 2A\nReverse voltage of 40V\nForward drop of 0.4V"
 		(exclude_from_sim no)
 		(at 131.826 237.236 0)

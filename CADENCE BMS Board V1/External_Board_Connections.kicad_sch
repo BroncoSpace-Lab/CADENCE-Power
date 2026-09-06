@@ -3547,6 +3547,16 @@
 		)
 		(uuid "36829a4c-6410-4730-a416-21a4ce85bc95")
 	)
+	(text "Most likely the issue with this IC is these MOSFET symbols\n as typical MOSFETs do not follow this DGS config"
+		(exclude_from_sim no)
+		(at 97.028 172.466 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "59a445d4-e3fd-4d12-98f9-6f64b9cf059c")
+	)
 	(text "Antenna Board"
 		(exclude_from_sim no)
 		(at 379.984 100.33 0)
@@ -3704,7 +3714,7 @@
 	)
 	(text "Should be a 1k ohm reistor -->"
 		(exclude_from_sim no)
-		(at 85.09 193.548 0)
+		(at 85.598 194.564 0)
 		(effects
 			(font
 				(size 1.27 1.27)
