@@ -501,7 +501,7 @@
 		(descr "JST XH series connector, B2B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf)")
 		(tags "connector JST XH vertical")
 		(property "Reference" "J11"
-			(at 1.25 -3.55 0)
+			(at 1.25 -3.5 0)
 			(layer "F.SilkS")
 			(uuid "c967899f-e70d-47d7-ae87-7212eafd611f")
 			(effects
@@ -788,7 +788,7 @@
 		(descr "THT pad as test Point, diameter 1.0mm, hole diameter 0.5mm")
 		(tags "test point THT pad")
 		(property "Reference" "TP1"
-			(at 0 -1.448 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "b1159c94-51c6-4de9-be6a-fa378c46c681")
 			(effects
@@ -799,7 +799,7 @@
 			)
 		)
 		(property "Value" "VSS"
-			(at 0 1.55 0)
+			(at 0 2 180)
 			(layer "F.Fab")
 			(uuid "c07ed48b-d871-4b25-9245-3031dbfdf5c7")
 			(effects
@@ -1892,7 +1892,7 @@
 		(descr "Hirose DF11 through hole, DF11-4DP-2DSA, 2 Pins per row (https://www.hirose.com/product/document?clcode=&productname=&series=DF11&documenttype=Catalog&lang=en&documentid=D31688_en)")
 		(tags "connector Hirose DF11 vertical")
 		(property "Reference" "J5"
-			(at 1 -4.2 90)
+			(at -0.5 4.5 180)
 			(layer "F.SilkS")
 			(uuid "3072f4cc-804e-4097-a2a7-ca596f174dfc")
 			(effects
@@ -1903,7 +1903,7 @@
 			)
 		)
 		(property "Value" "INHIBIT_P2"
-			(at 1 4.7 90)
+			(at -3.5 1 180)
 			(layer "F.Fab")
 			(uuid "3fa33dcf-2fe2-4f1d-bd53-802e7bef2c80")
 			(effects
@@ -2870,7 +2870,7 @@
 			)
 		)
 		(property "Value" "EN"
-			(at 0 1.55 0)
+			(at 0 2 0)
 			(layer "F.Fab")
 			(uuid "5b66a354-756e-4f6e-9ce3-55105e11651e")
 			(effects
@@ -3009,7 +3009,7 @@
 		(descr "Hirose DF11 through hole, DF11-4DP-2DSA, 2 Pins per row (https://www.hirose.com/product/document?clcode=&productname=&series=DF11&documenttype=Catalog&lang=en&documentid=D31688_en)")
 		(tags "connector Hirose DF11 vertical")
 		(property "Reference" "J2"
-			(at -2.0696 -2.7 90)
+			(at 1 -2.5 180)
 			(layer "F.SilkS")
 			(uuid "f5d86a12-38b7-4efb-a6a5-36c38106c5eb")
 			(effects
@@ -3020,7 +3020,7 @@
 			)
 		)
 		(property "Value" "INHIBIT_P2"
-			(at 1 4.7 90)
+			(at 1.5 4.7 90)
 			(layer "F.Fab")
 			(uuid "d2b1d9d5-2b88-44df-ac59-dc87a1ab93d0")
 			(effects
@@ -6157,7 +6157,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 0 1.83 0)
+			(at 0 -3.5 0)
 			(layer "F.Fab")
 			(uuid "a03abc85-11dd-40c4-a7a5-424f6a1b4a87")
 			(effects
@@ -9390,7 +9390,7 @@
 			)
 		)
 		(property "Value" "39k"
-			(at 0 1.43 90)
+			(at -2.825 0 90)
 			(layer "F.Fab")
 			(uuid "bc10da91-9912-4a53-a12c-a3aa13431b19")
 			(effects
@@ -11256,7 +11256,7 @@
 			)
 		)
 		(property "Value" "Voltage Level"
-			(at 0 1.55 0)
+			(at 4.5 5.5 90)
 			(layer "F.Fab")
 			(uuid "dcabdb15-1d4b-4bdd-a133-d3c88bae5a3f")
 			(effects
@@ -11872,7 +11872,7 @@
 			)
 		)
 		(property "Value" "MMBD914LT1G"
-			(at -8.0475 0 90)
+			(at -1.2248 -2.8175 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "3839e0b5-1865-432c-9568-e03ca93186bb")
@@ -12379,7 +12379,7 @@
 		(descr "Hirose DF11 through hole, DF11-4DP-2DSA, 2 Pins per row (https://www.hirose.com/product/document?clcode=&productname=&series=DF11&documenttype=Catalog&lang=en&documentid=D31688_en)")
 		(tags "connector Hirose DF11 vertical")
 		(property "Reference" "J6"
-			(at 1 -4.2 90)
+			(at 4.5 -3 180)
 			(layer "F.SilkS")
 			(uuid "04883c1a-d65c-49a0-8b17-80fd62ae90e8")
 			(effects
@@ -12390,7 +12390,7 @@
 			)
 		)
 		(property "Value" "INHIBIT_P2"
-			(at 1 4.7 90)
+			(at 6 0 180)
 			(layer "F.Fab")
 			(uuid "7cb30b88-ce49-47be-a5d3-656d8c208ab4")
 			(effects
@@ -14707,7 +14707,7 @@
 			)
 		)
 		(property "Value" "INHIBIT_P2"
-			(at 1 4.7 90)
+			(at 2.5 4.7 90)
 			(layer "F.Fab")
 			(uuid "40376e9b-7bd0-4c4c-8d5e-3fa56b43cae8")
 			(effects
@@ -16046,7 +16046,7 @@
 			)
 		)
 		(property "Value" "INHIBIT_P2"
-			(at 1 4.7 90)
+			(at 0.5 -3 90)
 			(layer "F.Fab")
 			(uuid "63cfdfc3-740f-432d-a84e-789afe834d25")
 			(effects
@@ -16976,7 +16976,7 @@
 		(descr "Hirose DF11 through hole, DF11-4DP-2DSA, 2 Pins per row (https://www.hirose.com/product/document?clcode=&productname=&series=DF11&documenttype=Catalog&lang=en&documentid=D31688_en)")
 		(tags "connector Hirose DF11 vertical")
 		(property "Reference" "J4"
-			(at 1 -2.7 90)
+			(at 1 6.5 180)
 			(layer "F.SilkS")
 			(uuid "c1809a0a-b6ad-4bbc-b374-7b723ccf4e9f")
 			(effects
@@ -17571,7 +17571,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C5"
-			(at 0 -1.68 90)
+			(at 2.5 0 180)
 			(layer "F.SilkS")
 			(uuid "6eb5ad46-ab2c-4713-b7c3-c970792175f3")
 			(effects
@@ -17582,7 +17582,7 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at -3 1.68 90)
+			(at -3.5 0 90)
 			(layer "F.Fab")
 			(uuid "40133cbb-8b43-4d67-81dc-a96ef4a27484")
 			(effects
@@ -20975,7 +20975,7 @@
 		(uuid "a778d5b9-3ae0-4a29-80bc-cd061844418a")
 	)
 	(gr_text "Foot Switches"
-		(at 124 102.5 0)
+		(at 124 104 0)
 		(layer "F.SilkS")
 		(uuid "c64b39eb-15bc-4488-a77d-f7c80c9d8a9c")
 		(effects
@@ -20987,7 +20987,7 @@
 		)
 	)
 	(gr_text "BMS General"
-		(at 128 45 0)
+		(at 127 44.5 0)
 		(layer "F.SilkS")
 		(uuid "279e63ce-b101-4515-98f6-fa6365fdd67d")
 		(effects
@@ -21002,6 +21002,18 @@
 		(at 140 44.5 0)
 		(layer "F.SilkS")
 		(uuid "98c3f0f1-dfc9-4dea-919a-f5c19902eace")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Switches for FET Drivers"
+		(at 122.5 72 90)
+		(layer "F.SilkS")
+		(uuid "2547651e-ec44-4e15-9acb-085c77248999")
 		(effects
 			(font
 				(size 1 1)
