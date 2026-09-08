@@ -6604,6 +6604,7 @@
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 39.624 41.656 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
