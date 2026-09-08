@@ -149,7 +149,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C17900"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -359,7 +359,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C1591"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -501,7 +501,7 @@
 		(descr "JST XH series connector, B2B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf)")
 		(tags "connector JST XH vertical")
 		(property "Reference" "J11"
-			(at 1.25 -3.5 0)
+			(at 1.25 -3.55 0)
 			(layer "F.SilkS")
 			(uuid "c967899f-e70d-47d7-ae87-7212eafd611f")
 			(effects
@@ -512,7 +512,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at -1.5 5 0)
+			(at 1.25 4.6 0)
 			(layer "F.Fab")
 			(uuid "255fef33-d60e-4463-8452-f40a19fc7351")
 			(effects
@@ -553,6 +553,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C19272845"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "08a1d1d7-8752-4830-8e20-ad52cc058000")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -784,11 +795,11 @@
 	(footprint "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
 		(layer "F.Cu")
 		(uuid "0fbb623a-92d4-4c8f-889f-7bfe2a69ba70")
-		(at 142.5 94.5)
+		(at 142 95)
 		(descr "THT pad as test Point, diameter 1.0mm, hole diameter 0.5mm")
 		(tags "test point THT pad")
 		(property "Reference" "TP1"
-			(at 0 -1.5 0)
+			(at 0 -1.448 0)
 			(layer "F.SilkS")
 			(uuid "b1159c94-51c6-4de9-be6a-fa378c46c681")
 			(effects
@@ -799,7 +810,7 @@
 			)
 		)
 		(property "Value" "VSS"
-			(at 0 2 180)
+			(at 0 1.55 0)
 			(layer "F.Fab")
 			(uuid "c07ed48b-d871-4b25-9245-3031dbfdf5c7")
 			(effects
@@ -884,6 +895,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -1121,7 +1133,7 @@
 				(pins "1" "4" "2" "5" "3" "11" "10" "7" "6" "9" "8")
 			)
 		)
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1.6764 -1.6764)
@@ -1892,7 +1904,7 @@
 		(descr "Hirose DF11 through hole, DF11-4DP-2DSA, 2 Pins per row (https://www.hirose.com/product/document?clcode=&productname=&series=DF11&documenttype=Catalog&lang=en&documentid=D31688_en)")
 		(tags "connector Hirose DF11 vertical")
 		(property "Reference" "J5"
-			(at -0.5 4.5 180)
+			(at 1 -4.2 90)
 			(layer "F.SilkS")
 			(uuid "3072f4cc-804e-4097-a2a7-ca596f174dfc")
 			(effects
@@ -1903,7 +1915,7 @@
 			)
 		)
 		(property "Value" "INHIBIT_P2"
-			(at -3.5 1 180)
+			(at 1 4.7 90)
 			(layer "F.Fab")
 			(uuid "3fa33dcf-2fe2-4f1d-bd53-802e7bef2c80")
 			(effects
@@ -1947,7 +1959,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C506665"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2332,7 +2344,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C506665"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2717,7 +2729,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25600"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2870,7 +2882,7 @@
 			)
 		)
 		(property "Value" "EN"
-			(at 0 2 0)
+			(at 0 1.55 0)
 			(layer "F.Fab")
 			(uuid "5b66a354-756e-4f6e-9ce3-55105e11651e")
 			(effects
@@ -2955,6 +2967,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -3009,7 +3022,7 @@
 		(descr "Hirose DF11 through hole, DF11-4DP-2DSA, 2 Pins per row (https://www.hirose.com/product/document?clcode=&productname=&series=DF11&documenttype=Catalog&lang=en&documentid=D31688_en)")
 		(tags "connector Hirose DF11 vertical")
 		(property "Reference" "J2"
-			(at 1 -3 180)
+			(at -2.0696 -2.7 90)
 			(layer "F.SilkS")
 			(uuid "f5d86a12-38b7-4efb-a6a5-36c38106c5eb")
 			(effects
@@ -3020,7 +3033,7 @@
 			)
 		)
 		(property "Value" "INHIBIT_P2"
-			(at 1.5 4.7 90)
+			(at 1 4.7 90)
 			(layer "F.Fab")
 			(uuid "d2b1d9d5-2b88-44df-ac59-dc87a1ab93d0")
 			(effects
@@ -3064,7 +3077,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C506665"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3577,7 +3590,7 @@
 				(pins "1" "4" "2" "5" "3" "11" "10" "7" "6" "9" "8")
 			)
 		)
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6764 1.6764)
@@ -4403,7 +4416,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C98192"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4545,7 +4558,7 @@
 		(descr "THT pad as test Point, diameter 1.0mm, hole diameter 0.5mm")
 		(tags "test point THT pad")
 		(property "Reference" "TP6"
-			(at 2.315 -0.1025 0)
+			(at 0 -1.448 0)
 			(layer "F.SilkS")
 			(uuid "d78853ea-0391-4a37-bb00-0e83e00370aa")
 			(effects
@@ -4556,7 +4569,7 @@
 			)
 		)
 		(property "Value" "Cell 3-"
-			(at 0.815 2.3975 0)
+			(at 0 1.55 0)
 			(layer "F.Fab")
 			(uuid "0e8181d5-60be-4f45-98d5-20dd8daea4a2")
 			(effects
@@ -4602,6 +4615,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -4667,7 +4681,7 @@
 			)
 		)
 		(property "Value" "MIC4427YM-TR"
-			(at 1.27585 8.5 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "059b3825-37b3-4c79-8015-0d7e25f53711")
@@ -4700,7 +4714,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C461590"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5445,7 +5459,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C461590"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6157,7 +6171,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 0 -3.5 0)
+			(at 0 1.83 0)
 			(layer "F.Fab")
 			(uuid "a03abc85-11dd-40c4-a7a5-424f6a1b4a87")
 			(effects
@@ -6201,7 +6215,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C17900"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6343,7 +6357,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C2"
-			(at 0.99915 2.905 90)
+			(at 0 -1.43 90)
 			(layer "F.SilkS")
 			(uuid "10cd3095-0d37-4e59-8916-1cff61a3ec58")
 			(effects
@@ -6398,7 +6412,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C1591"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6608,7 +6622,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C1591"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6853,7 +6867,7 @@
 				(pins "2" "3" "1")
 			)
 		)
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -3.31 3.45)
@@ -7108,7 +7122,7 @@
 		(at 134.3956 63.5823 90)
 		(tags "MMBD914LT1G ")
 		(property "Reference" "D3"
-			(at 2.5823 2.1044 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "0a8b49b6-9bc9-4f85-82a2-0099f3720247")
@@ -7120,7 +7134,7 @@
 			)
 		)
 		(property "Value" "MMBD914LT1G"
-			(at -2.4177 4.1044 90)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "e6e859de-ddbb-4f00-8674-ebc4057e4d54")
@@ -7179,7 +7193,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C46523"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7682,7 +7696,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C17900"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7927,7 +7941,7 @@
 				(pins "2" "3" "1")
 			)
 		)
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -3.31 3.45)
@@ -8238,7 +8252,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C17900"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8380,7 +8394,7 @@
 		(descr "THT pad as test Point, diameter 1.0mm, hole diameter 0.5mm")
 		(tags "test point THT pad")
 		(property "Reference" "TP9"
-			(at 0 -2 0)
+			(at 0 -1.448 0)
 			(layer "F.SilkS")
 			(uuid "79a83ebc-0ba6-4751-9b9d-785c20801d51")
 			(effects
@@ -8391,7 +8405,7 @@
 			)
 		)
 		(property "Value" "V_mppt_i"
-			(at 0 2 0)
+			(at 0 1.55 0)
 			(layer "F.Fab")
 			(uuid "fc309ed4-5512-4e40-a30d-135a0ae7cb31")
 			(effects
@@ -8437,6 +8451,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -8594,7 +8609,7 @@
 				(pins "2" "3" "1")
 			)
 		)
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -3.31 3.45)
@@ -8918,7 +8933,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C1591"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9071,7 +9086,7 @@
 			)
 		)
 		(property "Value" "1N5711WS-7-F"
-			(at -2.595 2.27585 90)
+			(at 0.1 1.9 0)
 			(layer "F.Fab")
 			(uuid "30900223-80a2-4a5a-bc49-c167573b450d")
 			(effects
@@ -9107,7 +9122,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C151442"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9390,7 +9405,7 @@
 			)
 		)
 		(property "Value" "39k"
-			(at -2.825 0 90)
+			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "bc10da91-9912-4a53-a12c-a3aa13431b19")
 			(effects
@@ -9434,7 +9449,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C23153"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9631,7 +9646,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C17900"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9956,7 +9971,7 @@
 				(pins "1" "4" "2" "5" "3" "11" "10" "7" "6" "9" "8")
 			)
 		)
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1.6764 -1.6764)
@@ -10726,7 +10741,7 @@
 		(at 128.5 76 180)
 		(tags "MMBD914LT1G ")
 		(property "Reference" "D4"
-			(at 1.5 -2.5 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "f6cc1b5e-e15e-4b1f-832f-87c0768e470d")
@@ -10738,7 +10753,7 @@
 			)
 		)
 		(property "Value" "MMBD914LT1G"
-			(at -6.5 2 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "6fa07595-bd62-469b-a82e-2acdcd66b9a4")
@@ -10797,7 +10812,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C46523"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11245,7 +11260,7 @@
 		(descr "THT pad as test Point, diameter 1.0mm, hole diameter 0.5mm")
 		(tags "test point THT pad")
 		(property "Reference" "TP4"
-			(at 2.5 -0.5 0)
+			(at 0 -1.448 0)
 			(layer "F.SilkS")
 			(uuid "714114c0-5300-4a8f-aaf2-2c79aa538d92")
 			(effects
@@ -11256,7 +11271,7 @@
 			)
 		)
 		(property "Value" "Voltage Level"
-			(at 4.5 5.5 90)
+			(at 0 1.55 0)
 			(layer "F.Fab")
 			(uuid "dcabdb15-1d4b-4bdd-a133-d3c88bae5a3f")
 			(effects
@@ -11302,6 +11317,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -11411,7 +11427,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C17900"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11564,7 +11580,7 @@
 			)
 		)
 		(property "Value" "V_mppt_o"
-			(at 4.5 0 0)
+			(at 0 1.55 0)
 			(layer "F.Fab")
 			(uuid "686951d4-aa8f-4e26-b4d1-67c6ed942ec6")
 			(effects
@@ -11610,6 +11626,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -11719,7 +11736,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C17900"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11860,7 +11877,7 @@
 		(at 123.8175 76.2752 90)
 		(tags "MMBD914LT1G ")
 		(property "Reference" "D2"
-			(at 2.2752 2.1825 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "876a8dd0-5f86-4097-85a0-779ca92e4a22")
@@ -11872,7 +11889,7 @@
 			)
 		)
 		(property "Value" "MMBD914LT1G"
-			(at -1.2248 -2.8175 90)
+			(at -8.0475 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "3839e0b5-1865-432c-9568-e03ca93186bb")
@@ -11931,7 +11948,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C46523"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12379,7 +12396,7 @@
 		(descr "Hirose DF11 through hole, DF11-4DP-2DSA, 2 Pins per row (https://www.hirose.com/product/document?clcode=&productname=&series=DF11&documenttype=Catalog&lang=en&documentid=D31688_en)")
 		(tags "connector Hirose DF11 vertical")
 		(property "Reference" "J6"
-			(at 4.5 -3 180)
+			(at 1 -4.2 90)
 			(layer "F.SilkS")
 			(uuid "04883c1a-d65c-49a0-8b17-80fd62ae90e8")
 			(effects
@@ -12390,7 +12407,7 @@
 			)
 		)
 		(property "Value" "INHIBIT_P2"
-			(at 6 0 180)
+			(at 1 4.7 90)
 			(layer "F.Fab")
 			(uuid "7cb30b88-ce49-47be-a5d3-656d8c208ab4")
 			(effects
@@ -12434,7 +12451,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C506665"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12819,7 +12836,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C17900"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13018,6 +13035,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -13083,7 +13101,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04"
-			(at 2 5 0)
+			(at 3.75 4.6 0)
 			(layer "F.Fab")
 			(uuid "a5f68027-8aeb-4bfa-95d3-cb7c2641885c")
 			(effects
@@ -13124,6 +13142,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C594232"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "87e43e14-468d-4694-b4ab-9dc598b9f15b")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -13449,7 +13478,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C1591"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13687,6 +13716,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -13924,7 +13954,7 @@
 				(pins "1" "4" "2" "5" "3" "11" "10" "7" "6" "9" "8")
 			)
 		)
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1.6764 -1.6764)
@@ -14707,7 +14737,7 @@
 			)
 		)
 		(property "Value" "INHIBIT_P2"
-			(at 2.5 4.7 90)
+			(at 1 4.7 90)
 			(layer "F.Fab")
 			(uuid "40376e9b-7bd0-4c4c-8d5e-3fa56b43cae8")
 			(effects
@@ -14751,7 +14781,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C506665"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15264,7 +15294,7 @@
 				(pins "1" "4" "2" "5" "3" "11" "10" "7" "6" "9" "8")
 			)
 		)
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.6764 1.6764)
@@ -16046,7 +16076,7 @@
 			)
 		)
 		(property "Value" "INHIBIT_P2"
-			(at 0.5 -3 90)
+			(at 1 4.7 90)
 			(layer "F.Fab")
 			(uuid "63cfdfc3-740f-432d-a84e-789afe834d25")
 			(effects
@@ -16090,7 +16120,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C506665"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16523,7 +16553,7 @@
 				(pins "2" "3" "1")
 			)
 		)
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -3.31 3.45)
@@ -16834,7 +16864,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C25600"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16976,7 +17006,7 @@
 		(descr "Hirose DF11 through hole, DF11-4DP-2DSA, 2 Pins per row (https://www.hirose.com/product/document?clcode=&productname=&series=DF11&documenttype=Catalog&lang=en&documentid=D31688_en)")
 		(tags "connector Hirose DF11 vertical")
 		(property "Reference" "J4"
-			(at 0.5 5 180)
+			(at 1 -2.7 90)
 			(layer "F.SilkS")
 			(uuid "c1809a0a-b6ad-4bbc-b374-7b723ccf4e9f")
 			(effects
@@ -16987,7 +17017,7 @@
 			)
 		)
 		(property "Value" "INHIBIT_P2"
-			(at -1 -2.5 90)
+			(at 1 4.7 90)
 			(layer "F.Fab")
 			(uuid "a848829b-0b43-4d26-9b3b-4d06c5d4c78f")
 			(effects
@@ -17031,7 +17061,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C506665"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17429,7 +17459,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C1591"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17571,7 +17601,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C5"
-			(at 2.5 0 180)
+			(at 0 -1.68 90)
 			(layer "F.SilkS")
 			(uuid "6eb5ad46-ab2c-4713-b7c3-c970792175f3")
 			(effects
@@ -17582,7 +17612,7 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at -3.5 0 90)
+			(at -3 1.68 90)
 			(layer "F.Fab")
 			(uuid "40133cbb-8b43-4d67-81dc-a96ef4a27484")
 			(effects
@@ -17639,7 +17669,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C1710"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17780,7 +17810,7 @@
 		(at 134.4652 58.5 90)
 		(tags "MMBD914LT1G ")
 		(property "Reference" "D1"
-			(at 1 3.0348 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "15e8893e-70c2-4b8f-ace5-0f768d323983")
@@ -17792,7 +17822,7 @@
 			)
 		)
 		(property "Value" "MMBD914LT1G"
-			(at -3.5 5.5348 90)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "89ec48cd-13d9-4582-9441-14d287cba6ab")
@@ -17851,7 +17881,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C46523"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18402,7 +18432,7 @@
 				(pins "2" "3" "1")
 			)
 		)
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 3.11 3.45)
@@ -18705,7 +18735,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C151442"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19032,7 +19062,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C506665"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19417,7 +19447,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C506665"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19747,7 +19777,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor")
 		(property "Reference" "C3"
-			(at -2.8075 0.77585 0)
+			(at 0 -1.68 0)
 			(layer "F.SilkS")
 			(uuid "bd5bbb39-8bf1-4ac3-bbb5-2df02f81d7ed")
 			(effects
@@ -19758,7 +19788,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at -4.3075 -0.72415 0)
+			(at 0 1.68 0)
 			(layer "F.Fab")
 			(uuid "aa8959dc-d565-4462-aa06-564c166fe436")
 			(effects
@@ -19802,7 +19832,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C98192"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20001,6 +20031,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -20055,7 +20086,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C1"
-			(at 0.2325 2.77585 0)
+			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(uuid "0f4f6237-675d-46ad-9784-0aa6ea754c39")
 			(effects
@@ -20110,7 +20141,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C1591"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20355,7 +20386,7 @@
 				(pins "2" "3" "1")
 			)
 		)
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -3.31 3.45)
@@ -20622,7 +20653,7 @@
 			)
 		)
 		(property "Value" "SUD23N06-31-GE3"
-			(at 4.26 4.5 90)
+			(at 2.825 11 90)
 			(layer "F.Fab")
 			(uuid "14ee54be-f120-41c2-8dfc-24782518d2f7")
 			(effects
@@ -20714,7 +20745,7 @@
 				(pins "2" "3" "1")
 			)
 		)
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -3.31 3.45)
@@ -20975,7 +21006,7 @@
 		(uuid "a778d5b9-3ae0-4a29-80bc-cd061844418a")
 	)
 	(gr_text "Foot Switches"
-		(at 124 104 0)
+		(at 124 102.5 0)
 		(layer "F.SilkS")
 		(uuid "c64b39eb-15bc-4488-a77d-f7c80c9d8a9c")
 		(effects
@@ -20987,7 +21018,7 @@
 		)
 	)
 	(gr_text "BMS General"
-		(at 127 44.5 0)
+		(at 128 45 0)
 		(layer "F.SilkS")
 		(uuid "279e63ce-b101-4515-98f6-fa6365fdd67d")
 		(effects
@@ -21002,18 +21033,6 @@
 		(at 140 44.5 0)
 		(layer "F.SilkS")
 		(uuid "98c3f0f1-dfc9-4dea-919a-f5c19902eace")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "Switches for FET Drivers"
-		(at 122.5 72 90)
-		(layer "F.SilkS")
-		(uuid "2547651e-ec44-4e15-9acb-085c77248999")
 		(effects
 			(font
 				(size 1 1)
