@@ -2648,9 +2648,9 @@
 		)
 		(uuid "1f7f0776-854d-4232-93fd-c654e09ceb63")
 	)
-	(text "Light Sensor (Double check ADDR pin connection)\n\n\n"
+	(text "Light Sensor\n\n\n"
 		(exclude_from_sim no)
-		(at 155.702 20.828 0)
+		(at 151.638 21.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
