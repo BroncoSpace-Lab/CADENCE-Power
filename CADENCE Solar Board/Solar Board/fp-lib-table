@@ -3,4 +3,5 @@
 	(lib (name "CAD PARTS ZIPPED") (type "KiCad") (uri "C:/Users/amaji/Downloads/CAD PARTS ZIPPED.pretty") (options "") (descr ""))
 	(lib (name "Unzipped") (type "KiCad") (uri "C:/Users/amaji/Downloads/CAD PARTS ZIPPED/Unzipped.pretty") (options "") (descr ""))
 	(lib (name "Library") (type "KiCad") (uri "C:/Users/amaji/Downloads/CAD PARTS ZIPPED/Unzipped/Library.pretty") (options "") (descr ""))
+	(lib (name "Solar Cell Library") (type "KiCad") (uri "${KIPRJMOD}/Solar Cell Library.pretty") (options "") (descr ""))
 )

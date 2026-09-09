@@ -488,7 +488,8 @@
       "AD7414ARTZ-1REEL7",
       "INA230AIRGTT",
       "OPT3001IDNPRQ1",
-      "STPS1045B"
+      "STPS1045B",
+      "Solar Cell Library"
     ],
     "pinned_symbol_libs": []
   },
