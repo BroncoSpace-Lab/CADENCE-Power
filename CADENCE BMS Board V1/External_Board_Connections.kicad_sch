@@ -3375,7 +3375,7 @@
 	)
 	(rectangle
 		(start 149.86 85.852)
-		(end 234.95 108.204)
+		(end 262.89 108.204)
 		(stroke
 			(width 0)
 			(type default)
@@ -3547,6 +3547,16 @@
 		)
 		(uuid "36829a4c-6410-4730-a416-21a4ce85bc95")
 	)
+	(text "Antenna Board \nBurn Wire"
+		(exclude_from_sim no)
+		(at 249.682 105.918 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "49dc9782-7ed2-42ab-b8e9-0ab4a4ed7e04")
+	)
 	(text "Most likely the issue with this IC is these MOSFET symbols\n as typical MOSFETs do not follow this DGS config"
 		(exclude_from_sim no)
 		(at 97.028 172.466 0)
@@ -3559,7 +3569,7 @@
 	)
 	(text "Antenna Board"
 		(exclude_from_sim no)
-		(at 379.984 100.33 0)
+		(at 381.254 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4075,7 +4085,7 @@
 	)
 	(wire
 		(pts
-			(xy 368.3 91.44) (xy 372.11 91.44)
+			(xy 369.57 91.44) (xy 373.38 91.44)
 		)
 		(stroke
 			(width 0)
@@ -4255,7 +4265,7 @@
 	)
 	(wire
 		(pts
-			(xy 368.3 93.98) (xy 372.11 93.98)
+			(xy 369.57 93.98) (xy 373.38 93.98)
 		)
 		(stroke
 			(width 0)
@@ -4352,6 +4362,16 @@
 			(type default)
 		)
 		(uuid "4864f25e-a3c1-4323-9ab2-ad96d0281d30")
+	)
+	(wire
+		(pts
+			(xy 240.03 96.52) (xy 241.3 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50af3ceb-87e1-467f-9ef5-1f619d67f38d")
 	)
 	(wire
 		(pts
@@ -4812,6 +4832,16 @@
 			(type default)
 		)
 		(uuid "a9dd21ed-fa2c-448f-935c-51b6cad94e7d")
+	)
+	(wire
+		(pts
+			(xy 240.03 93.98) (xy 241.3 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abb42f08-777b-45fa-96ff-6066a2bbda44")
 	)
 	(wire
 		(pts
@@ -10613,7 +10643,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 377.19 91.44 0)
+		(at 378.46 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10624,7 +10654,7 @@
 		(fields_autoplaced yes)
 		(uuid "300ae1a4-3886-40dc-8a6f-dfe2f1d49c32")
 		(property "Reference" "J29"
-			(at 379.73 91.4399 0)
+			(at 381 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10635,7 +10665,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 379.73 93.9799 0)
+			(at 381 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10646,7 +10676,7 @@
 			)
 		)
 		(property "Footprint" "JST_CON:SHDR2W120P580X500_2X1_790X1380X1460P"
-			(at 377.19 91.44 0)
+			(at 378.46 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10657,7 +10687,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 377.19 91.44 0)
+			(at 378.46 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10668,7 +10698,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 377.19 91.44 0)
+			(at 378.46 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10679,7 +10709,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 377.19 91.44 0)
+			(at 378.46 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10690,7 +10720,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 377.19 91.44 0)
+			(at 378.46 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10701,7 +10731,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 377.19 91.44 0)
+			(at 378.46 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10842,6 +10872,199 @@
 			(project "BMS_Board_Prototype"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 246.38 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33e32cdd-bdb5-4edc-8708-0be25d60cef6")
+		(property "Reference" "J32"
+			(at 248.92 93.9799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 248.92 96.5199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 246.38 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 246.38 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 246.38 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 246.38 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 246.38 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a58fa4a0-b0f3-4818-a2c9-d63c91f23dcc")
+		)
+		(pin "2"
+			(uuid "9a62b129-b81a-4400-83ed-12a4c9f88130")
+		)
+		(instances
+			(project "BMS_Board_Prototype"
+				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
+					(reference "J32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 240.03 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3618646b-953a-4aa9-b6d0-7d05ede2c6f0")
+		(property "Reference" "#PWR053"
+			(at 240.03 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "UNREG"
+			(at 240.284 90.424 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 240.03 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8476acd0-6ef0-44e3-934e-3e6dbdc40716")
+		)
+		(instances
+			(project "BMS_Board_Prototype"
+				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -12196,6 +12419,84 @@
 			(project "BMS_Board_Prototype"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "#PWR098")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 240.03 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "66719bba-b145-4ce1-863d-9a7f13a80739")
+		(property "Reference" "#PWR084"
+			(at 240.03 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VSS"
+			(at 238.76 101.346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 240.03 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bb8a1fbe-ac7a-4531-a413-198c2de91c1b")
+		)
+		(instances
+			(project "BMS_Board_Prototype"
+				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -14214,7 +14515,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 368.3 93.98 0)
+		(at 369.57 93.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14224,7 +14525,7 @@
 		(dnp no)
 		(uuid "acd41661-eb22-4759-8dc4-b1a5bf935891")
 		(property "Reference" "#PWR082"
-			(at 368.3 100.33 0)
+			(at 369.57 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14235,7 +14536,7 @@
 			)
 		)
 		(property "Value" "VSS"
-			(at 367.03 98.806 0)
+			(at 368.3 98.806 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14246,7 +14547,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 368.3 93.98 0)
+			(at 369.57 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14257,7 +14558,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 368.3 93.98 0)
+			(at 369.57 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14268,7 +14569,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 368.3 93.98 0)
+			(at 369.57 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15134,7 +15435,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 368.3 91.44 0)
+		(at 369.57 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15144,7 +15445,7 @@
 		(dnp no)
 		(uuid "cf793985-5572-4f2b-b7a6-d91fe5a95a00")
 		(property "Reference" "#PWR074"
-			(at 368.3 95.25 0)
+			(at 369.57 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15155,7 +15456,7 @@
 			)
 		)
 		(property "Value" "USB PWR"
-			(at 368.554 87.884 0)
+			(at 369.824 87.884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15166,7 +15467,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 368.3 91.44 0)
+			(at 369.57 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15177,7 +15478,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 368.3 91.44 0)
+			(at 369.57 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15188,7 +15489,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 368.3 91.44 0)
+			(at 369.57 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
