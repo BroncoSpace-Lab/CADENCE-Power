@@ -4525,6 +4525,12 @@
 		(uuid "4a987381-91fa-4f25-a896-773ce584ddfc")
 	)
 	(junction
+		(at 353.06 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "514f5b09-6a9f-44b5-882b-875e5b662135")
+	)
+	(junction
 		(at 224.79 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4631,6 +4637,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9676adc0-7ee2-40a5-a809-e507e9606a3d")
+	)
+	(junction
+		(at 353.06 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a0f115cb-9134-4bfe-bf48-8dae5d2a7801")
 	)
 	(junction
 		(at 115.57 140.97)
@@ -4783,6 +4795,12 @@
 		(uuid "e80bbb85-578e-49f6-81ce-9837bd9e93f5")
 	)
 	(junction
+		(at 353.06 166.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea8c903e-2895-4c5c-9ff7-ef48bde565db")
+	)
+	(junction
 		(at 224.79 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4929,6 +4947,16 @@
 			(type default)
 		)
 		(uuid "09b7956f-6972-44e9-b204-2daeab0b4f7d")
+	)
+	(wire
+		(pts
+			(xy 353.06 172.72) (xy 353.06 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b97ddd0-adc7-48e4-a465-ef709425b9e2")
 	)
 	(wire
 		(pts
@@ -5159,6 +5187,16 @@
 			(type default)
 		)
 		(uuid "1fa2875c-878e-4bb5-ab92-830218a60503")
+	)
+	(wire
+		(pts
+			(xy 378.46 160.02) (xy 353.06 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "206ad7bc-59c6-4b44-b958-d4cc2e127581")
 	)
 	(wire
 		(pts
@@ -5419,6 +5457,16 @@
 			(type default)
 		)
 		(uuid "38d28f0a-28e1-4e5d-833b-7a0e136244d5")
+	)
+	(wire
+		(pts
+			(xy 378.46 153.67) (xy 353.06 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38d6b776-64a3-4114-88ee-44713cf49420")
 	)
 	(wire
 		(pts
@@ -5749,6 +5797,16 @@
 			(type default)
 		)
 		(uuid "57c9cc67-d0ff-4d24-a5ae-a8b3ee0ad596")
+	)
+	(wire
+		(pts
+			(xy 353.06 172.72) (xy 378.46 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58c7e1da-02d3-4683-a4ad-2ff0976ae5cc")
 	)
 	(wire
 		(pts
@@ -6692,6 +6750,16 @@
 	)
 	(wire
 		(pts
+			(xy 353.06 166.37) (xy 353.06 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbc441a4-cfd1-4baf-b45b-1b0759212dcb")
+	)
+	(wire
+		(pts
 			(xy 115.57 59.69) (xy 120.65 59.69)
 		)
 		(stroke
@@ -6902,6 +6970,16 @@
 	)
 	(wire
 		(pts
+			(xy 353.06 166.37) (xy 378.46 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2d88973-b73b-4f3e-b526-ad3d3611beb8")
+	)
+	(wire
+		(pts
 			(xy 158.75 199.39) (xy 158.75 198.12)
 		)
 		(stroke
@@ -6949,6 +7027,26 @@
 			(type default)
 		)
 		(uuid "d3aa9c70-dbdc-4709-b56b-70b2cd2c00e1")
+	)
+	(wire
+		(pts
+			(xy 353.06 153.67) (xy 353.06 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4424ba0-cd29-49ca-bbce-1c3a4386df1b")
+	)
+	(wire
+		(pts
+			(xy 353.06 160.02) (xy 353.06 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d76a5d9d-7964-4645-b1cd-96113b603907")
 	)
 	(wire
 		(pts
@@ -32811,6 +32909,83 @@
 			(project "CADENCE Inhibit System Test Board"
 				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 353.06 179.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0bbc755d-cd3c-4d07-8fb9-0baec42498be")
+		(property "Reference" "#PWR018"
+			(at 353.06 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VSS"
+			(at 355.6 179.578 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 353.06 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 353.06 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 353.06 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4ae982bd-cc8f-4494-ad3b-01943878d66c")
+		)
+		(instances
+			(project "CADENCE Inhibit System Test Board"
+				(path "/191bd9c3-424d-41a4-b898-2e1885f219ad"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
