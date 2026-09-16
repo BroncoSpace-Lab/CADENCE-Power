@@ -4,4 +4,5 @@
 	(lib (name "Unzipped") (type "KiCad") (uri "C:/Users/amaji/Downloads/CAD PARTS ZIPPED/Unzipped.pretty") (options "") (descr ""))
 	(lib (name "Library") (type "KiCad") (uri "C:/Users/amaji/Downloads/CAD PARTS ZIPPED/Unzipped/Library.pretty") (options "") (descr ""))
 	(lib (name "Solar Cell Library") (type "KiCad") (uri "${KIPRJMOD}/Solar Cell Library.pretty") (options "") (descr ""))
+	(lib (name "Solar Panel") (type "KiCad") (uri "C:/Users/amaji/OneDrive/Documents/GitHub/CADENCE-Power/CADENCE Solar Board/Component Footprints & Models & Symbols/LIB_CAVU Solar Cell/solarpanel.pretty") (options "") (descr ""))
 )
