@@ -3798,9 +3798,9 @@
 		)
 		(uuid "0cb28af5-5a8d-4c65-8e65-f2decd608e0e")
 	)
-	(text "Possibly connect SHDN into the Vin line \nfor next revison if it works on testing"
+	(text "Possibly connect SHDN into the Vin line \nfor next revison if it works on testing\nso the solar charger can power on without\nneeding 3V3 buck to bypass inhibit system"
 		(exclude_from_sim no)
-		(at 175.26 42.418 0)
+		(at 171.704 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)

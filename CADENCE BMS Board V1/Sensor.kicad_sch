@@ -4360,10 +4360,10 @@
 	)
 	(text "These diode are in case of overvoltage they will\ntake the hit instead of the buffer or the IC"
 		(exclude_from_sim no)
-		(at 160.274 92.964 0)
+		(at 154.686 85.852 0)
 		(effects
 			(font
-				(size 0.635 0.635)
+				(size 1.27 1.27)
 				(thickness 0.127)
 				(bold yes)
 			)
