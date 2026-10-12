@@ -4799,6 +4799,8 @@
 			(font
 				(face "KiCad Font")
 				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
 			)
 		)
 		(uuid "ebed44c1-1536-45c5-9c94-3c4b9e68f713")
