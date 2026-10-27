@@ -1,0 +1,24 @@
+# Ignore everything in the project folder...
+/*
+
+# ...except these:
+!.gitignore
+
+# KiCad design files
+!*.kicad_pro
+!*.kicad_sch
+!*.kicad_pcb
+!*.kicad_dru
+!*.kicad_sym
+!fp-lib-table
+!sym-lib-table
+
+# Footprint libraries used by the board
+!Custom_Footprints.pretty/
+!Imported_footprints/
+
+# Fab files
+!Fabrication_Files/
+
+# Jlc Files
+!jlcpcb/

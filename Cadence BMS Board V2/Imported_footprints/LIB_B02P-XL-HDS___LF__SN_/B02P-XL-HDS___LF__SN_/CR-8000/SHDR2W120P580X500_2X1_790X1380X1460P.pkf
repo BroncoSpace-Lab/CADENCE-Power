@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "SHDR2W120P580X500_2X1_790X1380X1460P"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "SHDR2W120P580X500_2X1_790X1380X1460P")
+        (spec "default")
+    )
+)
