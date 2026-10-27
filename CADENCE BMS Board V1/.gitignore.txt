@@ -1,0 +1,30 @@
+# KiCad backups and autosave files
+*-backups/
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.sch-bak
+*-save.pro
+*-save.kicad_pcb
+_autosave-*
+\#auto_saved_files#
+*~
+*.tmp
+*.000
+
+# Lock files (created while a file is open)
+~*.lck
+*.lck
+
+# Cache
+fp-info-cache
+
+# Per-user view settings (open layers, zoom, etc.)
+*.kicad_prl
+
+# Netlists and autorouter files (KiCad can regenerate these)
+*.net
+*.dsn
+*.ses
+
