@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LC_04T'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "JST (JAPAN SOLDERLESS TERMINALS)", "LC-04T" (!) = "", "LC04T", "Other", "", "", "LC-04T", "https://www.arrow.com/en/products/lc-04t/jst-manufacturing", "Wire-To-Board Connector, Shrouded, Top Entry, LC Series, Crimp, Header, 4, 5.08 mm RoHS Compliant: Yes", "https://componentsearchengine.com/Datasheets/2/LC-04T.pdf", "11.5 mm"
+END_PART
+
+END.
