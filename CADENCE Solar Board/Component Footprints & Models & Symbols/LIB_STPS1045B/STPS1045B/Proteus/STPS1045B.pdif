@@ -1,0 +1,166 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "STPS1045B"
+   (description "Schottky barrier diode,STPS1045B 10A 45V STMicroelectronics STPS1045B Schottky Diode, 10A, 45V, 3-Pin D-PAK")
+   (family "ANA")
+   (package "T405600BTR")
+   (attribute "Datasheet Link" "https://www.st.com/resource/en/datasheet/stps1045b.pdf")
+   (attribute "Geometry.Height" "2.4mm")
+   (attribute "Manufacturer_Name" "STMicroelectronics")
+   (attribute "Manufacturer_Part_Number" "STPS1045B")
+   (attribute "Mouser Part Number" "511-STPS1045B")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STPS1045B?qs=Aez0sHNrW%2FWlppnqb0KZhw%3D%3D")
+   (attribute "Arrow Part Number" "STPS1045B")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/stps1045b/stmicroelectronics?utm_currency=USD&region=europe")
+   (gate
+    (symbol "STPS1045B")
+    (pin "A" 1 PS)
+    (pin "NOPAD" 2 PS)
+    (pin "A_1" 3 PS)
+    (pin "K" 4 PS)
+   )
+  )
+  (symbol "STPS1045B"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 800 100) (pt 800 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "T405600BTR"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.001)
+     (path
+      (closed true)
+      (pt -2.505 -3.365)
+      (pt 3.715 -3.365)
+      (pt 3.715 3.365)
+      (pt -2.505 3.365)
+      (pt -2.505 -3.365))))
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -5.8 -3.65)
+      (pt 5.8 -3.65)
+      (pt 5.8 3.65)
+      (pt -5.8 3.65)
+      (pt -5.8 -3.65))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.442 -3.27)
+      (pt 3.652 -3.27)
+      (pt 3.652 3.27)
+      (pt -2.442 3.27)
+      (pt -2.442 -3.27))))
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -0.325 0)
+      (arc (pt -0.325 0.000) (pt -0.325 -0.325) (pt 0.325 0.325) (start 180.0) (sweep -180.0))
+      (pt 0.325 0)
+      (arc (pt 0.325 0.000) (pt -0.325 -0.325) (pt 0.325 0.325) (start 180.0) (sweep .0))
+      (pt -0.325 0))))
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed false)
+      (pt 0 -0.5)
+      (pt 0 0.5))))
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed false)
+      (pt -0.5 0)
+      (pt 0.5 0))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 3.652 -2.602)
+      (pt 4.071 -2.602)
+      (pt 4.922 -1.66)
+      (pt 4.922 1.66)
+      (pt 4.071 2.602)
+      (pt 3.652 2.602))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -0.8 -3.25)
+      (pt -2.4 -3.25)
+      (pt -2.4 3.25)
+      (pt -0.8 3.25))))
+   (layer TSLK
+    (graphic
+     (stroke 0.125)
+     (path
+      (closed true)
+      (pt -5.313 3.35)
+      (arc (pt -5.313 3.350) (pt -5.313 3.288) (pt -5.188 3.413) (start 180.0) (sweep 180.0))
+      (pt -5.188 3.35)
+      (arc (pt -5.188 3.350) (pt -5.313 3.288) (pt -5.188 3.413) (start 180.0) (sweep .0))
+      (pt -5.313 3.35))))
+   (leg 1 (pt -4.150 2.350) (padstack 0))
+   (leg 2 (pt -4.150 0.000) (padstack 0))
+   (leg 3 (pt -4.150 -2.350) (padstack 0))
+   (leg 4 (pt 2.550 0.000) (padstack 4))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1.000 2.700 0 0 0.000))
+   )
+   (padstack 4
+    (plated false)
+    (pad (layer TCOP) (rectf 5.550 6.000 0 0 0.000))
+   )
+   (model "STPS1045B.stp"
+    (euler 90 0 -90)
+    (offset 1.0299999713897705 -0.07999999821186066 0)
+   )
+  )
+ )
+)

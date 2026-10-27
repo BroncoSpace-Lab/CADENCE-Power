@@ -1,0 +1,9 @@
+Manufacturer=Analog Devices
+PartNumber=AD7414ARTZ-1REEL7
+PartCategory=Integrated Circuit
+PackageCategory=SOT23 (6-Pin)
+PinCount=6
+Version=2.1
+Released=2022-05-16 06:31:42
+Downloaded=2026-08-17 23:07:56
+3D=Y

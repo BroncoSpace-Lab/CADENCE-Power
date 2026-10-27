@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "T405600BTR"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "T405600BTR")
+        (spec "default")
+    )
+)

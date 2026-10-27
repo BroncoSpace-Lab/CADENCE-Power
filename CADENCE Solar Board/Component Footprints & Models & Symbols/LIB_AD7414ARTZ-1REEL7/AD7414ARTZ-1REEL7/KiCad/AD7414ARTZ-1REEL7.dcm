@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AD7414ARTZ-1REEL7
+D 10-bit temperature-to-digital converter  Temperature range: 40C to +125C  Typical accuracy of +/-0.5C at +40C  SMBus/I2C-compatible serial interface  3 A power-down current  Temperature conversion time: 29 s typ  Space-saving 6-lead (AD7414) and 5-lead (AD7415)  SOT-23 packages  Pin selectable addressing via AS  Overtemperature indicator (AD7414 Only)  SMBus alert function (AD7414 only)  4 versions allow 8 I2C addresses (AD7414)  2 versions allow 6 I2C addresses (AD7415)
+K
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD7414_7415.pdf
+$ENDCMP
+#
+#End Doc Library

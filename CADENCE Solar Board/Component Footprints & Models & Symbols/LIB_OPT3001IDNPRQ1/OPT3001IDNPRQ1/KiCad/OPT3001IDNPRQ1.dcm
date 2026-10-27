@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP OPT3001IDNPRQ1
+D Ambient Light Sensors Automotive Digital Ambient Light Sensor (ALS) With High-Precision Human-Eye Response 6-USON -40 to 85
+K
+F http://www.ti.com/lit/ds/symlink/opt3001-q1.pdf
+$ENDCMP
+#
+#End Doc Library
