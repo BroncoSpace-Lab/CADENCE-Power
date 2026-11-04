@@ -69,13 +69,7 @@
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
-      ],
+      "diff_pair_dimensions": [],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -209,11 +203,7 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [
-        0.0,
-        0.2,
-        0.781437
-      ],
+      "track_widths": [],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -240,12 +230,7 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        }
-      ],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -499,7 +484,12 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "AD7414ARTZ-1REEL7",
+      "INA230AIRGTT",
+      "OPT3001IDNPRQ1",
+      "STPS1045B"
+    ],
     "pinned_symbol_libs": []
   },
   "meta": {
@@ -605,18 +595,6 @@
         },
         {
           "group_by": true,
-          "label": "Exclude from Simulation",
-          "name": "${EXCLUDE_FROM_SIM}",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "Exclude from Position Files",
-          "name": "${EXCLUDE_FROM_POS_FILES}",
-          "show": true
-        },
-        {
-          "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
           "show": true
@@ -672,7 +650,7 @@
     "top_level_sheets": [
       {
         "filename": "Solar Board.kicad_sch",
-        "name": "Solar Board",
+        "name": "Root",
         "uuid": "d52ff0cf-c46d-4759-8b0e-b96c5757d2eb"
       }
     ],
@@ -682,7 +660,7 @@
   "sheets": [
     [
       "d52ff0cf-c46d-4759-8b0e-b96c5757d2eb",
-      "Solar Board"
+      "Root"
     ]
   ],
   "text_variables": {},
