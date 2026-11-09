@@ -4546,6 +4546,16 @@
 		)
 		(uuid "7309e584-f696-47b6-87db-258162598f63")
 	)
+	(text "100 amps??\n"
+		(exclude_from_sim no)
+		(at 225.298 143.764 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "765eae1a-f7a2-421a-a839-308add78645f")
+	)
 	(text "Changed from AGND to VSS because of redundancy\n"
 		(exclude_from_sim no)
 		(at 165.1 148.082 0)
