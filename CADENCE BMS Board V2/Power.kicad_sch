@@ -3777,8 +3777,8 @@
 		(uuid "4be25089-5393-46f9-a19f-7b83d82f2aed")
 	)
 	(rectangle
-		(start 69.85 115.57)
-		(end 124.46 148.59)
+		(start 179.07 109.22)
+		(end 233.68 142.24)
 		(stroke
 			(width 0)
 			(type default)
@@ -3915,7 +3915,7 @@
 	)
 	(text "https://www.youtube.com/watch?v=0pLvkSis51Q"
 		(exclude_from_sim no)
-		(at 97.282 147.32 0)
+		(at 206.502 140.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4269,7 +4269,7 @@
 	)
 	(text "Thermistor will be an \nexternal component \nattached to battery pack. \n(Needs external connectors)\n(4) 10k Ω B = 3380\n\nAdded 910Ω (4.1)"
 		(exclude_from_sim no)
-		(at 70.612 124.968 0)
+		(at 179.832 118.618 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4302,7 +4302,7 @@
 	)
 	(text "Thermistor Connector"
 		(exclude_from_sim no)
-		(at 97.79 113.538 0)
+		(at 207.01 107.188 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -5038,7 +5038,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 123.19) (xy 104.14 123.19)
+			(xy 209.55 116.84) (xy 213.36 116.84)
 		)
 		(stroke
 			(width 0)
@@ -5568,7 +5568,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 127) (xy 104.14 125.73)
+			(xy 213.36 120.65) (xy 213.36 119.38)
 		)
 		(stroke
 			(width 0)
@@ -31421,7 +31421,7 @@
 		(uuid "709658ca-8ce5-4b19-a848-fb315ee4b28c")
 	)
 	(label "NTC"
-		(at 100.33 123.19 0)
+		(at 209.55 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -34796,7 +34796,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 109.22 123.19 0)
+		(at 218.44 116.84 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -34807,7 +34807,7 @@
 		(fields_autoplaced yes)
 		(uuid "4141976a-e121-4c9d-b59f-0905d1f1a136")
 		(property "Reference" "J20"
-			(at 111.76 123.1899 0)
+			(at 220.98 116.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34818,7 +34818,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 111.76 125.7299 0)
+			(at 220.98 119.3799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34829,7 +34829,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_GH_SM02B-GHS-TB_1x02-1MP_P1.25mm_Horizontal"
-			(at 109.22 123.19 0)
+			(at 218.44 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34840,7 +34840,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 123.19 0)
+			(at 218.44 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34851,7 +34851,7 @@
 			)
 		)
 		(property "Description" "https://jlcpcb.com/partdetail/JST-SM02B_GHS_TB_LF_SN/C189893"
-			(at 109.22 123.19 0)
+			(at 218.44 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34862,7 +34862,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 109.22 123.19 0)
+			(at 218.44 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34873,7 +34873,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 109.22 123.19 0)
+			(at 218.44 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34884,7 +34884,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 109.22 123.19 0)
+			(at 218.44 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37757,7 +37757,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 104.14 127 0)
+		(at 213.36 120.65 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -37768,7 +37768,7 @@
 		(fields_autoplaced yes)
 		(uuid "a33f36c7-795d-4fb0-8e0e-9d14ea4f19cc")
 		(property "Reference" "#PWR023"
-			(at 104.14 133.35 0)
+			(at 213.36 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37779,7 +37779,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 104.14 132.08 0)
+			(at 213.36 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37789,7 +37789,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 127 0)
+			(at 213.36 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37800,7 +37800,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 127 0)
+			(at 213.36 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37811,7 +37811,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 104.14 127 0)
+			(at 213.36 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39820,7 +39820,7 @@
 	)
 	(symbol
 		(lib_id "Device:Thermistor")
-		(at 96.52 140.97 90)
+		(at 205.74 134.62 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -39830,7 +39830,7 @@
 		(dnp no)
 		(uuid "ffd29862-5553-474b-901e-8a17ea451a6f")
 		(property "Reference" "TH1"
-			(at 96.52 144.018 90)
+			(at 205.74 137.668 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -39840,7 +39840,7 @@
 			)
 		)
 		(property "Value" "Thermistor"
-			(at 96.266 137.922 90)
+			(at 205.486 131.572 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -39850,7 +39850,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 140.97 0)
+			(at 205.74 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39861,7 +39861,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 140.97 0)
+			(at 205.74 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39872,7 +39872,7 @@
 			)
 		)
 		(property "Description" "https://jlcpcb.com/partdetail/372742-MF52D_103F3435100/C394023"
-			(at 96.52 140.97 0)
+			(at 205.74 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39883,7 +39883,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 96.52 140.97 90)
+			(at 205.74 134.62 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39894,7 +39894,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 96.52 140.97 90)
+			(at 205.74 134.62 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39905,7 +39905,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 96.52 140.97 90)
+			(at 205.74 134.62 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
