@@ -3741,8 +3741,8 @@
 		(uuid "356a7249-6bdf-4a13-8455-3fffe219d4fe")
 	)
 	(rectangle
-		(start 275.59 75.946)
-		(end 284.48 78.486)
+		(start 292.227 74.676)
+		(end 301.117 77.216)
 		(stroke
 			(width 0)
 			(type default)
@@ -4377,7 +4377,7 @@
 	)
 	(text "12.435V\n"
 		(exclude_from_sim no)
-		(at 276.098 77.47 0)
+		(at 292.735 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5388,7 +5388,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 78.74) (xy 285.75 78.74)
+			(xy 274.32 78.74) (xy 292.1 78.74)
 		)
 		(stroke
 			(width 0)
@@ -31432,7 +31432,7 @@
 	)
 	(global_label "Cell 1+"
 		(shape output)
-		(at 285.75 78.74 0)
+		(at 292.1 78.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -31442,7 +31442,7 @@
 		)
 		(uuid "028f6341-3043-4afa-b4fb-5f73454bb369")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 296.1737 78.74 0)
+			(at 302.5237 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31706,7 +31706,7 @@
 		(dnp no)
 		(uuid "02a0a0ce-e5b5-46cf-8149-49551ba264e8")
 		(property "Reference" "C13"
-			(at 224.028 326.136 0)
+			(at 224.028 325.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31716,7 +31716,7 @@
 			)
 		)
 		(property "Value" "47uF"
-			(at 224.028 327.914 0)
+			(at 224.028 327.152 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33130,7 +33130,7 @@
 		(dnp no)
 		(uuid "16547ba7-3786-4137-9022-1c961d3f1acb")
 		(property "Reference" "C12"
-			(at 215.138 344.424 0)
+			(at 225.298 347.218 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33140,7 +33140,7 @@
 			)
 		)
 		(property "Value" "4.7pF"
-			(at 215.138 346.202 0)
+			(at 225.298 348.996 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34041,7 +34041,7 @@
 		(dnp no)
 		(uuid "2e72b02c-70cd-44c5-b047-8e4d6e2a7bbd")
 		(property "Reference" "R10"
-			(at 206.248 346.202 0)
+			(at 205.74 346.456 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34052,7 +34052,7 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 206.248 348.234 0)
+			(at 206.248 348.742 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34662,7 +34662,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 221.488 332.74 0)
+			(at 218.44 333.756 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35756,7 +35756,7 @@
 		(dnp no)
 		(uuid "5a320078-91b2-425d-89c5-a80719692095")
 		(property "Reference" "C11"
-			(at 214.122 325.628 0)
+			(at 213.868 325.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35766,7 +35766,7 @@
 			)
 		)
 		(property "Value" "47uF"
-			(at 214.122 327.406 0)
+			(at 213.868 327.152 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -39929,5 +39929,9 @@
 				)
 			)
 		)
+	)
+	(group ""
+		(uuid "ca6897d0-91ae-491f-b4a7-cdec27a9d42d")
+		(members "3d3f2f45-d23b-4322-a04d-37a2d81f7f36" "dffdec06-b577-406d-9ec6-73037ff44055")
 	)
 )
