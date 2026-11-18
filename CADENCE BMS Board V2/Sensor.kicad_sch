@@ -30909,7 +30909,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PW14"
+		(property "Footprint" ""
 			(at 133.35 139.7 0)
 			(hide yes)
 			(show_name no)

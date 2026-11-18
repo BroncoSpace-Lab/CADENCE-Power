@@ -22,4 +22,5 @@
 	(lib (name "60V_N_channel_FET_RAD") (type "KiCad") (uri "${KIPRJMOD}/Imported_footprints/60V_N_channel_FET_RAD/60V_N_channel_FET_RAD.pretty") (options "") (descr ""))
 	(lib (name "JST_CON") (type "KiCad") (uri "${KIPRJMOD}/Imported_footprints/LIB_B02P-XL-HDS___LF__SN_/B02P-XL-HDS___LF__SN_/KiCad/JST_CON.pretty") (options "") (descr ""))
 	(lib (name "JST_4Pin_CON") (type "KiCad") (uri "${KIPRJMOD}/Imported_footprints/LIB_LC-04T/LC-04T/KiCad/JST_4Pin_CON.pretty") (options "") (descr ""))
+	(lib (name "DF11_8DP_2DSA_01_") (type "KiCad") (uri "${KIPRJMOD}/Imported_footprints/DF11_8DP_2DSA_01_") (options "") (descr ""))
 )
