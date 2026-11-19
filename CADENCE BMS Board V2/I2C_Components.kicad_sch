@@ -4877,7 +4877,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2fc5ceef-ab1d-4b6e-a432-2e60d9c6dbd4")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR081"
 			(at 129.54 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -4937,7 +4937,7 @@
 		(instances
 			(project "BMS_Board_Prototype"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/faab3ee8-ea24-4642-bb04-240164625363"
-					(reference "#PWR058")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -4954,7 +4954,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5ac61b15-dd05-41fd-9726-01939eb441bf")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR084"
 			(at 146.05 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -5014,7 +5014,7 @@
 		(instances
 			(project "BMS_Board_Prototype"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/faab3ee8-ea24-4642-bb04-240164625363"
-					(reference "#PWR091")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -5031,7 +5031,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5d081bc3-4a02-4419-a3b6-f8a46be9a873")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR079"
 			(at 83.82 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -5091,7 +5091,7 @@
 		(instances
 			(project "BMS_Board_Prototype"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/faab3ee8-ea24-4642-bb04-240164625363"
-					(reference "#PWR056")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -5108,7 +5108,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "73950d8f-9ebb-42b7-9695-78a402de4769")
-		(property "Reference" "R44"
+		(property "Reference" "R62"
 			(at 100.838 61.214 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5205,7 +5205,7 @@
 		(instances
 			(project "BMS_Board_Prototype"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/faab3ee8-ea24-4642-bb04-240164625363"
-					(reference "R44")
+					(reference "R62")
 					(unit 1)
 				)
 			)
@@ -5222,7 +5222,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "880268ab-671c-4f27-b004-4fbeb5023b56")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR080"
 			(at 107.95 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -5282,7 +5282,7 @@
 		(instances
 			(project "BMS_Board_Prototype"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/faab3ee8-ea24-4642-bb04-240164625363"
-					(reference "#PWR057")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -5299,7 +5299,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8b7a2729-88d5-4cb7-8aa6-2d373b37e072")
-		(property "Reference" "C31"
+		(property "Reference" "C39"
 			(at 138.43 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5396,7 +5396,7 @@
 		(instances
 			(project "BMS_Board_Prototype"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/faab3ee8-ea24-4642-bb04-240164625363"
-					(reference "C31")
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -5413,7 +5413,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "93892262-521c-41eb-b5b4-a262893300b8")
-		(property "Reference" "R45"
+		(property "Reference" "R63"
 			(at 111.252 61.722 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5510,7 +5510,7 @@
 		(instances
 			(project "BMS_Board_Prototype"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/faab3ee8-ea24-4642-bb04-240164625363"
-					(reference "R45")
+					(reference "R63")
 					(unit 1)
 				)
 			)
@@ -5528,7 +5528,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "994937a8-4d9c-4f28-b3d8-e45f95d10232")
-		(property "Reference" "U7"
+		(property "Reference" "U8"
 			(at 120.904 81.534 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5641,7 +5641,7 @@
 		(instances
 			(project "BMS_Board_Prototype"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/faab3ee8-ea24-4642-bb04-240164625363"
-					(reference "U7")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -5658,7 +5658,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9f4bea2d-6225-45d4-85cd-1aff20d063a7")
-		(property "Reference" "TP18"
+		(property "Reference" "TP22"
 			(at 78.74 79.5019 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5752,7 +5752,7 @@
 		(instances
 			(project "BMS_Board_Prototype"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/faab3ee8-ea24-4642-bb04-240164625363"
-					(reference "TP18")
+					(reference "TP22")
 					(unit 1)
 				)
 			)
@@ -5769,7 +5769,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a047d7ff-ebe5-4732-88f9-d0ed0be28ade")
-		(property "Reference" "R42"
+		(property "Reference" "R60"
 			(at 77.47 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5866,7 +5866,7 @@
 		(instances
 			(project "BMS_Board_Prototype"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/faab3ee8-ea24-4642-bb04-240164625363"
-					(reference "R42")
+					(reference "R60")
 					(unit 1)
 				)
 			)
@@ -5883,7 +5883,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a7ba7e48-4e5c-42be-a456-4b524fe33da2")
-		(property "Reference" "C32"
+		(property "Reference" "C40"
 			(at 149.86 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5980,7 +5980,7 @@
 		(instances
 			(project "BMS_Board_Prototype"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/faab3ee8-ea24-4642-bb04-240164625363"
-					(reference "C32")
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -5997,7 +5997,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "baf729c5-41af-44cb-83a4-dd230d590d21")
-		(property "Reference" "TP17"
+		(property "Reference" "TP21"
 			(at 73.66 64.0081 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6091,7 +6091,7 @@
 		(instances
 			(project "BMS_Board_Prototype"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/faab3ee8-ea24-4642-bb04-240164625363"
-					(reference "TP17")
+					(reference "TP21")
 					(unit 1)
 				)
 			)
@@ -6108,7 +6108,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d5cf83be-96a5-45d1-8362-96ef76722ab2")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR082"
 			(at 129.54 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -6168,7 +6168,7 @@
 		(instances
 			(project "BMS_Board_Prototype"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/faab3ee8-ea24-4642-bb04-240164625363"
-					(reference "#PWR090")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -6185,7 +6185,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "df7c7b72-7450-4040-a5ce-2b6309c94491")
-		(property "Reference" "TP19"
+		(property "Reference" "TP23"
 			(at 94.234 57.658 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6279,7 +6279,7 @@
 		(instances
 			(project "BMS_Board_Prototype"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/faab3ee8-ea24-4642-bb04-240164625363"
-					(reference "TP19")
+					(reference "TP23")
 					(unit 1)
 				)
 			)
@@ -6296,7 +6296,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e54105d8-4096-41d0-8ce7-b9e3522b740a")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR083"
 			(at 146.05 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -6356,7 +6356,7 @@
 		(instances
 			(project "BMS_Board_Prototype"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/faab3ee8-ea24-4642-bb04-240164625363"
-					(reference "#PWR060")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -6373,7 +6373,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e7cb0b27-16ab-41ad-8199-cbc26be84e8e")
-		(property "Reference" "R43"
+		(property "Reference" "R61"
 			(at 86.868 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6470,7 +6470,7 @@
 		(instances
 			(project "BMS_Board_Prototype"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/faab3ee8-ea24-4642-bb04-240164625363"
-					(reference "R43")
+					(reference "R61")
 					(unit 1)
 				)
 			)
@@ -6487,7 +6487,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f36c2d78-f4b5-4924-8a65-6550adaf5955")
-		(property "Reference" "TP20"
+		(property "Reference" "TP24"
 			(at 96.012 84.074 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6581,7 +6581,7 @@
 		(instances
 			(project "BMS_Board_Prototype"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/faab3ee8-ea24-4642-bb04-240164625363"
-					(reference "TP20")
+					(reference "TP24")
 					(unit 1)
 				)
 			)

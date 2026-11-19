@@ -845,7 +845,7 @@
         "uuid": "4ee99911-836b-4752-8a2d-327c8b28dc47"
       }
     ],
-    "used_designators": "",
+    "used_designators": "J1-22,IC1,R1-63,#FLG1,L1-4,D1-17,#PWR1-84,C1-40,Q1-11,SW1,TH1-2,TP1-24,U1-8",
     "variants": []
   },
   "sheets": [
@@ -868,10 +868,6 @@
     [
       "faab3ee8-ea24-4642-bb04-240164625363",
       "I2C Components"
-    ],
-    [
-      "2dd73af5-fef2-4c63-a174-1636b1b663bb",
-      "Inhibit System"
     ]
   ],
   "text_variables": {},
