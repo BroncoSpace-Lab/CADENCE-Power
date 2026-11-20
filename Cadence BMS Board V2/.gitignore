@@ -4,14 +4,6 @@
 # ...except these:
 !.gitignore
 
-# KiCad design files
-!*.kicad_pro
-!*.kicad_sch
-!*.kicad_pcb
-!*.kicad_dru
-!*.kicad_sym
-!fp-lib-table
-!sym-lib-table
 
 # Footprint libraries used by the board
 !Custom_Footprints.pretty/
@@ -22,3 +14,11 @@
 
 # Jlc Files
 !jlcpcb/
+# KiCad design files
+!*.kicad_pro
+!*.kicad_sch
+!*.kicad_pcb
+!*.kicad_dru
+!*.kicad_sym
+!fp-lib-table
+!sym-lib-table

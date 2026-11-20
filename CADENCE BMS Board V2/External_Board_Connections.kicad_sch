@@ -5,6 +5,300 @@
 	(uuid "e27ef63d-17ca-4cf2-9cab-c7162e72d676")
 	(paper "A3")
 	(lib_symbols
+		(symbol "BMS_Components_JLC:MDD06P03C"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 0 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MDD06P03C"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "BMS_Components_JLC:SOT-23-3L_L2.9-W1.6-P1.90-LS2.8-BL"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C53069233.pdf"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "MDD(辰达半导体)"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "MDD06P03C"
+				(at 0 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C53069233"
+				(at 0 -22.86 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MDD06P03C_0_1"
+				(polyline
+					(pts
+						(xy -1.78 2.29) (xy -1.78 -2.29)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 2.29)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -0.51) (xy -1.27 0.51)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.29) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.78) (xy -1.27 1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.78) (xy 1.27 2.54) (xy 3.81 2.54) (xy 3.81 0.76)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -0.25 0.51) (xy -0.25 -0.51) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.78) (xy -1.27 -1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 3.81 -2.54) (xy 3.81 -0.51)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -0.51) (xy 4.57 0.76) (xy 3.05 0.76) (xy 3.81 -0.51)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.57 -0.51) (xy 4.32 -0.51) (xy 3.3 -0.51) (xy 3.05 -0.51)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 1.27 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 1.27 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -2793,307 +3087,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:Q_PMOS_DGS"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Q_PMOS_DGS"
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "P-MOSFET transistor, drain/gate/source"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Q_PMOS_DGS_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.921 -0.381) (xy 3.683 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Q_PMOS_DGS_1_1"
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3.3V"
 			(power global)
 			(pin_numbers
@@ -3806,16 +3799,16 @@
 		(uuid "63d3c901-5d1e-4ac2-b70e-5089db5fe611")
 	)
 	(junction
+		(at 114.3 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "657f07a3-f2d9-45b4-8a33-c65984f445e6")
+	)
+	(junction
 		(at 129.54 222.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "65f634c6-4c81-4759-a93c-e0710d3ebb2b")
-	)
-	(junction
-		(at 114.3 190.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7e551d6c-0a89-474a-a5b5-c0607f15ab78")
 	)
 	(junction
 		(at 236.22 63.5)
@@ -3828,12 +3821,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b9445bf-1e47-480e-bfb7-a0f00c730ff1")
-	)
-	(junction
-		(at 97.79 190.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a12b19e1-5c11-4fd9-9cab-06434b8c2e56")
 	)
 	(junction
 		(at 142.24 54.61)
@@ -3876,6 +3863,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce36d60c-4571-4817-bdbf-c4016e63d67a")
+	)
+	(junction
+		(at 97.79 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da5f1b87-c4b8-4e16-8edd-1f6e4fc60445")
 	)
 	(junction
 		(at 63.5 60.96)
@@ -3965,6 +3958,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 187.96) (xy 97.79 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02e6f142-843f-4896-993b-e906b1d6f2cc")
+	)
+	(wire
+		(pts
 			(xy 57.15 182.88) (xy 63.5 182.88)
 		)
 		(stroke
@@ -4012,6 +4015,16 @@
 			(type default)
 		)
 		(uuid "1006a8b5-0690-472b-9c13-b02916f31c42")
+	)
+	(wire
+		(pts
+			(xy 97.79 190.5) (xy 104.14 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10df7a08-6ecf-4afa-87ae-992a1159e3ee")
 	)
 	(wire
 		(pts
@@ -4545,7 +4558,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 190.5) (xy 124.46 190.5)
+			(xy 104.14 190.5) (xy 114.3 190.5)
 		)
 		(stroke
 			(width 0)
@@ -4885,6 +4898,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 190.5) (xy 124.46 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af09cf92-033b-4957-9df4-fc0551c31fbd")
+	)
+	(wire
+		(pts
 			(xy 144.78 60.96) (xy 144.78 62.23)
 		)
 		(stroke
@@ -4942,6 +4965,16 @@
 			(type default)
 		)
 		(uuid "bba6ae74-571a-4020-80c4-507e73fda388")
+	)
+	(wire
+		(pts
+			(xy 114.3 187.96) (xy 114.3 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbd50517-c905-4fd3-afab-532dfab4f046")
 	)
 	(wire
 		(pts
@@ -5135,16 +5168,6 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 190.5) (xy 104.14 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d96961fa-c0b4-42c1-83d4-1adfc52f24c5")
-	)
-	(wire
-		(pts
 			(xy 160.02 201.93) (xy 160.02 212.09)
 		)
 		(stroke
@@ -5162,16 +5185,6 @@
 			(type default)
 		)
 		(uuid "dc009536-1975-44d2-b9e3-89ed4ebea012")
-	)
-	(wire
-		(pts
-			(xy 104.14 190.5) (xy 114.3 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc5261e9-1a8a-4225-9e2e-1b7614c17416")
 	)
 	(wire
 		(pts
@@ -10182,6 +10195,123 @@
 		)
 	)
 	(symbol
+		(lib_id "BMS_Components_JLC:MDD06P03C")
+		(at 114.3 184.15 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f4b203e-60df-4198-8533-d7a09427203e")
+		(property "Reference" "Q5"
+			(at 114.3 175.26 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MDD06P03C"
+			(at 114.3 177.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BMS_Components_JLC:SOT-23-3L_L2.9-W1.6-P1.90-LS2.8-BL"
+			(at 101.6 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C53069233.pdf"
+			(at 99.06 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "MDD(辰达半导体)"
+			(at 96.52 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MDD06P03C"
+			(at 93.98 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C53069233"
+			(at 91.44 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "112f7213-2580-42d7-b37a-49586cba075d")
+		)
+		(pin "3"
+			(uuid "0b06b75c-491d-4414-8b4a-7b125b8bca05")
+		)
+		(pin "1"
+			(uuid "7c7141bc-e1a3-498c-b81a-f69fe41fed18")
+		)
+		(instances
+			(project "BMS_Board_Prototype"
+				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 132.08 240.03 0)
 		(unit 1)
@@ -12611,6 +12741,121 @@
 		)
 	)
 	(symbol
+		(lib_id "BMS_Components_JLC:MDD06P03C")
+		(at 97.79 184.15 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "640cd234-a3fa-4768-9a7f-7d813e5e6869")
+		(property "Reference" "Q4"
+			(at 97.79 175.26 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MDD06P03C"
+			(at 97.79 177.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BMS_Components_JLC:SOT-23-3L_L2.9-W1.6-P1.90-LS2.8-BL"
+			(at 110.49 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C53069233.pdf"
+			(at 113.03 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 97.79 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "MDD(辰达半导体)"
+			(at 115.57 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MDD06P03C"
+			(at 118.11 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C53069233"
+			(at 120.65 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "97f152d0-377c-4dfe-b57b-cb2ca29263bb")
+		)
+		(pin "3"
+			(uuid "da665a5e-9c82-4ac4-8112-4d98ae8b364a")
+		)
+		(pin "1"
+			(uuid "cc35779f-f489-4cf9-913d-9770e4947d47")
+		)
+		(instances
+			(project "BMS_Board_Prototype"
+				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
 		(at 369.57 173.99 0)
 		(unit 1)
@@ -14843,89 +15088,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:Q_PMOS_DGS")
-		(at 114.3 185.42 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c330830f-b1d0-4a30-b596-27da0d358f01")
-		(property "Reference" "Q11"
-			(at 114.3 176.53 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Q_PMOS_DGS"
-			(at 114.3 179.07 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 116.84 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, drain/gate/source"
-			(at 114.3 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "52222cad-4b00-40e9-9100-841c8ce51997")
-		)
-		(pin "2"
-			(uuid "9c293292-8968-444c-83fe-18981d4d8feb")
-		)
-		(pin "1"
-			(uuid "e3944ecf-9745-4835-beee-89d17ea6d791")
-		)
-		(instances
-			(project "BMS_Board_Prototype"
-				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
-					(reference "Q11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 127 59.69 0)
 		(unit 1)
@@ -16369,89 +16531,6 @@
 			(project "BMS_Board_Prototype"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "TP11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:Q_PMOS_DGS")
-		(at 97.79 185.42 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ef3e8a90-f80c-441e-99e1-8577b6e63c8d")
-		(property "Reference" "Q10"
-			(at 97.79 176.53 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Q_PMOS_DGS"
-			(at 97.79 179.07 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 95.25 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 97.79 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "P-MOSFET transistor, drain/gate/source"
-			(at 97.79 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "a937bce4-df16-4559-a67e-5bff7a363b03")
-		)
-		(pin "2"
-			(uuid "98a4df49-1806-46bf-b5f3-41019efcbc3d")
-		)
-		(pin "1"
-			(uuid "d61e9713-2a57-4db7-bdc9-dd4283968a4d")
-		)
-		(instances
-			(project "BMS_Board_Prototype"
-				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
-					(reference "Q10")
 					(unit 1)
 				)
 			)

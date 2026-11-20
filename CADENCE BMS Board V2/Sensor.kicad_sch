@@ -518,6 +518,288 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "BMS_Components_JLC:G15N06K"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 0 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "G15N06K"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "BMS_Components_JLC:TO-252-2_L6.6-W6.2-P4.57-LS10.1-BR-CW"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C3038563.pdf"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "GOFORD(谷峰)"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "G15N06K"
+				(at 0 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C3038563"
+				(at 0 -22.86 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "G15N06K_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -0.51 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.51 2.29) (xy -0.51 -2.29)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.29) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.78) (xy 2.54 1.78) (xy 2.54 2.54) (xy 5.08 2.54) (xy 5.08 2.54) (xy 5.08 0.51)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.52 -0.51) (xy 1.52 0.51) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 2.54 0) (xy 2.54 -2.54) (xy 5.08 -2.54) (xy 5.08 -2.54) (xy 5.08 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.51) (xy 0 0.51)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.29) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.78) (xy 0 -1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0.51) (xy 4.32 -0.76) (xy 5.84 -0.76) (xy 5.08 0.51)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.1 0.51) (xy 5.59 0.51) (xy 4.57 0.51) (xy 4.06 0.51)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "BSS84:BSS84"
 			(pin_names
 				(offset 0.254)
@@ -4498,307 +4780,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:Q_NMOS_DSG"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Q_NMOS_DSG"
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "N-MOSFET transistor, drain/source/gate"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Q_NMOS_DSG_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.921 0.381) (xy 3.683 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Q_NMOS_DSG_1_1"
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3.3V"
 			(power global)
 			(pin_numbers
@@ -5800,6 +5781,12 @@
 		(uuid "340b1149-a40a-4127-9cca-b6e1a09fb241")
 	)
 	(junction
+		(at 488.95 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35604d8c-e583-4bcc-a971-a3266de8ad1a")
+	)
+	(junction
 		(at 72.39 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5848,6 +5835,12 @@
 		(uuid "53257180-d98d-4812-a27c-60720090ef51")
 	)
 	(junction
+		(at 480.06 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b6a5bb0-4eb1-4b4d-b4bf-eea11a9dde4b")
+	)
+	(junction
 		(at 77.47 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5860,10 +5853,10 @@
 		(uuid "5e4ee8b1-d5c5-4b26-8d08-725559f10ecf")
 	)
 	(junction
-		(at 480.06 115.57)
+		(at 367.03 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6481607f-c423-4e72-b69a-ec9dafdba30b")
+		(uuid "649ba038-a5ae-4d63-9426-78d6e3eb8b31")
 	)
 	(junction
 		(at 459.74 102.87)
@@ -5914,12 +5907,6 @@
 		(uuid "9a93894b-e464-4272-a5b4-86300ae2d863")
 	)
 	(junction
-		(at 488.95 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9e2a9756-bff5-48e8-91f4-5d522d28d798")
-	)
-	(junction
 		(at 459.74 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5948,12 +5935,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ae9ec756-e7d7-4947-9fc7-3ea95ea33df9")
-	)
-	(junction
-		(at 486.41 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b232b85d-a1fe-4387-9e07-7d24ce009016")
 	)
 	(junction
 		(at 191.77 137.16)
@@ -5992,16 +5973,16 @@
 		(uuid "c322596a-f9b2-42a8-9186-99204a8e715a")
 	)
 	(junction
+		(at 486.41 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c466cebb-dc67-40a7-aa2e-f1a1a181b6db")
+	)
+	(junction
 		(at 191.77 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c57911c9-faed-40c7-b465-dc69471669e1")
-	)
-	(junction
-		(at 367.03 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c650cc45-796a-4246-8ad1-b7c013d275bf")
 	)
 	(junction
 		(at 86.36 85.09)
@@ -6172,6 +6153,16 @@
 			(type default)
 		)
 		(uuid "07b321b1-4260-4d7f-99c6-ba93fdf2b72d")
+	)
+	(wire
+		(pts
+			(xy 486.41 90.17) (xy 495.3 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09376f6b-04c5-4b7c-bd90-d0283444384c")
 	)
 	(polyline
 		(pts
@@ -7175,16 +7166,6 @@
 	)
 	(wire
 		(pts
-			(xy 459.74 90.17) (xy 486.41 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "865e598b-9423-48ab-ba2f-08877439df9f")
-	)
-	(wire
-		(pts
 			(xy 367.03 119.38) (xy 370.84 119.38)
 		)
 		(stroke
@@ -7252,6 +7233,16 @@
 			(type default)
 		)
 		(uuid "8e09c4da-ef04-4e83-9317-bc45222d34ea")
+	)
+	(wire
+		(pts
+			(xy 480.06 115.57) (xy 504.19 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e6e8949-3b3f-41d1-ad89-57316613480d")
 	)
 	(wire
 		(pts
@@ -7402,6 +7393,16 @@
 			(type default)
 		)
 		(uuid "a6227417-6633-4248-a842-35db58bc4d4e")
+	)
+	(wire
+		(pts
+			(xy 488.95 104.14) (xy 495.3 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7f4a7c5-8364-40a2-9685-81272d4f14f8")
 	)
 	(wire
 		(pts
@@ -7702,16 +7703,6 @@
 			(type default)
 		)
 		(uuid "c3752f02-41cc-4767-b8e7-183a212d73c0")
-	)
-	(wire
-		(pts
-			(xy 480.06 115.57) (xy 504.19 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3799fe2-aed0-4f09-891d-97a4e9acb40d")
 	)
 	(wire
 		(pts
@@ -8215,16 +8206,6 @@
 	)
 	(wire
 		(pts
-			(xy 488.95 104.14) (xy 495.3 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f92e0b95-0d55-44b5-a5fe-18d258a1e6a3")
-	)
-	(wire
-		(pts
 			(xy 436.88 81.28) (xy 459.74 81.28)
 		)
 		(stroke
@@ -8235,7 +8216,7 @@
 	)
 	(wire
 		(pts
-			(xy 486.41 90.17) (xy 495.3 90.17)
+			(xy 459.74 90.17) (xy 486.41 90.17)
 		)
 		(stroke
 			(width 0)
@@ -25575,123 +25556,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:Q_NMOS_DSG")
-		(at 486.41 99.06 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0ff991eb-57eb-4ae9-bad1-ff51ffdb08d9")
-		(property "Reference" "Q9"
-			(at 491.49 101.6 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "N-MOS"
-			(at 491.49 99.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "60V_N_channel_FET_RAD:SOT_N06-31-GE3_VIS"
-			(at 491.49 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 486.41 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 486.41 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 486.41 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 486.41 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" ""
-			(at 486.41 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ae7b437f-b4b5-4ed5-82eb-c3d15eb7a042")
-		)
-		(pin "3"
-			(uuid "05622e43-1fea-45b6-8be2-6d1aa23aef12")
-		)
-		(pin "2"
-			(uuid "1970a5a3-08f1-4039-ba33-7a56ebbed646")
-		)
-		(instances
-			(project "BMS_Board_Prototype"
-				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/3281f8b8-f9b3-4f29-933c-5d0b1d830ef9"
-					(reference "Q9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 161.29 167.64 0)
 		(unit 1)
@@ -28013,124 +27877,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:Q_NMOS_DSG")
-		(at 340.36 91.44 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5559e2b3-cd49-478f-9eff-09bdcd016116")
-		(property "Reference" "Q4"
-			(at 352.044 97.536 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Q_NMOS_DSG"
-			(at 352.044 94.996 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "60V_N_channel_FET_RAD:SOT_N06-31-GE3_VIS"
-			(at 335.28 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 340.36 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 340.36 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 340.36 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 340.36 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" ""
-			(at 340.36 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ac14d78a-7cda-41b4-bd45-3dfbfc029066")
-		)
-		(pin "3"
-			(uuid "7094d650-d1ce-4d1f-8659-7850b69fb278")
-		)
-		(pin "2"
-			(uuid "a09aa6d5-2055-48ed-ac42-780243d1c5f3")
-		)
-		(instances
-			(project "BMS_Board_Prototype"
-				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/3281f8b8-f9b3-4f29-933c-5d0b1d830ef9"
-					(reference "Q4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 161.29 295.91 0)
 		(unit 1)
@@ -29757,8 +29503,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:Q_NMOS_DSG")
-		(at 477.52 110.49 0)
+		(lib_id "BMS_Components_JLC:G15N06K")
+		(at 486.41 99.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29766,9 +29512,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "83766e40-a62c-4262-8510-9eadcd2a59a4")
-		(property "Reference" "Q7"
-			(at 483.108 113.284 0)
+		(uuid "820f800b-1e1a-4eb8-b14a-1f1ec03e0a0a")
+		(property "Reference" "Q11"
+			(at 494.03 100.3301 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29778,8 +29524,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "N-MOS"
-			(at 483.108 110.744 0)
+		(property "Value" "G15N06K"
+			(at 494.03 97.7901 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29789,8 +29535,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "60V_N_channel_FET_RAD:SOT_N06-31-GE3_VIS"
-			(at 482.6 107.95 0)
+		(property "Footprint" "BMS_Components_JLC:TO-252-2_L6.6-W6.2-P4.57-LS10.1-BR-CW"
+			(at 486.41 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29800,8 +29546,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 477.52 110.49 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C3038563.pdf"
+			(at 486.41 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29811,8 +29557,8 @@
 				)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 477.52 110.49 0)
+		(property "Description" ""
+			(at 486.41 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29822,8 +29568,8 @@
 				)
 			)
 		)
-		(property "LCSC" ""
-			(at 477.52 110.49 0)
+		(property "Manufacturer" "GOFORD(谷峰)"
+			(at 486.41 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29833,8 +29579,8 @@
 				)
 			)
 		)
-		(property "Sim.Type" ""
-			(at 477.52 110.49 0)
+		(property "MPN" "G15N06K"
+			(at 486.41 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29844,8 +29590,8 @@
 				)
 			)
 		)
-		(property "Voltage" ""
-			(at 477.52 110.49 0)
+		(property "LCSC Part" "C3038563"
+			(at 486.41 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29854,20 +29600,20 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "1"
-			(uuid "8ffe756f-7062-4802-9613-fb19baed6604")
 		)
 		(pin "3"
-			(uuid "89f45617-9fd8-46e7-bdb5-9427bfe95c39")
+			(uuid "46284a9d-fd54-4247-b73e-8ba698588b26")
+		)
+		(pin "1"
+			(uuid "8cf4bf6f-c6eb-41d5-aab7-f5bee96017d7")
 		)
 		(pin "2"
-			(uuid "a0f6b59b-c8aa-4edc-86dc-5b9fada19657")
+			(uuid "cb8c1fe7-279b-4195-83d5-865829bfa065")
 		)
 		(instances
 			(project "BMS_Board_Prototype"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/3281f8b8-f9b3-4f29-933c-5d0b1d830ef9"
-					(reference "Q7")
+					(reference "Q11")
 					(unit 1)
 				)
 			)
@@ -30370,6 +30116,123 @@
 			(project "BMS_Board_Prototype"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/3281f8b8-f9b3-4f29-933c-5d0b1d830ef9"
 					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BMS_Components_JLC:G15N06K")
+		(at 477.52 110.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8ae89563-1b20-4d8b-aac8-2de41721f888")
+		(property "Reference" "Q9"
+			(at 485.14 111.7601 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "G15N06K"
+			(at 485.14 109.2201 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BMS_Components_JLC:TO-252-2_L6.6-W6.2-P4.57-LS10.1-BR-CW"
+			(at 477.52 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C3038563.pdf"
+			(at 477.52 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 477.52 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "GOFORD(谷峰)"
+			(at 477.52 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "G15N06K"
+			(at 477.52 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C3038563"
+			(at 477.52 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "d0958c63-bf08-4b7d-a83f-4fd4db198fe5")
+		)
+		(pin "1"
+			(uuid "7ce7f792-4cde-43bc-a4d6-f47ef7748421")
+		)
+		(pin "2"
+			(uuid "f238cdd4-360a-44e2-837e-f62875ab11dc")
+		)
+		(instances
+			(project "BMS_Board_Prototype"
+				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/3281f8b8-f9b3-4f29-933c-5d0b1d830ef9"
+					(reference "Q9")
 					(unit 1)
 				)
 			)
@@ -31101,123 +30964,6 @@
 			(project "BMS_Board_Prototype"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/3281f8b8-f9b3-4f29-933c-5d0b1d830ef9"
 					(reference "TP6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:Q_NMOS_DSG")
-		(at 369.57 68.58 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "98da9db1-e0b6-4663-aef8-afdcc4fd7b74")
-		(property "Reference" "Q5"
-			(at 363.982 67.056 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Q_NMOS_DSG"
-			(at 363.982 69.596 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "60V_N_channel_FET_RAD:SOT_N06-31-GE3_VIS"
-			(at 364.49 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 369.57 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 369.57 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 369.57 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 369.57 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" ""
-			(at 369.57 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cec67398-0506-4350-bf1b-069f9303545b")
-		)
-		(pin "3"
-			(uuid "bd887a50-b632-42b5-8842-58eeb8f120b0")
-		)
-		(pin "2"
-			(uuid "74035af8-bcef-4473-804c-61748b45144b")
-		)
-		(instances
-			(project "BMS_Board_Prototype"
-				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/3281f8b8-f9b3-4f29-933c-5d0b1d830ef9"
-					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -32996,124 +32742,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:Q_NMOS_DSG")
-		(at 369.57 80.01 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b9bdda8c-3af6-4ad2-a98a-4cb4e5c111e2")
-		(property "Reference" "Q6"
-			(at 363.22 81.2801 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Q_NMOS_DSG"
-			(at 363.22 78.7401 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "60V_N_channel_FET_RAD:SOT_N06-31-GE3_VIS"
-			(at 364.49 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 369.57 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 369.57 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 369.57 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 369.57 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" ""
-			(at 369.57 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8dd7d0f0-fef8-4117-bc7d-7f480a56443c")
-		)
-		(pin "3"
-			(uuid "ad4bfd35-fd70-42f6-af72-0ddff6a773c6")
-		)
-		(pin "2"
-			(uuid "0e74d162-a5f0-4dd9-bbaa-3ee9019d4bb7")
-		)
-		(instances
-			(project "BMS_Board_Prototype"
-				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/3281f8b8-f9b3-4f29-933c-5d0b1d830ef9"
-					(reference "Q6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 236.22 80.01 0)
 		(unit 1)
@@ -33332,6 +32960,124 @@
 			(project "BMS_Board_Prototype"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/3281f8b8-f9b3-4f29-933c-5d0b1d830ef9"
 					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BMS_Components_JLC:G15N06K")
+		(at 340.36 91.44 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bcd9ff1d-d562-42aa-b27d-24cc6aa99af4")
+		(property "Reference" "Q6"
+			(at 332.74 92.7101 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "G15N06K"
+			(at 332.74 90.1701 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BMS_Components_JLC:TO-252-2_L6.6-W6.2-P4.57-LS10.1-BR-CW"
+			(at 340.36 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C3038563.pdf"
+			(at 340.36 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 340.36 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "GOFORD(谷峰)"
+			(at 340.36 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "G15N06K"
+			(at 340.36 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C3038563"
+			(at 340.36 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "dc194f8f-ebf9-4e29-88ae-18d383f36b80")
+		)
+		(pin "1"
+			(uuid "56107de3-2524-412b-a678-52f6fd6e8c0c")
+		)
+		(pin "2"
+			(uuid "0cd75219-4f21-43d1-a359-54fe024a35a1")
+		)
+		(instances
+			(project "BMS_Board_Prototype"
+				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/3281f8b8-f9b3-4f29-933c-5d0b1d830ef9"
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -33643,8 +33389,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:Q_NMOS_DSG")
-		(at 483.87 85.09 0)
+		(lib_id "BMS_Components_JLC:G15N06K")
+		(at 369.57 80.01 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -33652,9 +33399,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "c38d5e92-4ac6-4ed0-8ab0-015ef738e136")
+		(uuid "c20c6f2e-529d-4fd5-80ed-add1ca249456")
 		(property "Reference" "Q8"
-			(at 488.696 88.392 0)
+			(at 361.95 81.2801 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33664,8 +33411,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "N-MOS"
-			(at 488.696 85.852 0)
+		(property "Value" "G15N06K"
+			(at 361.95 78.7401 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33675,8 +33422,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "60V_N_channel_FET_RAD:SOT_N06-31-GE3_VIS"
-			(at 488.95 82.55 0)
+		(property "Footprint" "BMS_Components_JLC:TO-252-2_L6.6-W6.2-P4.57-LS10.1-BR-CW"
+			(at 369.57 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33686,8 +33433,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 483.87 85.09 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C3038563.pdf"
+			(at 369.57 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33697,8 +33444,8 @@
 				)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 483.87 85.09 0)
+		(property "Description" ""
+			(at 369.57 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33708,8 +33455,8 @@
 				)
 			)
 		)
-		(property "LCSC" ""
-			(at 483.87 85.09 0)
+		(property "Manufacturer" "GOFORD(谷峰)"
+			(at 369.57 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33719,8 +33466,8 @@
 				)
 			)
 		)
-		(property "Sim.Type" ""
-			(at 483.87 85.09 0)
+		(property "MPN" "G15N06K"
+			(at 369.57 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33730,8 +33477,8 @@
 				)
 			)
 		)
-		(property "Voltage" ""
-			(at 483.87 85.09 0)
+		(property "LCSC Part" "C3038563"
+			(at 369.57 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33740,15 +33487,15 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "1"
-			(uuid "232e98ee-6a2f-4d41-a7d0-f2285260e87e")
 		)
 		(pin "3"
-			(uuid "1e1f5495-1fc9-44d7-b804-82b7eff1af8f")
+			(uuid "e01dd3da-240d-4b11-a2ca-306df551b3b9")
+		)
+		(pin "1"
+			(uuid "5560e0e4-216c-485b-b8ab-026b48481518")
 		)
 		(pin "2"
-			(uuid "9f7160ad-ff88-45b3-8153-967a1343be8e")
+			(uuid "751a8cfa-e7d7-4d84-931a-13cc6034fe32")
 		)
 		(instances
 			(project "BMS_Board_Prototype"
@@ -35175,6 +34922,240 @@
 			(project "BMS_Board_Prototype"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/3281f8b8-f9b3-4f29-933c-5d0b1d830ef9"
 					(reference "R49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BMS_Components_JLC:G15N06K")
+		(at 369.57 68.58 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f124d4f7-f556-45e5-86de-bf39eb49d951")
+		(property "Reference" "Q7"
+			(at 361.95 67.3099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "G15N06K"
+			(at 361.95 69.8499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BMS_Components_JLC:TO-252-2_L6.6-W6.2-P4.57-LS10.1-BR-CW"
+			(at 369.57 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C3038563.pdf"
+			(at 369.57 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 369.57 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "GOFORD(谷峰)"
+			(at 369.57 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "G15N06K"
+			(at 369.57 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C3038563"
+			(at 369.57 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "5c0ef291-65b5-4bd8-832c-32187e440dc0")
+		)
+		(pin "1"
+			(uuid "7ccc2092-c575-47a4-b516-5b75eae0366c")
+		)
+		(pin "2"
+			(uuid "1a3bc0a5-91a3-42d7-9ca9-85dab7e4c1c5")
+		)
+		(instances
+			(project "BMS_Board_Prototype"
+				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/3281f8b8-f9b3-4f29-933c-5d0b1d830ef9"
+					(reference "Q7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BMS_Components_JLC:G15N06K")
+		(at 483.87 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f512affc-aafd-48a4-b30b-2f72ed5494d0")
+		(property "Reference" "Q10"
+			(at 491.49 86.3601 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "G15N06K"
+			(at 491.49 83.8201 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "BMS_Components_JLC:TO-252-2_L6.6-W6.2-P4.57-LS10.1-BR-CW"
+			(at 483.87 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C3038563.pdf"
+			(at 483.87 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 483.87 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "GOFORD(谷峰)"
+			(at 483.87 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "G15N06K"
+			(at 483.87 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C3038563"
+			(at 483.87 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "f2ec1dd1-1fc0-4f26-acd9-6c130b0eb17e")
+		)
+		(pin "1"
+			(uuid "34a56b07-76b8-40fa-9812-6a73b9021003")
+		)
+		(pin "2"
+			(uuid "5ae01a26-8776-4546-9e41-ea0a88bd8d46")
+		)
+		(instances
+			(project "BMS_Board_Prototype"
+				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/3281f8b8-f9b3-4f29-933c-5d0b1d830ef9"
+					(reference "Q10")
 					(unit 1)
 				)
 			)
