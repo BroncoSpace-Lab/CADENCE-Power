@@ -9942,7 +9942,7 @@
 			(uuid "66e6f3c9-8e35-41b3-9520-ea19ecccbe1b")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "C37")
 					(unit 1)
@@ -10054,7 +10054,7 @@
 			(uuid "4631219d-c4df-49e0-ae1f-f1c99a0a84d6")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "J6")
 					(unit 1)
@@ -10186,7 +10186,7 @@
 			(uuid "1fa73095-e50a-4459-89f2-13c0ecf28bae")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "J9")
 					(unit 1)
@@ -10303,7 +10303,7 @@
 			(uuid "7c7141bc-e1a3-498c-b81a-f69fe41fed18")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "Q5")
 					(unit 1)
@@ -10380,7 +10380,7 @@
 			(uuid "5f8777d0-141c-4a52-9b00-09e9bf5d74ce")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "#PWR051")
 					(unit 1)
@@ -10457,7 +10457,7 @@
 			(uuid "c0165925-d0e1-44fd-ab47-e8f5c6208dd8")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "#PWR064")
 					(unit 1)
@@ -10569,7 +10569,7 @@
 			(uuid "ac3db19c-af4d-4d0a-90aa-5bda71b5a886")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "TP16")
 					(unit 1)
@@ -10680,7 +10680,7 @@
 			(uuid "ea5b2c91-c4d7-42f2-a407-aa9834032875")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "TP12")
 					(unit 1)
@@ -10757,7 +10757,7 @@
 			(uuid "8270e6ca-94c7-4b8f-913a-9bb2553fbb6e")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "#PWR049")
 					(unit 1)
@@ -10872,7 +10872,7 @@
 			(uuid "ed68e682-6612-46f5-b132-7b68b6e35927")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "J14")
 					(unit 1)
@@ -10950,7 +10950,7 @@
 			(uuid "0956bd3d-cf52-4698-af1b-84ce18151014")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "#PWR045")
 					(unit 1)
@@ -11065,7 +11065,7 @@
 			(uuid "fdb96a93-6ce8-4116-aa9c-4f8aede841d8")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "J22")
 					(unit 1)
@@ -11143,7 +11143,7 @@
 			(uuid "3c1d26f8-5f91-4766-9e94-b142e991bf53")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "#PWR073")
 					(unit 1)
@@ -11264,7 +11264,7 @@
 			(uuid "6abed8d0-4451-4296-b69f-37b6b04de3c2")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "J18")
 					(unit 1)
@@ -11379,7 +11379,7 @@
 			(uuid "9a62b129-b81a-4400-83ed-12a4c9f88130")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "J15")
 					(unit 1)
@@ -11457,7 +11457,7 @@
 			(uuid "8476acd0-6ef0-44e3-934e-3e6dbdc40716")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "#PWR069")
 					(unit 1)
@@ -11535,7 +11535,7 @@
 			(uuid "3609da6d-bf7d-4c0c-a5e9-1217e852559f")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "#PWR050")
 					(unit 1)
@@ -11613,7 +11613,7 @@
 			(uuid "cd3dbeca-fde8-440d-ad3d-fce703a4efad")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "#PWR046")
 					(unit 1)
@@ -11724,7 +11724,7 @@
 			(uuid "963edc72-cad3-41ce-807f-66e0e00e0b3d")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "TP15")
 					(unit 1)
@@ -11802,7 +11802,7 @@
 			(uuid "66a3ab76-733c-4edf-ae1b-7c1f11b00e32")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "#PWR053")
 					(unit 1)
@@ -11915,7 +11915,7 @@
 			(uuid "e689c5db-7a1b-4208-8a4e-9afeb66465f9")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "R52")
 					(unit 1)
@@ -12030,7 +12030,7 @@
 			(uuid "cf63040d-d02e-4f18-a04f-bf7bd8a64603")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "J10")
 					(unit 1)
@@ -12107,7 +12107,7 @@
 			(uuid "c60ffdf4-7515-4007-87df-5097bc069b43")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "#PWR056")
 					(unit 1)
@@ -12189,7 +12189,7 @@
 			(uuid "202335d6-a757-40b0-a33c-9df0628feb8a")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "C34")
 					(unit 1)
@@ -12267,7 +12267,7 @@
 			(uuid "c277664d-91ef-44c7-ab3b-b9277f56e951")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "#PWR047")
 					(unit 1)
@@ -12418,7 +12418,7 @@
 			(uuid "048511c5-c12d-48df-94d9-307dd67833bb")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "U7")
 					(unit 1)
@@ -12529,7 +12529,7 @@
 			(uuid "e4c60728-d6f8-4abc-b143-8169400b0c36")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "TP9")
 					(unit 1)
@@ -12650,7 +12650,7 @@
 			(uuid "ce37f81a-224a-4994-977b-080bb54e4d69")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "J11")
 					(unit 1)
@@ -12732,7 +12732,7 @@
 			(uuid "e6312aa9-095d-4902-83d5-38ee466d0cca")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "C33")
 					(unit 1)
@@ -12847,7 +12847,7 @@
 			(uuid "cc35779f-f489-4cf9-913d-9770e4947d47")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "Q4")
 					(unit 1)
@@ -12968,7 +12968,7 @@
 			(uuid "61625eec-0d3b-4385-b2ec-e1e6cd10b1f3")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "J21")
 					(unit 1)
@@ -13048,7 +13048,7 @@
 			(uuid "eb190eff-257d-4303-83c1-940723e11d0e")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "C35")
 					(unit 1)
@@ -13125,7 +13125,7 @@
 			(uuid "4b341c49-987b-4cb9-b88a-e5e97e8245a8")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "#PWR063")
 					(unit 1)
@@ -13257,7 +13257,7 @@
 			(uuid "575e27b2-53a6-4363-b0c8-6e9a19e478e2")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "J19")
 					(unit 1)
@@ -13334,7 +13334,7 @@
 			(uuid "1f086a0f-b17c-40ae-812e-0e138c83e171")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "#PWR052")
 					(unit 1)
@@ -13411,7 +13411,7 @@
 			(uuid "e402c396-c060-48f0-a0e0-c86557a04988")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "#PWR075")
 					(unit 1)
@@ -13543,7 +13543,7 @@
 			(uuid "d1e6025c-d376-47f2-9a40-0a3b8e35010f")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "J16")
 					(unit 1)
@@ -13625,7 +13625,7 @@
 			(uuid "9aa51297-0ac4-492e-8667-e7cd68a1a169")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "R56")
 					(unit 1)
@@ -13703,7 +13703,7 @@
 			(uuid "ad47a09e-2d1c-4d74-b9a0-b40776e9d8b6")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "#PWR058")
 					(unit 1)
@@ -13815,7 +13815,7 @@
 			(uuid "0da56396-d173-4368-a60f-5440a524c625")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "J4")
 					(unit 1)
@@ -13897,7 +13897,7 @@
 			(uuid "d88dfc7c-94de-4e80-98c8-059eba2d1248")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "C38")
 					(unit 1)
@@ -13974,7 +13974,7 @@
 			(uuid "ecb186da-551c-4f8f-bf27-9510cf97cb91")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "#PWR065")
 					(unit 1)
@@ -14051,7 +14051,7 @@
 			(uuid "ec1e05d7-c223-4058-951d-3b5ff662e724")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "#PWR062")
 					(unit 1)
@@ -14128,7 +14128,7 @@
 			(uuid "f937ecf3-3f95-4a9d-a100-a140fe1fd7b8")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "#PWR060")
 					(unit 1)
@@ -14205,7 +14205,7 @@
 			(uuid "e48fa32a-b51d-4bbd-868f-bad2124ad134")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "#PWR048")
 					(unit 1)
@@ -14316,7 +14316,7 @@
 			(uuid "46c713ab-cb6f-42d2-baf7-76f7e7809273")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "TP19")
 					(unit 1)
@@ -14431,7 +14431,7 @@
 			(uuid "9fad6e98-8941-4c93-be1c-f709f46de417")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "J20")
 					(unit 1)
@@ -14543,7 +14543,7 @@
 			(uuid "df2a9e55-840a-43f6-9423-6cef86c8b6d3")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "J8")
 					(unit 1)
@@ -14620,7 +14620,7 @@
 			(uuid "47a796eb-fa26-49b0-bedc-364b549d164d")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "#PWR054")
 					(unit 1)
@@ -14698,7 +14698,7 @@
 			(uuid "5d913956-0dfa-4e22-ac05-4f4aa7b0993e")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "#PWR066")
 					(unit 1)
@@ -14775,7 +14775,7 @@
 			(uuid "23de08a1-13a2-4a05-abe7-c9326ddfd904")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "#PWR068")
 					(unit 1)
@@ -14853,7 +14853,7 @@
 			(uuid "de7972d7-c814-40a0-8446-cff114980c9f")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "#PWR070")
 					(unit 1)
@@ -14964,7 +14964,7 @@
 			(uuid "53a88251-a85d-45eb-aa8e-bbbbbc927c71")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "TP18")
 					(unit 1)
@@ -15079,7 +15079,7 @@
 			(uuid "be5fc560-4aab-4d06-b85f-b420906e22b1")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "J17")
 					(unit 1)
@@ -15190,7 +15190,7 @@
 			(uuid "d543f14f-c691-4919-a4d6-31f0f4a3e423")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "TP10")
 					(unit 1)
@@ -15267,7 +15267,7 @@
 			(uuid "209cd667-3d87-4b20-89b3-7fc63097139c")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "#PWR059")
 					(unit 1)
@@ -15378,7 +15378,7 @@
 			(uuid "dd19d9e7-6f37-488e-902b-55921f0f6cd0")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "TP20")
 					(unit 1)
@@ -15456,7 +15456,7 @@
 			(uuid "49da39d1-99d7-4066-acf3-d97c124a391b")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "#PWR077")
 					(unit 1)
@@ -15538,7 +15538,7 @@
 			(uuid "feb27687-3a30-480d-a868-cdea07006fb9")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "C31")
 					(unit 1)
@@ -15650,7 +15650,7 @@
 			(uuid "5f4dd150-5f98-413a-a089-89efdb15eb15")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "C32")
 					(unit 1)
@@ -15727,7 +15727,7 @@
 			(uuid "32fb8a6e-1b0c-4e0c-8725-e9409b12aea2")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "#PWR074")
 					(unit 1)
@@ -15809,7 +15809,7 @@
 			(uuid "bae6c4ad-a586-48d5-b614-91d9c1cc138b")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "C36")
 					(unit 1)
@@ -15887,7 +15887,7 @@
 			(uuid "4ea5333b-cd9b-47e9-8df2-a5ebc9c567d1")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "#PWR072")
 					(unit 1)
@@ -15969,7 +15969,7 @@
 			(uuid "5b8279d1-173c-45d2-9a0d-08be1269e7bb")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "R57")
 					(unit 1)
@@ -16047,7 +16047,7 @@
 			(uuid "048c971f-dd07-4c10-82ac-c911c5b7b349")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "#PWR055")
 					(unit 1)
@@ -16129,7 +16129,7 @@
 			(uuid "65bf09d7-788b-4da1-95e3-cb8ba3faafab")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "R54")
 					(unit 1)
@@ -16207,7 +16207,7 @@
 			(uuid "bd0d77fa-6056-4f83-9cee-239191b03593")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "#PWR067")
 					(unit 1)
@@ -16285,7 +16285,7 @@
 			(uuid "911435ec-3bad-40f0-bcd7-25511d900d28")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "#PWR076")
 					(unit 1)
@@ -16417,7 +16417,7 @@
 			(uuid "719538c2-2afb-43ac-945e-14eb6149d07a")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "J12")
 					(unit 1)
@@ -16528,7 +16528,7 @@
 			(uuid "a7e29dd5-438c-4fb6-9f75-82a0a0322b2a")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "TP11")
 					(unit 1)
@@ -16610,7 +16610,7 @@
 			(uuid "a056bf04-d0c2-4d0f-b340-c281f3f76350")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "R53")
 					(unit 1)
@@ -16691,7 +16691,7 @@
 			(uuid "1bd00452-2b7e-4a06-8936-6a040b29fb8e")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "R59")
 					(unit 1)
@@ -16773,7 +16773,7 @@
 			(uuid "c8147c7b-04f7-41b1-bfa0-426ee735c35f")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "R58")
 					(unit 1)
@@ -16851,7 +16851,7 @@
 			(uuid "965be864-3309-42be-a3a7-ce3c2bdf020a")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "#PWR078")
 					(unit 1)
@@ -16929,7 +16929,7 @@
 			(uuid "9646c9b4-bf4e-47c8-a31a-7921f9820399")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "#PWR057")
 					(unit 1)
@@ -17040,7 +17040,7 @@
 			(uuid "da9a481a-c89c-415e-b545-edaa7c73c281")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "TP17")
 					(unit 1)
@@ -17152,7 +17152,7 @@
 			(uuid "cfa8e234-9c15-4796-95cb-e3e56611b73a")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "TP13")
 					(unit 1)
@@ -17277,7 +17277,7 @@
 			(uuid "e9615a64-376c-423b-9a09-8ad7f707081d")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "J7")
 					(unit 1)
@@ -17359,7 +17359,7 @@
 			(uuid "e2320431-484c-475b-9fdc-b0a90b00cf56")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "R55")
 					(unit 1)
@@ -17436,7 +17436,7 @@
 			(uuid "348b3655-b033-453f-a0a5-db81069ae434")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "#PWR061")
 					(unit 1)
@@ -17563,7 +17563,7 @@
 			(uuid "db5c4f3f-dab7-4845-95b3-85a356257797")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "J13")
 					(unit 1)
@@ -17675,7 +17675,7 @@
 			(uuid "b2c5f1b1-5dfa-418d-b027-d894753e910b")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "J5")
 					(unit 1)
@@ -17753,7 +17753,7 @@
 			(uuid "af4d2b02-cad3-4947-8cfc-d4b2c350b474")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "#PWR071")
 					(unit 1)
@@ -17864,7 +17864,7 @@
 			(uuid "95fb60b7-02ed-43d0-8edb-91460a4733b5")
 		)
 		(instances
-			(project "BMS_Board_Prototype"
+			(project "BMS V2"
 				(path "/4ee99911-836b-4752-8a2d-327c8b28dc47/420608bc-a1a4-412d-a20e-6570cff27a90"
 					(reference "TP14")
 					(unit 1)
