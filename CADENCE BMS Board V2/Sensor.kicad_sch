@@ -5349,6 +5349,16 @@
 		)
 		(uuid "7309e584-f696-47b6-87db-258162598f63")
 	)
+	(text "This might bypass the inhibit relook at it and double check "
+		(exclude_from_sim no)
+		(at 266.446 69.596 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "828e7a66-a3fc-4c95-8131-392b9f38472f")
+	)
 	(text "(3)"
 		(exclude_from_sim no)
 		(at 418.846 290.576 0)
