@@ -3974,7 +3974,7 @@
 	)
 	(text "Battery Pack -> Other Boards"
 		(exclude_from_sim no)
-		(at 194.31 82.296 0)
+		(at 202.184 83.058 0)
 		(effects
 			(font
 				(size 2.54 2.54)
