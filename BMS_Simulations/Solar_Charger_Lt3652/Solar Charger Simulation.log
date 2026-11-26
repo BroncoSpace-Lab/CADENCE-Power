@@ -1,0 +1,32 @@
+LTspice 26.1.1 for Windows
+Circuit: C:\Users\octar\OneDrive\Documents\LTspice\Solar Charger Simulation.net
+Start Time: Wed Nov 18 02:33:47 2026
+solver = Normal
+Maximum thread count: 22
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping failed to find operating point. Use".option gminsteps=0" to skip all Gmin stepping.
+Starting source stepping with srcstepmethod=0
+Starting source stepping with srcstepmethod=1
+Source stepping failed to find operating point. Use ".options srcsteps=0" to skip all source stepping.
+Starting Gmin stepping level 2
+Gmin stepping level 2 failed to find operating point. Use".option gminsteps=0" to skip all Gmin stepping.
+Starting source stepping with srcstepmethod=1, level 2
+Starting source stepping with srcstepmethod=0, level 2
+Source stepping level 2 failed to find operating point. Use ".options srcsteps=0" to skip all source stepping.
+Pseudo Transient cancelled by user at 1.15359 µs
+Pseudo Transient level 2 cancelled by user at 323.616 ps
+Trouble finding operating point....skipping operating point for Transient analysis.
+Changing Tseed to 1.95312e-08
+Changing Tseed to 1.95313e-10
+Total elapsed time: 188.982 seconds.
+Total iterations: 46803902
+
+Files loaded:
+C:\Users\octar\OneDrive\Documents\LTspice\Solar Charger Simulation.net
+C:\Users\octar\AppData\Local\LTspice\lib\cmp\standard.dio
+C:\Users\octar\AppData\Local\LTspice\lib\sub\LT3652.sub
+
